@@ -1,0 +1,419 @@
+@charset "utf-8";
+
+/* 서비스별 공통 가이드 */
+.cs{overflow:auto;position:absolute;top:0;right:0;left:0;bottom:0}
+.cs .sp_cs{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/cs/sp_cs.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.cs a{text-decoration:none}
+.cs .border_top0{border-top:0 !important}
+.cs .border0{border:0 !important}
+.cs .border_bottom0{border-bottom:0 !important}
+.cs .cs_container{margin-bottom:100px;padding:0 0px 0}
+/*.cs .cs_container .cs_content{position:absolute;top:109px;left:20px;right:20px;bottom:0}*/
+.cs .cs_container .cs_content{position:relative;margin-top:-5px;padding-bottom:40px}
+.cs .cs_container .cs_content:after{display:block;clear:both;content:''}
+/*.cs .cs_container .cs_content.left_menu{padding-left:301px}*/
+
+/* tab */
+.cs .bdline_full li{width:16.6%}
+.cs .bdline_full li:first-child{width:16.4%}
+
+/* 테이블 */
+.cs .LUX_basic_tbl .cs .LUX_basic_tbl .tbl_maparea{border-left:0 none}
+.cs .LUX_basic_tbl .tbl_maparea .inbx{padding:0 0 0 16px}
+.cs .LUX_basic_tbl .tbl_maparea .maparea{overflow:hidden;position:relative;padding-top:92%;border:1px solid #f0f0f0}
+.cs .LUX_basic_tbl .tbl_maparea .maparea img{position:absolute;top:0;right:0;left:0;bottom:0;width:100%;height:100%}
+
+/* 버튼 */
+.cs .LUX_basic_btn.basic3{margin-top:18px;padding:5px 15px;border:1px solid rgba(255,255,255,0.4);background:none;font-size:13px;color:#fff}
+.cs .btn_group:not(.LUX_calendar .select_area .btn_group){margin-top:40px;text-align:center}
+.cs .btn_group2{margin:40px 0;text-align:center}
+
+.cs .close_icon .sp_lux{width:20px;height:21px;background-position:-175px -25px}
+.cs .tit_icon .sp_cs{width:15px;height:21px;background-position:0 0}
+
+/* 테이블 분기 */
+.cs .LUX_basic_tbl .tblarea2 tr:first-child th,.cs .LUX_basic_tbl .tblarea2 tr:first-child td{border-top:0 none}
+.cs .LUX_basic_tbl .tblarea2 .sp_sa{position:absolute;top:4px;left:-10px;width:7px;height:7px;background-position:0 -40px}
+.cs .LUX_basic_tbl .tblarea2 .skill span{display:inline-block;margin:5px 0;padding:4px 10px;border-radius:10px;background:#def;font-size:12px;line-height:14px;color:#4a4a4a}
+
+.cs .LUX_basic_tbl .name{padding:8px 10px}
+.cs .LUX_basic_tbl .name li{font-size:15px;color:#4a4a4a}
+.cs .LUX_basic_tbl .uname{padding:8px 10px}
+.cs .LUX_basic_tbl .uname li{margin:0 0 0 15px;font-size:16px;font-weight:bold;color:#000}
+.cs .LUX_basic_tbl .uname li + li{padding-top:5px}
+.cs .LUX_basic_tbl .name li + li{padding-top:6px}
+
+.cs .tableform2 .LUX_basic_submit .inpbx{height:27px;padding:5px 6px 0;box-sizing:border-box}
+
+/* 01_회사정보관리_본지점연결설정 */
+.cs .tbl_linkset .LUX_basic_tbl{margin:28px 0 0}
+.cs .tbl_linkset .btnrt{overflow:hidden;float:right}
+.cs .tbl_linkset th{border-left:0}
+.cs .tbl_linkset td{border-left:0}
+.cs .tbl_linkset .inbx a{text-decoration:none}
+.cs .inbx .LUX_basic_tbl th{border-left:0}
+.cs .inbx .LUX_basic_tbl td{border-left:0}
+.cs .inbx .LUX_basic_tbl .tblarea th .inbx{padding:0}
+.cs .inbx .LUX_basic_tbl .tblarea td .inbx{padding:0 5px}
+.cs .inbx .LUX_basic_tbl .tblarea tr:first-child th{border:1px solid #e0e0e0;border-width:1px 0}
+
+/* 청구내역조회 */
+.cs .paymanage_header{position:relative;display:table;table-layout:fixed;margin-top:40px;background:#edf7ff;height:96px;width:100%;margin-bottom:14px}
+.cs .paymanage_header>div{display:table-cell;width:50%;vertical-align:middle}
+.cs .paymanage_header .header_left{position:relative;background:#e2f0ff;padding-right:25px;padding-left:50px}
+.cs .paymanage_header .header_left .btn_calendar_box{z-index:10;position:relative;display:inline-block;color:#0071e5;margin-right:30px;padding-right:21px;margin-top:15px}
+.cs .paymanage_header .header_left .btn_calendar_box:after{content:'';position:absolute;bottom:18px;right:0;width:13px;height:7px;background:url(https://static.wehago.com/imgs/common/sp_lux.png) 0 -250px no-repeat}
+.cs .paymanage_header .header_left .btn_calendar_box.open:after{background-position:-25px -250px}
+.cs .paymanage_header .header_left .btn_calendar_box em{display:block;font-size:15px;font-weight:bold}
+.cs .paymanage_header .header_left .btn_calendar_box strong{font-size:44px;letter-spacing:-1px}
+.cs .paymanage_header .header_left .btn_calendar_box span{font-size:20px}
+.cs .paymanage_header .header_left .list_wrap{display:table;position:absolute;top:0;left:0;height:96px;table-layout:fixed;padding-left:166px}
+.cs .paymanage_header .header_left ul{display:table-cell;vertical-align:middle;font-size:14px;color:#676767;padding-right:25px}
+.cs .paymanage_header .header_left li{margin-top:4px}
+.cs .paymanage_header .header_left li strong{display:inline-block;font-weight:bold}
+.cs .paymanage_header .header_left li p{display:inline-block;overflow:hidden;padding-left:4px;vertical-align:top}
+.cs .paymanage_header .header_left li p>span{display:inline-block;margin-right:10px}
+.cs .paymanage_header .header_left .LUX_basic_btn{vertical-align:4px}
+.cs .paymanage_header .header_right{padding-left:25px;text-align:center}
+.cs .paymanage_header .header_left:after{content:'';position:absolute;top:0;right:-25px;background:url(https://static.wehago.com/imgs/cs/sp_cs.png) 0 -98px no-repeat;width:49px;height:96px}
+.cs .paymanage_header .header_right p,.cs .paymanage_header .header_right strong{display:inline-block;color:#535353;font-size:22px;font-weight:normal}
+.cs .paymanage_header .header_right strong{padding-right:45px}
+.cs .paymanage_header .header_right em{font-size:40px;color:#ff4040;font-weight:bold;vertical-align:-4px}
+.cs .paymanage_header .calendar_layer{z-index:10;position:absolute;top:100%;left:0;width:auto;padding:8px 18px 12px;background:#fff;border:1px solid #e2e2e2;text-align:center}
+.cs .paymanage_header .calendar_layer .LUX_basic_btn .sp_cs{position:absolute;top:50%;left:50%;margin-top:-4px;margin-left:-2px;width:4px;height:7px}
+.cs .paymanage_header .calendar_layer .LUX_basic_btn.prevbtn .sp_cs{background-position: -57px -98px}
+.cs .paymanage_header .calendar_layer .LUX_basic_btn.nextbtn .sp_cs{background-position: -67px -98px}
+.cs .paymanage_header .calendar_layer .calendar_layer_title{display:inline-block}
+.cs .paymanage_header .calendar_layer .calendar_layer_title strong{line-height:27px}
+.cs .paymanage_header .calendar_layer .calendar_month{overflow:hidden;text-align:center;margin-top:3px}
+.cs .paymanage_header .calendar_layer .calendar_month .monthbtn{width:31px;height:24px;border:1px solid #dedede;font-size:12px}
+.cs .paymanage_header .calendar_layer .calendar_month ul{display:inline-block;border-top:1px solid #dcdcdc;padding-top:10px}
+.cs .paymanage_header .calendar_layer .calendar_month li{float:left;margin:2px 1px}
+.cs .paymanage_header .calendar_layer .calendar_month li:nth-child(6n+1){clear:both;overflow:hidden}
+.cs .paymanage_header.emptyset .header_left{width:130px}
+.cs .paymanage_header.emptyset .header_right{width:100%}
+.cs .paymanage_header.emptyset .header_right>p{font-size:28px;color:#21a7ff}
+.cs .paymanage_listbox dl{overflow:hidden;clear:both}
+.cs .paymanage_listbox dt{position:relative;clear:both;float:left;font-size:14px;line-height:43px;padding-left:10px}
+.cs .paymanage_listbox dd{float:right;font-size:12px;line-height:43px;text-align:right;padding-right:20px}
+.cs .paymanage_listbox>ul>li{border-bottom:1px solid #eaeaea}
+.cs .paymanage_listbox>ul>li:last-of-type{border-color:#e1e1e1}
+.cs .paymanage_listbox .text_red{color:#ff4040}
+.cs .paymanage_listbox.charge>ul>li{background:#f9fafa}
+.cs .paymanage_listbox.charge dt{line-height:40px;padding-left:13px}
+.cs .paymanage_listbox.charge dd{font-size:14px;line-height:40px;padding-right:23px}
+.cs .paymanage_listbox.charge .total{background:#ebf5fd}
+.cs .paymanage_listbox.charge .total dt{font-weight:bold}
+.cs .paymanage_listbox.charge .total dd{font-weight:bold;color:#ff4040}
+.cs .paymanage_listbox.charge>ul>li:nth-last-child(2){border-color:#b4b4b4}
+.cs .paymanage_listbox.charge .sub_list{display:none;background:#fff;border-top:1px solid #eaeaea;padding-top:7px;padding-bottom:5px}
+.cs .paymanage_listbox.charge .open .sub_list{display:block}
+.cs .paymanage_listbox.charge .sub_list li{font-size:12px;padding:4px 23px 4px 14px;}
+.cs .paymanage_listbox.charge .sub_list li strong{float:left;font-weight:normal}
+.cs .paymanage_listbox.charge .sub_list li span{float:right}
+.cs .paymanage_listbox.charge .btnmore{width:21px;vertical-align:middle}
+.cs .paymanage_listbox.charge .btnmore .sp_lux{position:absolute;top:50%;left:50%;margin-top:-2px;margin-left:-4px;width:8px;height:4px;background-position: -50px -60px}
+.cs .paymanage_listbox.charge .open .btnmore .sp_lux{background-position:-75px -60px}
+.cs .paymanage_listbox.charge .hasbtn dd{padding-right:12px}
+.cs .paymanage_graphbox{padding-top:29px;padding-bottom:16px}
+.cs .paymanage_graph_contents{position:relative;border:3px solid #cee1f3;padding:16px 30px 30px;text-align:center}
+.cs .paymanage_graph_contents .arrow_mark{position:absolute;top:-14px;left:0}
+.cs .paymanage_graph_contents .arrow_mark .sp_cs{width:21px;height:14px;background-position:-57px -114px}
+.cs .paymanage_graph_contents>strong{display:inline-block;color:#0c55a7;font-size:16px;margin-bottom:11px}
+.cs .paymanage_graph_contents .table_wrap{position:relative}
+.cs .paymanage_graph_contents .info_text{position:absolute;top:-19px;right:0;font-size:12px}
+.cs .notice_text{font-size:12px;color:#8d8d8d}
+.cs .paymanage_footer .notice_box{margin-top:19px;margin-bottom:17px;padding:17px 20px 16px;background:#ededed}
+.cs .paymanage_footer .notice_box ul{display:table;width:100%}
+.cs .paymanage_footer .notice_box li{display:table-cell;padding:0 20px;text-align:center}
+.cs .paymanage_footer .notice_box li+li{border-left:1px solid #bdc0cb}
+.cs .paymanage_footer .notice_box dl{display:inline-block;vertical-align:middle}
+.cs .paymanage_footer .notice_box dt, .cs .paymanage_footer .notice_box dd{float:left;font-size:14px;color:#4a4a4a}
+.cs .paymanage_footer .notice_box dt{position:relative;font-weight:bold}
+.cs .paymanage_footer .notice_box dt:after{content:' :';padding-right:4px}
+.cs .paymanage_footer .notice_box dd{font-weight:normal}
+.cs .service_content.noline{border:0}
+.cs .service_content.graph_box{padding:20px;box-sizing:border-box;height:205px;margin-bottom:11px}
+.cs .service_content.inpadding{padding:18px 13px}
+.cs .service_content.nobtpadding{padding-bottom:0}
+.cs .service_content .table_wrap + .table_wrap{margin-top:18px}
+.cs .service_content .merge_table_wrap .LUX_basic_tbl.ex_payinfo_table .tblarea2{border:0;border-bottom:1px solid #c7d7e4}
+.cs .service_content .merge_table_wrap{padding-bottom:18px;border:2px solid #c7d7e4}
+.cs .service_content .merge_table_wrap + .merge_table_wrap{margin-top:15px}
+.cs .service_content .merge_table_wrap .ex_paymanage_table{margin:0 15px}
+.cs .service_offer{position:relative;display:table;table-layout:fixed;width:100%;background:#f9fafa;box-sizing:border-box}
+.cs .service_offer .service_offer_left{display:table-cell;vertical-align:middle;width:386px;text-align:center;padding:26px 0 17px;border-right:1px solid #eaeaea;box-sizing:border-box}
+.cs .service_offer .service_offer_left strong{display:block;font-size:20px;margin-bottom:7px}
+.cs .service_offer .service_offer_left em{display:block;font-size:35px;color:#ff4040;font-weight:bold;margin-bottom:9px}
+.cs .service_offer .service_offer_left>span{display:block;font-size:14px;color:#535353;margin-bottom:13px}
+.cs .service_offer .service_offer_right{display:table-cell}
+.cs .service_offer .service_offer_right .paymanage_listbox>ul>li:nth-last-child(2){border-color:#eaeaea}
+.cs .service_offer .service_offer_right dt,
+.cs .service_offer .service_offer_right dd,
+.cs .service_offer .service_offer_right .sub_list li{padding-left:20px}
+.cs .service_offer.summary{margin-top:-1px;border:2px solid #cde0ef}
+.cs .service_offer.summary .service_offer_left{width:384px;background:#ebf5fd}
+.cs .service_offer.summary .service_offer_right{padding:10px 0 5px}
+.cs .service_offer.summary .service_offer_right li{background:#f6fbff;border-bottom:0}
+.cs .service_offer.summary .service_offer_right dt,
+.cs .service_offer.summary .service_offer_right dd{line-height:24px}
+.cs .paymanage_header.refund .header_right{position:relative;display:table;table-layout:fixed;box-sizing:border-box;height:96px}
+.cs .paymanage_header.refund .header_right>div{position:relative;display:table-cell;vertical-align:middle;text-align:right;padding-right:54px;width:53%;height:inherit}
+.cs .paymanage_header.refund .header_right>div+div{padding-left:55px;text-align:left;padding-right:0;width:47%}
+.cs .paymanage_header.refund .header_right>div+div:before{content:'';position:absolute;top:34px;left:0;width:1px;height:28px;background:#bfd0e3}
+.cs .paymanage_header.refund .header_right em{color:#21a7ff}
+@media all and (max-width:1200px) {
+.cs .paymanage_header.refund .header_right strong{display:block;padding-right:0}
+}
+
+.cs .payment_info_list{margin:9px 0 -4px}
+.cs .payment_info_list li{position:relative;font-size:12px;line-height:18px;color:#8d8d8d}
+.cs .payment_info_list_v2 li{position:relative;padding-left:8px}
+.cs .payment_info_list_v2 li:after{position:absolute;top:0;left:0;content:'-'}
+.cs .LUX_basic_tbl.bill_tbl .tblarea2 th{padding:7px 0;font-size:14px;font-weight:bold;vertical-align:middle}
+.cs .LUX_basic_tbl.bill_tbl .tblarea2 td .inbx{padding:0 20px}
+.cs .LUX_basic_tbl .spec_adress{padding-top:10px;padding-bottom:12px}
+.cs .btn_box{margin-top:50px;text-align:center}
+
+.cs .refund_list_wrap{float:left;width:322px}
+.cs .refund_list_wrap .LUX_basic_select{margin-top:4px}
+.cs .refund_list_wrap .refund_list{border:1px solid #d3d3d3;border-top:0}
+.cs .refund_list_wrap .refund_list li>a{display:block;padding:14px 19px 16px}
+.cs .refund_list_wrap .refund_list li>a:hover{background:#e9f5ff}
+.cs .refund_list_wrap .refund_list li>a.active{background:#e9f5ff}
+.cs .refund_list_wrap .refund_list li+li{border-top:1px solid #e5e5e5}
+.cs .refund_list_wrap .refund_list dl{clear:both;overflow:hidden}
+.cs .refund_list_wrap .date{font-size:12px;color:#4a4a4a;margin-bottom:3px}
+.cs .refund_list_wrap .refund_name{float:left;font-size:15px;}
+.cs .refund_list_wrap .refund_count{float:right;font-size:15px}
+.cs .refund_content{float:right;width:calc(100% - 342px)}
+
+.cs .set_admin{padding-top:30px}
+.cs .set_admin .service_menu{width:288px}
+.cs .set_admin .service_content{padding:25px;border-top:1px solid #e2e2e2}
+.cs .set_admin .service_list{border-top:2px solid #646464}
+.cs .set_admin_tree{position:relative;padding-left:331px;}
+.cs .set_admin_tree .LUX_basic_treeview{position:absolute;top:0;left:0;width:321px}
+.cs .set_admin_tree .LUX_basic_treeview .chart_lst{height:550px;border-color:#c1c1c1}
+.cs .set_admin_tree .LUX_basic_treeview .chart_tree{height:363px}
+.cs .set_admin_tree .LUX_basic_treeview_wrap_v2{position:absolute;top:0;left:0;}
+.cs .set_admin_tree .LUX_basic_treeview_wrap_v2 .bt_btnbx{padding:7px 10px 8px;border:1px solid #c1c1c1;border-top:0 none;background-color:#f7f7f7;}
+.cs .set_admin_data {margin-left:331px;}
+.cs .set_admin_data .service_title {height:auto;margin-top:0;padding:5px 0;line-height:22px;vertical-align:top;}
+.cs .set_admin_data .service_title .title {font-size:15px;color:#000}
+.cs .set_admin_notice{margin:8px 0 -3px;font-size:12px;color:#8d8d8d;letter-spacing:-1px}
+.cs .set_admin .btn_group{clear:both;text-align:center;padding-top:20px;}
+
+.cs .manage_deploy .service_menu{width:220px}
+.cs .manage_deploy .service_detail{width:calc(100% - 240px)}
+.cs .manage_deploy_v2 .service_menu{float:right}
+.cs .manage_deploy_v2 .service_detail{float:left}
+.cs .manage_deploy .choice_market_item{padding-left:12px}
+.cs .manage_deploy .LUX_basic_tbl table{border-top:1px solid #646464;border-bottom:1px solid #eaeaea}
+.cs .manage_deploy .LUX_basic_tbl td{border-color:#eaeaea}
+.cs .manage_deploy .LUX_basic_tbl .tbl_scrall table{border-top:0}
+.cs .manage_deploy .LUX_basic_tbl .disabled td{background-color:#f5f5f5;color:#b1b1b1}
+.cs .manage_deploy .LUX_basic_treeview .treein .total_num{color:#000}
+.cs .manage_deploy .LUX_basic_treeview .treebx_select .total_num{color:#fff}
+.cs .manage_deploy .LUX_basic_treeview_wrap{overflow:hidden;min-width:auto;margin-top:26px}
+.cs .manage_deploy .LUX_basic_treeview_wrap .LUX_basic_treeview{width:275px}
+.cs .manage_deploy .LUX_basic_treeview_wrap .LUX_basic_tbl,
+.cs .manage_deploy .LUX_basic_treeview_wrap .LUX_basic_tbl .tbl_scrall{min-width:auto}
+.cs .manage_deploy .LUX_basic_treeview .chart_lst{height:598px}
+.cs .manage_deploy .LUX_basic_tbl .tbl_scrall{max-height:557px;height:557px}
+.cs .manage_deploy .LUX_basic_treeview .chart_tree{height:556px}
+.cs .manage_deploy .LUX_basic_tbl .tbl_tit .btnbx{top:0}
+.cs .manage_deploy_v3 .service_menu{width:231px;margin-top:25px;}
+.cs .manage_deploy_v3 .service_detail{width:calc(100% - 256px);margin-top:25px;}
+.cs .manage_deploy_v3 .service_box:after{content:"";clear:both;display:block;}
+.cs .manage_deploy_v3 .service_box_title{margin:13px 0 5px;}
+.cs .manage_deploy_v3 .tab_box{position:relative;}
+.cs .manage_deploy_v3 .tab_box .btnbx{float:right;position:absolute;top:5px;right:0;}
+.cs .manage_deploy_v3 .scrolled {height:675px;}
+.cs .manage_deploy_v3 .LUX_basic_treeview .chart_lst{height:593px;}
+.cs .manage_deploy_v3 .LUX_basic_treeview_wrap{margin-top:13px;}
+.cs .manage_deploy_v3 .LUX_basic_treeview .chart_tree{height:auto;}
+.cs .manage_deploy_v4 .service_menu{margin-top:25px;}
+.cs .manage_deploy_v4 .LUX_basic_treeview_wrap{margin-top:3px;}
+
+
+.cs .admin_user_list{overflow:hidden;overflow-y:auto;height:550px;border:1px solid #e0e0e0;background-color:#f9f9f9}
+.cs .admin_user_list ul{padding:15px}
+.cs .admin_user_list ul:after{display:block;clear:both;content:''}
+.cs .admin_user_list li{margin-bottom:8px}
+.cs .admin_user_list li:last-child{margin-bottom:0}
+.cs .admin_card{position:relative;padding:15px 15px 8px 15px;border:1px solid #c1c1c1;background-color:#fff}
+.cs .admin_card .img_box{overflow:hidden;float:left;width:47px;height:47px;margin-right:10px}
+.cs .admin_card .img_box img{width:100%;height:100%;border-radius:100%}
+.cs .admin_card .default_info{overflow:hidden;height:47px;padding-right:25px}
+.cs .admin_card .user_name{display:inline-block;position:relative;max-width:100%;margin-top:5px;padding-right:23px;font-size:16px;box-sizing:border-box}
+.cs .admin_card .user_name .LUX_basic_switch{position:absolute;top:50%;right:0;margin-top:-12px}
+.cs .admin_card .user_department{font-size:13px}
+.cs .admin_card .more_info{clear:both;margin-top:10px;padding-top:19px;border-top:1px solid #e9e9e9;font-size:14px}
+.cs .admin_card .more_info dt{float:left;width:58px;font-weight:bold;color:#1c90fb}
+.cs .admin_card .more_info dd{overflow:hidden;margin-bottom:3px}
+.cs .admin_card .more_info_v2:after{display:table;clear:both;content:''}
+.cs .admin_card .more_info_v2 dd{float:left}
+.cs .admin_card .more_info_v2 dt{clear:both;margin-bottom:3px}
+.cs .admin_card .btn_del{position:absolute;top:8px;right:7px;width:30px;height:30px}
+.cs .admin_card .btn_del .sp_lux{width:13px;height:13px;background-position: -140px -275px}
+.cs .admin_card_v2 .img_box {padding-left:8px;}
+.cs .admin_card_v2 .default_info{overflow:visible;}
+.cs .admin_card_v2 .user_name{padding-right:0;}
+.cs .admin_card_v2 .more_info{padding:14px 14px 0 3px;}
+.cs .admin_card_v2 .more_info:after{content:"";clear:both;display:block;}
+.cs .admin_card_v2 .more_info dt{float:left;width:auto;padding:0 5px 0 11px;}
+.cs .admin_card_v2 .more_info dd{float:left;}
+.cs .admin_card_v2 .more_info dd.tel{position:relative;max-width:45%;padding-right:11px;}
+.cs .admin_card_v2 .more_info dd.tel:after {content:"";position:absolute;top:50%;right:0;width:1px;height:12px;margin-top:-6px;background-color:#d3d3d3;}
+.cs .admin_card_v2 .more_info dd.mail{float:none;}
+.cs .admin_card_v2 .more_info dt .sp_phone{width:11px;height:16px;background-position:-231px -500px;}
+.cs .admin_card_v2 .more_info dt .sp_mail{width:18px;height:14px;background-position:-252px -501px;}
+.cs .admin_card_v2 .LS_profile_image{float:left;width:47px;height:47px;margin:0 10px 0 8px}
+
+.cs .active_history .cs_content{margin-top:0}
+.cs .active_history .sub_title{margin-bottom:0}
+.cs .active_history .LUX_basic_btn.btn_more .sp_lux{position:absolute;top:50%;left:50%;margin-top:-2px;margin-left:-4px;width:8px;height:4px;background-position:-50px -60px}
+.cs .active_history.open .sub_title{border-bottom:0}
+.cs .active_history.open .LUX_basic_btn.btn_more .sp_lux{background-position:-75px -60px}
+.cs .active_history.open .detail_search_box{display:block}
+.cs .detail_search_box{display:none;border:2px solid #e6e6e6;margin-bottom:25px}
+.cs .detail_search_box>ul{margin-bottom:-4px;padding:15px 28px}
+.cs .detail_search_box>ul:after{display:block;clear:both;content:''}
+.cs .detail_search_box>ul>li{float:left;width:50%;margin-bottom:4px}
+.cs .detail_search_box.col3>ul{margin-left:-66px;}
+.cs .detail_search_box.col3>ul>li{width:33.3%;padding-left:66px;box-sizing:border-box;}
+.cs .detail_search_box.col3>ul>li.col1{width:100%;}
+.cs .detail_search_box.col3 .content{width:calc(100% - 72px);}
+.cs .detail_search_box.col4>ul{margin-left:-42px;}
+.cs .detail_search_box.col4>ul>li{width:25%;padding-left:42px;box-sizing:border-box;}
+.cs .detail_search_box.col4>ul>li.w60 .title {width:60px;}
+.cs .detail_search_box.col4>ul>li.w60 .content {width:calc(100% - 60px);}
+.cs .detail_search_box.col4 .title {width:48px;}
+.cs .detail_search_box.col4 .content{width:calc(100% - 48px);}
+.cs .detail_search_box .title{float:left;width:72px;font-size:14px;line-height:27px;letter-spacing:-1px}
+.cs .detail_search_box .content{float:left;width:242px}
+.cs .detail_search_box .LUX_basic_date_gap .date_gap{margin-right:0}
+.cs .detail_search_box .LUX_basic_date_gap .dash{width:12px}
+.cs .detail_search_box .btn_box{margin-top:0;padding:5px 28px;background-color:#f8f8f8;text-align:right}
+.cs .detail_search_box .btn_box .LUX_basic_btn{width:60px;padding-left:0;padding-right:0;margin-left:4px;text-align:center}
+.cs .LUX_basic_tbl.history_table{margin-top:20px}
+.cs .LUX_basic_tbl.history_table th{border-top:1px solid #8d8d8d;background-color:#f7f7f7}
+.cs .change_text{position:relative;margin-left:12px;padding-left:9px}
+.cs .change_text em{position:relative;margin-left:4px;padding-left:9px;color:#1c90fb}
+.cs .change_text em:before{position:absolute;top:50%;left:0;margin-top:-5px;border:5px solid transparent;border-left:6px solid #1c90fb;content:''}
+.cs .paging_area{margin-top:20px}
+
+.cs .LUX_basic_btn.btn_join{position:relative;width:48px;height:48px;margin-right:10px;padding:0;border-radius:100%;background-color:#f7f7f7;vertical-align:middle}
+.cs .LUX_basic_tbl td strong{font-weight:bold}
+.cs .LUX_basic_btn.btn_join .sp_cs{position:absolute;top:50%;left:50%;margin:-8px 0 0 -8px;width:16px;height:16px;background-position:-30px -30px}
+.cs .LUX_basic_tbl .inbx_full > .LUX_basic_text{margin-right:2px}
+.cs .input_adress{margin-top:10px}
+.cs .LUX_basic_tagfield .field_wrap{padding:1px 0 0 2px;border-color:#dbdbdb}
+.cs .LUX_basic_tagfield .LUX_basic_tag{margin-bottom:1px}
+.cs .regular_pay_info{padding:20px 0 17px;border-bottom:1px solid #eaeaea;text-align:center}
+.cs .regular_pay_info .regular_pay{font-size:16px;font-weight:bold}
+.cs .regular_pay_info .service_period{margin-top:9px;font-size:14px;font-weight:bold}
+
+@media all and (min-width:1400px) {
+    .cs .admin_user_list ul{margin:0 -4px}
+    .cs .admin_user_list li{float:left;width:50%}
+    .cs .admin_card{margin:0 4px}
+}
+
+@media all and (max-width:1528px) {
+		.cs .detail_search_box.col4>ul>li .title {width:60px;}
+  	.cs .detail_search_box.col4>ul>li {width:50%;}
+  	.cs .detail_search_box.col4 .content {width:calc(100% - 60px);}
+}
+
+@media all and (max-width:1100px) {
+    .cs .set_admin .service_menu{width:248px}
+    .cs .set_admin .service_detail{width: calc(100% - 268px)}
+}
+
+
+/* 회사정보 수정 */
+.cs .office_list_wrap{box-sizing:border-box}
+.cs .office_list_wrap > li{position:relative;height:73px;margin-bottom:4px;box-sizing:border-box}
+.cs .office_list_wrap > li:last-child{margin-bottom:0}
+.cs .office_list_wrap > li a{display:inline-block}
+.cs .office_list_wrap > li.on {background:rgba(143, 219, 248, 0.4)}
+.cs .office_list_wrap > li.on a:after{display:inline-block;position:absolute;left:50%;top:50%;z-index:10;width:38px;height:38px;margin:-19px 0 0 -19px;background:url(https://static.wehago.com/imgs/cs/sp_cs.png) -57px -138px no-repeat;content:''}
+.cs .office_list_wrap > li .sub_btn .LUX_basic_btn{width:68px;margin-bottom:2px;z-index:-1}
+.cs .office_list_wrap > li .sub_btn .LUX_basic_btn:last-child{margin-bottom:0}
+
+.cs .office_list_wrap .LUX_basic_tbl table{height:73px;border:1px solid #e5e5e5}
+.cs .office_list_wrap .LUX_basic_tbl table td:first-child{border-right:1px solid #e5e5e5}
+.cs .office_list_wrap .LUX_basic_tbl table td .company_name{display:inline-block;max-width:95%;font-size:16px;font-weight:bold;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cs .office_list_wrap .LUX_basic_tbl table td .msg_btn{color:#1c90fb;text-decoration:underline}
+
+.cs .office_list_wrap .LUX_basic_popover .resultbx{top:-336px;left:50%;width:318px;height:320px;margin-left:-159px;padding-bottom:18px;background:none}
+.cs .office_list_wrap .LUX_basic_popover .LUX_basic_profile .sp_arrow{left:50%;margin-left:-14px}
+.cs .office_list_wrap .LUX_basic_popover .LUX_basic_profile .profile_info .inbx{padding-left:42px}
+
+
+/* 세무대리 연결정보 */
+.cs .connect_wehagot td .inbx{padding:4px 16px 3px;line-height:20px;}
+.cs .connect_wehagot .ico_chk{width:14px;height:14px;margin:-1px 4px 0 0;background-position:-254px -523px;vertical-align:middle;}
+.cs .connect_wehagot .btn_connect{margin-left:8px;vertical-align:middle;}
+.cs .connect_wehagot .info_txt{display:inline-block;margin-left:12px;padding-top:1px;color:#a6a6a6;font-size:12px;line-height:26px;vertical-align:middle;}
+.cs .connect_wehagot .is_linked td{color:#00a872;}
+.cs .connect_wehagot .is_linked .ico_chk{background-position:-230px -523px;}
+.cs .connect_wehagot .data_status_wrap{margin:8px 0;border:1px solid #c5d0db;}
+.cs .connect_wehagot .data_status_wrap .data_title{position:relative;padding:11px 18px 9px 46px;background:#edf5fd;color:#363636;font-size:14px;font-weight:bold;font-family:'Nanum Square','돋움',Dotum,Helvetica,'Apple SD Gothic Neo',sans-serif !important;line-height:22px;}
+.cs .connect_wehagot .data_status_wrap .data_title .comp_img{position:absolute;top:50%;left:18px;width:24px;height:24px;margin-top:-12px;fill:#8f8f8f;}
+.cs .connect_wehagot .data_status_wrap .data_bx:after{display:block;clear:both;content:'';}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info{float:left;width:50%;padding:0 18px;box-sizing:border-box;}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info:after{display:block;clear:both;content:'';}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info+.detail_info{border-left:1px solid #ebebeb;}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info dt,
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info dd{float:left;position:relative;padding:10px 0;border-top:1px solid #ebebeb;font-size:13px;font-weight:bold;line-height:30px;box-sizing:border-box;}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info dt{clear:both;width:120px;}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info dd{width:calc(100% - 120px);padding:10px 12px;}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info dd:after{display:block;clear:both;content:'';}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info dt:first-of-type,
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info dd:first-of-type{border-top:0;}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info dd.year_list{padding:17px 12px 12px;}
+.cs .connect_wehagot .data_status_wrap .data_bx .detail_info .year{float:left;height:17px;margin:0 4px 4px 0;padding:1px 5px;background:#e8eef4;border-radius:2px;color:#797979;font-size:11px;line-height:16px;text-align:center;box-sizing:border-box;}
+/* .cs .connect_wehagot .data_status_wrap .data_bx .detail_info .year+.year{margin-left:4px;} */
+.cs .connect_wehagot .nodata_area_v2{padding:100px 0;}
+
+/* 사업자등록증 */
+.cs .LUX_basic_tbl .reg_card .inbx_enroll_img2 {position:relative;width:100px;height:141px;margin-top:0;background-color:#f7f7f7;}
+.cs .LUX_basic_tbl .reg_card .inbx_enroll_img2 .btn_view {position:absolute;top:0;left:0;width:100%;height:100%;}
+.cs .LUX_basic_tbl .reg_card .inbx_enroll_info {width:calc(100% - 162px);}
+
+
+
+
+
+.Company_info_wrap .cs {
+    position: static;
+    overflow: visible;
+    width: 880px;
+    float: left;
+    padding: 0 20px;
+}
+
+.Company_info_wrap .cs .h1, .Company_info_wrap .cs .h2, .Company_info_wrap .cs .h3, .Company_info_wrap .cs h1, .Company_info_wrap .cs h2, .Company_info_wrap .cs h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Company_info_wrap .LUX_basic_submit .searchbx .inpbx, .Company_info_wrap .LUX_basic_text .inpbx, .Company_info_wrap .LUX_basic_select .inpbx {
+    height: 27px;
+}
+
+.Company_info_wrap .LUX_basic_submit .searchbx .btn {
+    right: 8px;
+}
+
+.Company_info_wrap label {
+    margin-bottom: 0;
+}
+
+.Authority_setting_wrap .cs {
+    position: static;
+    overflow: visible;
+}

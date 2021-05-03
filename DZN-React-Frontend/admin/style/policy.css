@@ -1,0 +1,420 @@
+
+    /* 폰트 */
+    /* @font-face {
+        font-family: 'Nanum Square';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://static.wehago.com/fonts/NanumSquare/NanumSquareR.eot);
+        src: local('Nanum Square Regular'),
+            local('NanumSquareR'),
+            url(https://static.wehago.com/fonts/NanumSquare/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+            url(https://static.wehago.com/fonts/NanumSquare/NanumSquareR.woff2) format('woff2'),
+            url(https://static.wehago.com/fonts/NanumSquare/NanumSquareR.woff) format('woff'),
+            url(https://static.wehago.com/fonts/NanumSquare/NanumSquareR.ttf) format('truetype');
+        }
+
+        @font-face {
+        font-family: 'Nanum Square';
+        font-style: normal;
+        font-weight: 700;
+        src: url(https://static.wehago.com/fonts/NanumSquare/NanumSquareB.eot);
+        src: local('Nanum Square Bold'),
+            local('NanumSquareB'),
+            url(https://static.wehago.com/fonts/NanumSquare/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+            url(https://static.wehago.com/fonts/NanumSquare/NanumSquareB.woff2) format('woff2'),
+            url(https://static.wehago.com/fonts/NanumSquare/NanumSquareB.woff) format('woff'),
+            url(https://static.wehago.com/fonts/NanumSquare/NanumSquareB.ttf) format('truetype');
+        }
+
+        @font-face {
+        font-family: 'douzone';
+        src: local('DOUZONEText10'),
+            url('https://static.wehago.com/fonts/douzone/DOUZONEText10.woff2') format('woff2'),
+            url('https://static.wehago.com/fonts/douzone/DOUZONEText10.woff') format('woff');
+        font-weight: normal;
+        font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'douzone';
+            src: local('DOUZONEText30'),
+            url('https://static.wehago.com/fonts/douzone/DOUZONEText30.woff2') format('woff2'),
+            url('https://static.wehago.com/fonts/douzone/DOUZONEText30.woff') format('woff');
+            font-weight: bold;
+            font-display: fallback;
+        } */
+        /* 약관 및 정책 */
+        .dtp_policy .logo span {
+            display: block;
+            float: left;
+            height: 100%;
+            margin-left: 20px;
+            line-height: 60px;
+        }
+    
+        .dtp_policy .logo span em {
+            margin-left: 4px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+    
+        .dtp_policy .logo span img {
+            float: left;
+            width: 275px;
+            padding: 18px 20px 0 0;
+        }
+    
+        .dtp_policy .logo h1 {
+            float: left;
+            position: relative;
+            margin-left: 10px;
+            padding-left: 10px
+        }
+    
+        .dtp_policy .logo h1:after {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 1px;
+            height: 16px;
+            margin-top: -8px;
+            background-color: #82858c;
+            content: ''
+        }
+    
+        .dtp_policy .logo h1 span {
+            margin-left: 0;
+            font-size: 18px;
+            color: #fff
+        }
+        /* Layout */
+.policy_wrap{min-width:1280px}
+.policy_wrap .nav_bar{background:#333948}
+.policy_wrap .respond_container{width:1100px;padding:0;}
+.policy_wrap .logo a{margin-left:0}
+.policy_wrap .content_box{width:1100px;margin-top:50px;/*padding:0 20px;*/box-sizing:border-box}
+.policy_wrap .content_box.cnt_type .policy_content {float:none;margin:0 auto;}
+.policy_wrap .sao_main_tab .tabs_lst a{padding:0 35px;font-size:17px}
+.policy_wrap .policy_snb {float:left;width:200px;margin-right:40px;}
+.policy_wrap .policy_content {float:left;width:860px;}
+
+
+/* 약관 Index */
+.policy_wrap .policy_index{width:100%;margin:40px 0 48px 0;padding:30px;background:#fafafa;border:2px solid #ececec;box-sizing:border-box}
+.policy_wrap .policy_index:after{display:block;clear:both;content:''}
+.policy_wrap .policy_index .index_list{float:left;width:50%}
+.policy_wrap .policy_index .index_list:after{display:block;clear:both;content:''}
+.policy_wrap .policy_index .index_list dt,
+.policy_wrap .policy_index .index_list dd{float:left;font-size:14px;line-height:28px}
+.policy_wrap .policy_index .index_list dt{width:46px;clear:both;margin-right:16px}
+.policy_wrap .policy_index .index_list dd > a{color:#0d62d6;font-weight:bold;text-decoration:none}
+.policy_wrap .policy_index .index_list dd > a:hover{text-decoration:underline}
+
+
+/* 서비스 이용약관 내용 */
+.policy_wrap .policy_section{padding:48px 12px;border-top:1px solid #e1e1e1}
+
+/* 이용약관 개선 */
+.policy_wrap .policy_hd {position:relative;padding-right:190px;padding-bottom:10px;}
+.policy_wrap .policy_hd h2 {float:left;margin:4px 10px 0 0;font-size:18px;}
+.policy_wrap .policy_hd .sub_txt {clear:both;display:block;margin:8px 0 0 0;font-size:12px;font-weight:normal;color:#4a4a4a;}
+.policy_wrap .snb_list {border:1px solid #e1e1e1;}
+.policy_wrap .snb_list a {display:block;padding:0 15px;line-height:47px;text-decoration:none}
+.policy_wrap .snb_list > li {border-top:1px solid #efefef;font-size:14px;letter-spacing:-0.05em;}
+.policy_wrap .snb_list > li:first-child {border-top:0 none;}
+.policy_wrap .snb_list > li.depth > a{position:relative;}
+.policy_wrap .snb_list > li.depth > a:after {content:"";position:absolute;top:50%;right:15px;display:block;width:13px;height:7px;margin-top:-4px;background:url(https://static.wehago.com/imgs/common/sp_policy.png) 0 0 no-repeat;}
+.policy_wrap .snb_list .depth_list {display:none;margin:0 15px;}
+.policy_wrap .snb_list .depth_list > li {border-top:1px solid #efefef;font-size:13px;}
+.policy_wrap .snb_list .depth_list > li > a {position:relative;padding:16px 0 16px 20px;word-wrap:break-word;word-break:keep-all;line-height:1.3;}
+.policy_wrap .snb_list .depth_list > li > a:after {content:"";position:absolute;top:20px;left:0;display:block;width:6px;height:6px;background:url(https://static.wehago.com/imgs/common/sp_policy.png) 0 -13px no-repeat;}
+.policy_wrap .snb_list .depth_list .on a {color:#2870c1;}
+.policy_wrap .snb_list .depth_list .on a:after {background:url(https://static.wehago.com/imgs/common/sp_policy.png) -10px -13px no-repeat;}
+.policy_wrap .snb_list > li.active {background-color:#f8faff;}
+.policy_wrap .snb_list > li.active > a {display:block;margin:-1px -1px 0;background-color:#013a98;border:1px solid #013a98;color:#fff}
+.policy_wrap .snb_list > li.active .depth_list {display:block;}
+.policy_wrap .snb_list > li.active.depth > a:after {background-position:-18px 0;}
+
+.policy_wrap.v2 .policy_section {padding:30px 11px;}
+
+/* Editer 예외처리 */
+.policy_section p,.policy_section p[class^="s"],
+.policy_section p span,.policy_section p span[class^="s"],
+.policy_section li,.policy_section li span[class^="s"],
+.policy_section h1,.policy_section h2,.policy_section h3,
+.policy_section h4,.policy_section h5,.policy_section h6 {margin:0 !important;font-size:14px !important;line-height:1.9 !important;font-family:'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',sans-serif !important;}
+.policy_section table {width:100% !important;}
+
+.dtp_policy body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,img,button,select{margin:0;padding:0}
+.dtp_policy body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,button{font-family:'Nanum Square','돋움',Dotum,Helvetica,'Apple SD Gothic Neo',sans-serif}
+.dtp_policy body{min-width:1280px;-webkit-text-size-adjust:none}
+.dtp_policy img,fieldset{border:0;vertical-align:top}
+.dtp_policy a{color:#1a1a1a}
+.dtp_policy em,address{font-style:normal}
+.dtp_policy ul,ol,li{list-style:none}
+.dtp_policy label,button{cursor:pointer}
+.dtp_policy input::-ms-clear{display:none}
+.dtp_policy .blind{position:absolute !important;clip:rect(0 0 0 0) !important;width:1px !important;height:1px !important;margin:-1px !important;overflow:hidden !important}
+.dtp_policy .table thead.blind{position:static;font-size:0} /* 테이블 thead blind 버그해결 */
+.dtp_policy .clearbx:after,.clearfix:after{content:'';clear:both;display:table}
+.dtp_policy .ellipsis{overflow:hidden;white-space:nowrap;word-break:break-all;text-overflow:ellipsis}
+.dtp_policy .no_ellipsis{white-space:normal !important}
+.dtp_policy .us_none{-webkit-user-select:none !important;-moz-user-select:none !important;-ms-user-select:none !important;user-select:none !important}
+.dtp_policy .mw_auto{min-width:auto}
+.dtp_policy .w_auto{width:auto !important}
+.dtp_policy .of_hidden{overflow:hidden !important}
+.dtp_policy .of_visible{overflow:visible !important}
+.dtp_policy input:disabled{-webkit-text-fill-color:#8d8d8d;opacity:1}
+.dtp_policy iframe{overflow:hidden;margin:0;padding:0;border:0}
+.dtp_policy .posfix{position:relative}
+.dtp_policy .scroll_touch{-webkit-overflow-scrolling:touch;}
+.dtp_policy .hide_lnb .lnb{display:none;}
+
+/* 공통 Sprite */
+.dtp_policy .sp_common{overflow:hidden;display:inline-block;background:url(https://static.wehago.com/imgs/common/sp_common.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+
+/* 크롬 디폴트 radius값 초기화 */
+/* input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button{border-radius:0} */
+
+/* text align */
+.dtp_policy .txtcnt{text-align:center !important}
+.dtp_policy .txtlft{text-align:left !important}
+.dtp_policy .txtrgt{text-align:right !important}
+.dtp_policy .vatop{vertical-align:top}
+
+
+/* float clear table */
+.dtp_policy .clrbx{clear:both;height:0}
+.dtp_policy .clrbx:after,.cw .clrulbx > li:after{display:block;clear:both;content:''}
+.dtp_policy .fltlft{float:left}
+.dtp_policy .fltrgt{float:right}
+.dtp_policy .overbx{overflow:hidden}
+.dtp_policy .distbl{display:table;width:100%;table-layout:fixed}
+.dtp_policy .distbl > li{display:table-cell}
+.dtp_policy .ulflt:after{display:block;clear:both;content:''}
+.dtp_policy .ulflt > li{float:left}
+.dtp_policy .ulfltrgt:after{display:block;clear:both;content:''}
+.dtp_policy .ulfltrgt > li{float:left}
+.dtp_policy .ulflt.lastfltr > li:last-child,.ulfltrgt > li:last-child{float:right}
+
+
+/* Layout */
+.dtp_policy .nofocus {outline:0 !important}
+.dtp_policy .bdbxin{width:100%;height:100%}
+.dtp_policy .header{position:absolute;top:0;right:0;left:48px;z-index:90;min-width:1232px;height:53px;border-bottom:1px solid #ebebeb;background:#FFF}
+.dtp_policy .header.nolnb{left:0}
+
+.dtp_policy .snb{position:fixed;top:0;left:-148px;bottom:0;z-index:60;width:199px;height:100%;border-right:1px solid #b4b4b4;background:#fff;word-break:break-all}
+.dtp_policy .snb .snbin{overflow:auto;position:absolute;top:0;right:0;left:0;bottom:0;width:199px;height:100%;word-break:break-all}
+.dtp_policy .snbnext{overflow:auto;position:absolute;top:54px;right:0;left:48px;bottom:0;min-width:1232px}
+.dtp_policy .snbnext.active_actionbar{bottom:56px;}
+.dtp_policy .snb.active{left:46px}
+.dtp_policy .snb.active + .snbnext{left:252px;min-width:772px}
+.dtp_policy .sp_lux.red_bullet {width:7px;height:7px;background-position:-25px -150px;vertical-align:middle;margin-right:3px}
+.dtp_policy .sp_lux.blue_bullet {width:7px;height:7px;background-position:-25px -160px;vertical-align:middle;margin-right:3px}
+.dtp_policy .actionbar{position:fixed;right:0;left:0;bottom:0;z-index:50}
+.dtp_policy .actionbar.type2{left:200px;overflow:hidden}
+
+.dtp_policy .usescroll{overflow:auto !important}
+.dtp_policy .usescroll_y{overflow-y:auto !important}
+
+
+/* header 우측 버튼 영역 */
+.dtp_policy .header_right_btn{float:right;margin-top:16px;padding-right:20px}
+.dtp_policy .header_right_btn .go_help{float:left;position:relative;padding-right:10px;font-size:13px;color:#4e4e4e;line-height:22px;text-decoration:none}
+.dtp_policy .header_right_btn .go_help:after{position:absolute;top:50%;right:0;width:5px;height:9px;margin-top:-5px;background:url(https://static.wehago.com/imgs/common/sp_tedge.png) -415px 0 no-repeat;content:''}
+.dtp_policy body:not(.m) .header_right_btn .go_help:hover{text-decoration:underline}
+
+/* Grid */
+.dtp_policy .col_1 {width:8.333333%}
+.dtp_policy .col_2 {width:16.666667%}
+.dtp_policy .col_3 {width:25%}
+.dtp_policy .col_4 {width:33.333333%}
+.dtp_policy .col_5 {width:41.666667%}
+.dtp_policy .col_6 {width:50%}
+.dtp_policy .col_7 {width:58.333333%}
+.dtp_policy .col_8 {width:66.666667%}
+.dtp_policy .col_9 {width:75%}
+.dtp_policy .col_10 {width:83.333333%}
+.dtp_policy .col_11 {width:91.666667%}
+.dtp_policy .col_12 {width:100%}
+
+
+
+/* Sub */
+.dtp_policy .snb .subtit{overflow:hidden;height:61px}
+.dtp_policy .snb .subtit h2{font-size:14px;font-weight:normal;line-height:62px;color:#4a4a4a;letter-spacing:-1px;text-align:center}
+.dtp_policy .snb .subtit h2 strong{padding:0 10px;font-size:22px;font-weight:bold;vertical-align:middle}
+
+/* Header */
+.dtp_policy .header h1 img{padding:20px}
+
+
+
+/* footer */
+.dtp_policy .footer{padding:0 20px;background-color:#f5f5f5}
+.dtp_policy .footer_notice{position:relative;height:37px;padding-right:210px;border-top:1px solid #bdbdbd;line-height:37px}
+.dtp_policy .footer_notice dt{float:left;margin-right:5px;font-size:12px;font-weight:bold;color:#525253;letter-spacing:-.5px}
+.dtp_policy .footer_notice dd{font-size:12px;color:#828282}
+.dtp_policy .footer_notice a{text-decoration:none}
+.dtp_policy .footer_notice a:hover{text-decoration:underline}
+.dtp_policy .footer_notice .LUX_basic_select{position:absolute;top:5px;right:0}
+.dtp_policy .footer_notice .LUX_basic_select .inpbx{background-color:transparent}
+.dtp_policy .footer_notice .LUX_basic_select .resultbx{display:none;position:absolute;top:auto;bottom:100%}
+.dtp_policy .footer_info{padding:13px 0 24px;border-top:1px solid #e0e0e0;text-align:center}
+.dtp_policy .footer_info ul{display:inline-block}
+.dtp_policy .footer_info ul li{float:left;position:relative;height:14px;margin-left:11px;padding-left:11px;line-height:14px}
+.dtp_policy .footer_info ul li:first-child{margin-left:0;padding-left:0}
+.dtp_policy .footer_info ul li:before{position:absolute;top:50%;left:0;width:1px;height:12px;margin-top:-6px;background-color:#cacaca;content:''}
+.dtp_policy .footer_info ul li:first-child:before{display:none}
+.dtp_policy .footer_info a{font-size:12px;text-decoration:none;color:#525253}
+.dtp_policy .footer_info a:hover{text-decoration:underline}
+.dtp_policy .footer_info address,
+.dtp_policy .footer_info address a{font-size:11px}
+
+/* Footer : 수상/인증마크 */
+.dtp_policy .footer .honor_bx{display:inline-block;margin:30px 0 15px;vertical-align:top;}
+.dtp_policy .footer .honor_bx ul:after,
+.dtp_policy .footer .honor_bx li:after{display:block;clear:both;content:'';}
+.dtp_policy .footer .honor_bx li{float:left;position:relative;height:50px;}
+.dtp_policy .footer .honor_bx li+li{margin-left:24px;padding-left:24px;}
+.dtp_policy .footer .honor_bx li+li:before{position:absolute;top:50%;left:0;width:1px;height:36px;margin-top:-18px;background:#e9e9e9;content:'';}
+.dtp_policy .footer .honor_bx li img{float:left;width:auto;height:50px;margin-right:12px;}
+.dtp_policy .footer .honor_bx li .item_txt{float:left;padding-top:2px;font-size:12px;line-height:16px;box-sizing:border-box;}
+.dtp_policy .footer .honor_bx li.v_only{display:none;}
+.dtp_policy .gov .footer .honor_bx li.v_only{display:block;}
+.dtp_policy .wehagot .footer .honor_bx,
+.dtp_policy .tedge .footer .honor_bx{clear:both;float:left;}
+
+/* single page layout */
+/* header */
+.single_wrap{min-width:1024px}
+.single_wrap .respond_container{margin:0 auto;padding-left:15px;padding-right:15px}
+.single_wrap .fixed_container{margin:0 auto;width:800px;padding:0}
+.single_wrap .fixed_container .logo a{margin-left:0}
+.single_wrap .nav_header{float:left}
+.single_wrap .respond_container:after,
+.single_wrap .nav_header:after,
+.single_wrap .fixed_container:after{
+    display:table;
+    clear:both;
+    content:'';
+}
+.single_wrap .nav_bar{
+    position:relative;
+    width:100%;
+    min-height:60px;
+    /* background-color:#333948; */
+    background-image: url("../../image/Dev_Center/Main_header/header_bg.png");
+    min-width: 1100px;
+    background-size: cover;
+    border-color:#eee
+}
+.single_wrap .logo a{float:left;margin-left:20px;line-height:60px;text-decoration:none}
+.single_wrap .logo a:hover{text-decoration:none}
+.single_wrap .logo a img{vertical-align:middle}
+.single_wrap .logo h1{float:left;position:relative;margin-left:7px;padding-left:10px}
+.single_wrap .logo h1:after{position:absolute;top:50%;left:0;width:1px;height:16px;margin-top:-8px;background-color:#82858c;content:''}
+.single_wrap .logo h1 a{margin-left:0;font-size:18px;color:#fff}
+.single_wrap .nav{float:right}
+.single_wrap .nav>li{float:left;position:relative;z-index:10}
+.single_wrap .nav>li>a{display:block;position:relative;padding:0 15px;color:#dbdbdb;font-size:16px;line-height:60px;text-decoration:none}
+.single_wrap .nav .LUX_basic_btn{height:auto;border:none;background-color:transparent;font-family:'Nanum Square',sans-serif;letter-spacing:0;text-align:left}
+.single_wrap .nav_bar.nav_white_bar{background-color:#fff;border-bottom:1px solid #ebebeb}
+.single_wrap .nav_bar.nav_white_bar .logo h1 a,
+.single_wrap .nav_bar.nav_white_bar .nav>li>a{color:#4a4a4a}
+/* footer */
+.single_wrap #footer{margin:60px 0 0;border-top:1px solid #d9d9d9}
+/*.single_wrap .footer_info{padding:20px 0 6px}
+.single_wrap .footer_info a{font-size:14px;color:#575757;font-weight:bold}
+.single_wrap .footer_info li{margin-left:14px;padding-left:14px}
+.single_wrap .footer_info li:before{background-color:#989898}*/
+.single_wrap .footer_info2{padding:18px 0 18px;font-size:11px;color:#000;text-align:center}
+.single_wrap .footer_info2>a{color:#000;text-decoration:none}
+.single_wrap .footer_info2>a:hover{text-decoration:underline}
+/* content */
+.single_wrap .content_box{margin:36px auto 0;background-color:#fff}
+
+
+/* 데이터유통포털 header */
+.header.dtp_header{position:fixed;left:0;background:rgba(0,0,0,.4);border-color:rgba(0,0,0,.4)}
+.header.dtp_header .horizon_header{background:none;width:1100px;margin:0 auto}
+.header.dtp_header .main_title{padding-left:0}
+.header.dtp_header .wehago_header .main_title>h1{margin-left:0;height:24px}
+.header.dtp_header .wehago_header .main_title.v2>h1{margin-left:0;height:auto;margin-top:7px;}
+.header.dtp_header .wehago_header .main_title>h1 a{display:block;height:100%;font-size:20px;text-decoration:none;color:#fff}
+.header.dtp_header .gnb_popover{margin-right:0}
+.header.dtp_header .gnb_popover .gnb_btn .btn_userprofile{padding-right:0;color:#fff}
+.header.dtp_header .menu {overflow:hidden;float:left}
+.header.dtp_header .menu > li {float:left;height:53px;margin:0 20px 0 20px;line-height:53px}
+.header.dtp_header .menu > li > a {display:block;font-size:14px;text-decoration:none;color:rgba(255,255,255,.75)}
+.header.dtp_header .menu > li.on > a {font-weight:bold;text-decoration:underline;color:#fff}
+.header.dtp_header .menu > li > a:hover {text-decoration:underline}
+.header.dtp_header .menu > li:hover .sub_menu,.nav .menu > li:focus .sub_menu {display:block}
+.header.dtp_header .sub_menu {position:absolute;top:60px;display:none;margin-left:-15px;padding:10px;background-color:#00b4ff}
+.header.dtp_header .sub_menu:after{content:"";position:absolute;top:-5px;left:50%;width:0;height:0;margin-left:-5px;border-bottom:5px solid #00b4ff;border-left:5px solid transparent;border-right:5px solid transparent;}
+.header.dtp_header .sub_menu a {display:block;padding:10px;line-height:1.3;font-size:13px;color:#fff;}
+.header.dtp_header .btn_area{float:left;margin-top:12px;}
+.header.dtp_header .btn_area .btn {display:inline-block;width:80px;height:28px;line-height:28px;text-align:center;border:1px solid rgba(255,255,255,.5);font-size:14px;color:#fff;}
+.header.dtp_header .btn_area .btn span {color:#fff;}
+
+.dtp_policy p.p1 {margin: 0.0px 0.0px 8.0px 0.0px; text-align: justify; font: 10.0px Helvetica; -webkit-text-stroke: #000000}
+.dtp_policy p.p2 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.5px Helvetica; color: #323333; -webkit-text-stroke: #323333}
+.dtp_policy p.p3 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.5px Arial; color: #323333; -webkit-text-stroke: #323333}
+.dtp_policy p.p4 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.5px Helvetica; -webkit-text-stroke: #000000}
+.dtp_policy p.p5 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.5px Arial; -webkit-text-stroke: #000000; min-height: 12.0px}
+.dtp_policy p.p6 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.5px Arial; color: #323333; -webkit-text-stroke: #323333; min-height: 12.0px}
+.dtp_policy p.p7 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.5px Arial; -webkit-text-stroke: #000000}
+.dtp_policy p.p9 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.0px Helvetica; color: #545454; -webkit-text-stroke: #545454; min-height: 12.0px}
+.dtp_policy p.p10 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.0px Helvetica; -webkit-text-stroke: #000000}
+.dtp_policy p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Helvetica; -webkit-text-stroke: #000000}
+.dtp_policy li.li2 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.5px Helvetica; color: #323333; -webkit-text-stroke: #323333}
+.dtp_policy li.li8 {margin: 0.0px 0.0px 7.5px 0.0px; font: 10.0px Helvetica; color: #323333; -webkit-text-stroke: #323333}
+.dtp_policy span.s1 {font-kerning: none;}
+.dtp_policy span.s2 {font: 10.5px Arial; font-kerning: none;}
+.dtp_policy span.s3 {font: 10.5px Arial; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+.dtp_policy span.s4 {font: 10.0px Helvetica; font-kerning: none; color: #545454; -webkit-text-stroke: 0px #545454}
+.dtp_policy span.s5 {font: 12.0px Helvetica; color: #000000}
+.dtp_policy span.s6 {font: 10.0px Helvetica; font-kerning: none}
+.dtp_policy span.s7 {font: 10.5px Helvetica; font-kerning: none}
+.dtp_policy span.s8 {font: 10.0px Helvetica; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+/* 
+p.p1 {margin: 0.0px 0.0px 8.0px 0.0px; text-align: justify; font: 10.0px Courier}
+p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.5px Courier; color: #424242}
+p.p3 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.5px 'Times New Roman'; color: #424242}
+p.p4 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.5px Courier; color: #424242}
+p.p5 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.5px Courier}
+p.p6 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.5px 'Times New Roman'; min-height: 11.0px}
+p.p7 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.5px 'Times New Roman'; color: #424242; min-height: 11.0px}
+p.p8 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.5px Arial; color: #424242; min-height: 12.0px}
+p.p9 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.5px 'Times New Roman'}
+p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier}
+p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Courier; color: #424242}
+p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Times New Roman'; color: #424242; min-height: 11.0px}
+p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 10.0px Courier; color: #424242}
+p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Courier; color: #636c73}
+p.p16 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.0px 'Times New Roman'; color: #676767; min-height: 11.0px}
+p.p17 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.5px Arial; color: #424242}
+p.p18 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.0px Courier}
+p.p19 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.0px 'Times New Roman'}
+p.p20 {margin: 0.0px 0.0px 8.0px 0.0px; text-align: justify; font: 10.0px 'Times New Roman'; min-height: 11.0px}
+li.li4 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.5px Courier; color: #424242}
+li.li15 {margin: 7.5px 0.0px 0.0px 0.0px; font: 10.0px Courier; color: #424242}
+span.s1 {font - kerning: none}
+span.s2 {font: 10.5px Arial; font-kerning: none}
+span.s3 {font: 10.5px 'Times New Roman'; font-kerning: none}
+span.s4 {font: 10.5px 'Times New Roman'; font-kerning: none; color: #000000}
+span.s5 {font: 10.0px Courier; color: #676767}
+span.s6 {font: 10.0px 'Times New Roman'; font-kerning: none}
+span.s7 {font: 12.0px 'Times New Roman'; font-kerning: none}
+span.s8 {font: 10.5px Arial}
+span.s9 {font: 10.0px Courier; font-kerning: none}
+span.s10 {font: 10.0px Arial}
+span.s11 {font: 10.5px Courier; font-kerning: none}
+span.s12 {font: 10.0px 'Times New Roman'; font-kerning: none; color: #000000}
+span.Apple-tab-span {white - space:pre}
+table.t1 {border - collapse: collapse}
+td.td1 {background - color: #f3f3f3; border-style: solid; border-width: 0.8px 0.8px 0.8px 0.8px; border-color: #e4e4e4 #e4e4e4 #e4e4e4 #e4e4e4; padding: 7.5px 11.2px 5.2px 5.2px}
+td.td2 {border - style: solid; border-width: 0.8px 0.8px 0.8px 0.8px; border-color: #e4e4e4 #e4e4e4 #e4e4e4 #e4e4e4; padding: 7.5px 7.5px 5.2px 5.2px}
+ul.ul1 {list - style - type: disc} */

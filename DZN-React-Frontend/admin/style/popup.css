@@ -1,0 +1,1077 @@
+/* popup */
+/* #Buy_make_popup_bgk, */
+/* #Approved_audit_bgk_popup, 승인심사 팝업*/
+#Data_delete_popup_v1,
+#Data_delete_popup_v2,
+#Data_Approved_result_popup,
+#Data_Approved_result_popup_v2,
+#Data_End_point_url_bgk_v1,
+#Data_End_point_url_bgk_v2,
+#Data_Exposure_popup_v1,
+#Data_Exposure_popup_v2,
+#Data_Apprvoed_Request_popup_bgk,
+#Data_Approved_Req_popup,
+#Data_Approved_judge_bgk_popup,
+#Data_report_sales_bgk_popup,
+#ServiceCenter_uploade_list_Page_popup_bgk,
+#ServiceCenter_url_popup_bgk_v1,
+#ServiceCenter_url_popup_bgk_v2,
+#ServiceCenter_title_popup_bgk,
+#ServiceCenter_title_popup_bgk_v2,
+#Service_api_delete_popup_bgk,
+#Service_Buy_Api_popup_bgk,
+#Service_Buy_apply_popup_bgk,
+#Service_api_usage_popup_bgk,
+#Service_judge_popup_bgk,
+#Data_Approved_Request_popup_bgk,
+#Froum_Data_Approved_uploade_popup_bgk,
+#Froum_Data_Approved_gaci_uploade_popup_bgk,
+#Froum_Data_Approved_Request_popup_bgk,
+#Account_main_popup_bgk,
+#Account_uploade_fail_bgk,
+#Account_uploade_success_bgk,
+#Account_uploade_error_bgk,
+#Question_popup_bgk,
+#Gaci_uploade_fail_popup_bgk,
+#Gaci_uploade_ok_popup_bgk,
+#Service_delete_popup_v1,
+#Dev_Question_delete_popup_bgk,
+#infra_service_popup_bgk,
+#Service_infra_small_bgk_popup,
+#Service_delete_popup_v2,
+#Service_Approved_result_popup,
+#qr_code_popup,
+#Phone_certification_popup_bgk,
+#User_none_popup_bgk,
+#Login_reset_passwd_popup_bgk,
+#Api_compaion_result_popup,
+#Froum_post_deleted_bgk,
+#Froum_Data_Approved_gaci_update_popup_bgk {
+  display: none;
+  z-index: 100;
+}
+
+.image_popup_close {
+  cursor: pointer;
+}
+
+.Approved_Popup_white_box {
+  width: 410px;
+  height: 250px;
+  background-color: white;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.Api_document_Popup_white_box {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.api_document_popup_white_box {
+  width: 410px;
+  height: 250px;
+  background-color: white;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.Account_success_white_box {
+  width: 700px;
+  height: 600px;
+  margin: auto;
+  margin-top: 15%;
+  background-color: white;
+}
+
+.Approved_judge_white_box {
+  width: 410px;
+  height: 420px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 12%;
+}
+
+.Data_sales_white_box {
+  width: 1000px;
+  height: 500px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 12%;
+}
+
+.infra_service_white_box {
+  width: 500px;
+  height: 600px;
+  margin: auto;
+  margin-top: 15%;
+  background-color: white;
+}
+
+.Service_Uploade_list_page_white_box {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  margin-top: 10%;
+  background-color: white;
+}
+
+#api_apply_button {
+  padding-top: 20px;
+}
+
+.Api_usage_white_box {
+  width: 600px;
+  height: 800px;
+  margin: auto;
+  margin-top: 5%;
+  background-color: white;
+}
+
+.buy_api_white_box {
+  width: 500px;
+  height: 510px;
+  margin: auto;
+  margin-top: 10%;
+  background-color: white;
+}
+
+.Service_uploade_text_box_white_box {
+  width: 600px;
+  height: 410px;
+  background-color: white;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.copy_white_big_box {
+  display: table-cell;
+}
+
+#Approved_sp_text h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Approved_Popup_header {
+  height: 65px;
+  border-bottom: 1.5px solid #eaeaea;
+}
+
+.Approved_Popup_text_box {
+  text-align: center;
+}
+
+.Approved_Popup_text_box p {
+  font-size: 16.5px;
+  font-weight: bold;
+  color: #555555;
+}
+
+#Service_uploade_text_box h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Service_uploade_popup_header {
+  height: 80px;
+  border-bottom: 1.5px solid #eaeaea;
+}
+
+.Service_uploade_popup_header div {
+  padding-top: 2px;
+}
+
+/* 구매 제작 데이터 목록 팝업*/
+
+.data_list_big_text {
+  width: 100%;
+}
+
+.big_text_data_list {
+  width: 380px;
+  margin: auto;
+}
+
+.data_list_big_text h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+
+.small_text_data_list {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.small_text_data_list p {
+  font-size: 16.5px;
+}
+
+.Sale_member_text_box p {
+  font-size: 16.5px;
+}
+
+/* 구매 제작 데이터 목록 팝업*/
+
+/* 구매/제작 데이터 > 기본정보 */
+
+.First_Member_text_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.First_Member_text_box h1 {
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  border-bottom: 1.5px solid;
+  padding-bottom: 10px;
+  margin-top: 25px;
+}
+
+.First_Member_text_box img {
+  height: 20px;
+  width: 20px;
+  float: right;
+}
+
+.Buy_popupClose_box img {
+  cursor: pointer;
+}
+
+.copy_white_big_box {
+  padding-top: 10px;
+}
+
+.exposure_text_box p {
+  font-size: 16.5px;
+  margin-top: 30px;
+}
+
+.exposure_text_box {
+  text-align: left;
+  padding-top: 20px;
+  width: 300px;
+  margin: auto;
+}
+
+.exposure_text_box span {
+  color: #00a7ff;
+}
+
+.service_title_text_box {
+  text-align: center;
+}
+
+.service_title_text_box p {
+  font-size: 16.5px;
+  margin-top: 60px;
+}
+
+.Approved_judge_text_box {
+  text-align: left;
+  width: 300px;
+  margin: auto;
+}
+
+.Approved_judge_text_box p {
+  font-size: 16.5px;
+  margin-top: 40px;
+}
+
+/*popup_bgk*/
+
+/*popup_button*/
+
+.one_ok_button_box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.one_ok_button_box .btn-primary {
+  width: 125px;
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.one_ok_button_box .btn-primary:first-child {
+  background-color: white;
+  color: #0278ff;
+  border: 1px solid #0278ff;
+}
+
+.one_ok_button_box .btn-primary:nth-child(2) {
+  background-color: #0278ff;
+}
+
+.Companion_text_box p {
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.file_download_text_box span {
+  color: #0278ff;
+  float: right;
+}
+
+.Approved_Popup_text_box .api_document_popup_table_box {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.Approved_Popup_text_box .api_document_popup_table_box tr td:first-child {
+  background-color: #ccc;
+  color: black;
+  font-weight: bold;
+}
+
+.Approved_Popup_text_box .api_document_popup_table_box tr td:nth-child(3) {
+  background-color: #ccc;
+  color: black;
+  font-weight: bold;
+}
+
+.button_table_td_box .btn-primary {
+  width: 100%;
+  background: none;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.button_table_td_box .form-control {
+  margin-top: 10px;
+  height: 300px;
+}
+
+.bank_big_table .bank_table_text {
+  border-right: 1px solid #ccc;
+  text-align: center;
+  width: 200px;
+  line-height: 50px;
+}
+
+.bank_big_table .form-control {
+  width: 80%;
+  margin-left: 15px;
+}
+
+.Approved_Popup_text_box .bank_big_table .number_account {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.question_uploade_nav_box
+  .Approved_Popup_text_box
+  .bank_big_table
+  tr
+  td:first-child {
+  background-color: #f0f0f0;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.bank_big_table tbody:hover {
+  background-color: white;
+}
+
+#bank_button_box {
+  margin-top: 30px;
+}
+
+.api_contents_text_box p {
+  font-size: 15px;
+}
+
+.api_contents_table_box .wall_api_box {
+  border-right: 1px solid #ccc;
+}
+
+.api_contents_table_box td {
+  text-align: left;
+}
+
+.wehago_developers_text_box {
+  padding-top: 20px;
+}
+
+.wehago_developers_text_box h1 {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.service_small_text_box {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.service_small_text_box p {
+  padding-top: 10px;
+}
+
+.service_small_text_box .form-control {
+  width: 300px;
+  margin-left: 30px;
+}
+
+.select_text_box {
+  display: inline;
+}
+
+.down_service_text_box {
+  margin-right: 170px;
+  margin-top: 5px;
+}
+
+.down_service_text_box p {
+  color: red;
+}
+
+.Approved_Popup_text_box .data_sales_table_box {
+  margin: auto;
+  height: 300px;
+}
+
+.question_uploade_nav_box .data_sales_table_box th {
+  height: 30px;
+  border-right: 1px solid #ccc;
+}
+
+.question_uploade_nav_box .data_sales_table_box td {
+  border-right: 1px solid #ccc;
+}
+
+.question_uploade_nav_box .data_sales_table_box td:first-child {
+  text-align: left;
+  padding-left: 10px;
+}
+
+#stand_tard_input_box .form-control {
+  width: 450px;
+  margin: auto;
+}
+
+#stand_tard_input_box {
+  padding-top: 40px;
+}
+
+.Approved_Popup_text_box .infra_table {
+  width: 450px;
+  margin: auto;
+  height: 300px;
+}
+
+.infra_table .bank_table_text {
+  border-right: 1px solid #ccc;
+  text-align: center;
+  width: 200px;
+}
+
+.infra_table tbody:hover {
+  background-color: white;
+}
+
+#button_buy_api_box .btn-primary:nth-child(2) {
+  width: 200px;
+}
+
+.buy_table_popup_box .form-check {
+  padding-left: 0;
+}
+
+.buy_table_popup_box tr > td:nth-child(2) {
+  text-align: left;
+}
+
+.Approved_Popup_text_box .buy_table_popup_box {
+  width: 90%;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.Approved_Popup_text_box .buy_table_popup_box tr td:first-child {
+  border-right: 1px solid #ddd;
+}
+
+.Approved_Popup_text_box .buy_table_popup_box tr {
+  height: 80px;
+}
+
+.Approved_Popup_text_box .api_usage_table_box {
+  margin: auto;
+  width: 90%;
+}
+
+.Approved_Popup_text_box .buy_table_popup_box .checkbox_wrap {
+  padding-left: 5px;
+}
+
+.Approved_Popup_text_box .buy_table_popup_box .buy_api_caption {
+  caption-side: top;
+  width: 80px;
+  text-align: center;
+}
+
+.Approved_Popup_text_box .buy_table_popup_box tr td:first-child {
+  border-right: 1px solid #ddd;
+  width: 80px;
+}
+
+.api_usage_table_box .wall_api_box {
+  border-right: 1px solid #ccc;
+  width: 200px;
+}
+
+.buy_api_white_box .wall_api_box {
+  border-right: 1px solid #ccc;
+  width: 80px;
+}
+
+.api_usage_text_box {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.api_usage_text_box h4 {
+  font-weight: bold;
+  color: #000000;
+}
+
+.big_text_box_data_box {
+  width: 90%;
+  margin: auto;
+}
+
+.data_picker_box {
+  display: flex;
+}
+
+.data_picker_box .btn-primary {
+  margin-left: 15px;
+  width: 100px;
+  background-color: #00a7ff;
+  border: none;
+}
+
+.data_picker_box .btn-primary:hover {
+  background-color: #00a7ff !important;
+}
+
+.data_picker_box .btn-primary:hover {
+  background-color: #00a7ff;
+}
+
+.big_nav_number_box {
+  margin-top: 20px;
+}
+
+.first_title_service_box {
+  display: flex;
+  align-items: center;
+}
+
+.first_title_service_box .form-control {
+  width: 400px;
+  margin-left: 15px;
+}
+
+#service_uploade_form_span_box {
+  margin-top: 50px;
+}
+
+.service_uploade_big_box_up {
+  margin-top: 50px;
+}
+
+.service_uploade_big_box_up p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.service_contents_text_box {
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
+.service_contents_big_box {
+  display: flex;
+  text-align: left;
+}
+
+#Data_sale_button_box .popup_close_box:hover {
+  background-color: white;
+}
+
+.sales_td_table td:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #00a7ff;
+}
+
+.one_ok_button_box button {
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.one_ok_button_box .fail_btn_popup {
+  border: 1px solid #00a7ff;
+  color: #00a7ff;
+  background-color: #fff;
+}
+
+.one_ok_button_box .ok_btn_popup {
+  border: none;
+  color: #ffffff;
+  background-color: #00a7ff;
+}
+
+.smae_popup_bgk_big_box {
+  display: table;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Buy_make_popup_white_box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.popup_button_box {
+  margin-top: 30px;
+}
+
+.popup_Contents_box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.popup_Contents_box p {
+  font-size: 16px;
+  color: #555555;
+}
+
+.Buy_popup_head_line_box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.Buy_popup_head_line_box .Buy_popupClose_box {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.Buy_popup_head_line_box #not_Buy_popupClose_box {
+  margin-right: 0px;
+}
+
+.Buy_popup_head_line_box h1 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.ok_popup_btn {
+  width: 100px;
+  height: 40px;
+  background-color: #00a7ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#line_head_box h1 {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+#Exposure_text_box span {
+  color: #00a7ff;
+}
+
+.Approved_Popup_text_box .data_sales_table_box {
+  width: 90%;
+}
+
+.data_sales_table_box caption {
+  caption-side: top;
+}
+
+.api_contents_table_box caption {
+  caption-side: top;
+}
+
+.data_Sales_left_number {
+  text-align: right;
+}
+
+.wehago_developers_box {
+  width: 100%;
+  padding-left: 1%;
+  padding-bottom: 5%;
+}
+
+.data_picker_box .jDAmNq {
+  grid-template-columns: 180px 39px 180px;
+}
+
+.Approved_Popup_text_box .table {
+  height: 350px;
+}
+
+.Approved_Popup_text_box .bank_big_table {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.Approved_Popup_text_box .api_contents_table_box {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.Approved_Popup_text_box .api_contents_table_box th {
+  width: 50%;
+}
+
+.question_uploade_nav_box .table {
+  width: 90%;
+  margin: auto;
+}
+
+.question_uploade_nav_box .table tr td:first-child {
+  padding-left: 5px;
+}
+
+.table_question_uploade_box .table tr #control_Biginput_question > textarea {
+  width: 480px;
+  height: 140px;
+  border-radius: 5px;
+  resize: none;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.popup_small_white_box {
+  background: white;
+  width: 320px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#Question_sp_middle_box {
+  width: 640px;
+}
+
+.Data_Approved_small_white_box {
+  background: white;
+  width: 380px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#Approved_req_white_box {
+  width: 400px;
+}
+
+.Companion_box {
+  width: 300px;
+  margin: auto;
+  background-color: #0278ff;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.Companion_text_box {
+  width: 300px;
+  height: 130px;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid #c8c8c8;
+  text-align: left;
+}
+
+.file_download_text_box {
+  display: flex;
+  width: 300px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.Data_delete_small_white_box {
+  background: white;
+  margin: auto;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.service_center_delete_middel_white_box {
+  background: white;
+  width: 530px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#sp_service_center_delete_middel_white_box {
+  width: 650px;
+}
+
+#account_popup_box {
+  width: 700px;
+}
+
+.big_Data_delete_small_white_box {
+  background: white;
+  width: 1000px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.table-responsive {
+  overflow-x: hidden;
+}
+
+.Small_popup_box {
+  width: 100%;
+}
+
+.file_sp_wrap #file_check {
+  display: none;
+}
+
+.file_sp_wrap label {
+  width: 80px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+  background: #555555;
+  text-align: center;
+  cursor: pointer;
+}
+
+#radio_input_box {
+  margin-left: 15px;
+}
+
+#service_uploade_table_box tr > td:first-child {
+  width: 130px;
+  background-color: #f0f0f0;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+#service_uploade_table_box tr > td:nth-child(2) {
+  text-align: left;
+  padding: 10px 10px 0px;
+}
+
+.popuup_Danger_text_box {
+  margin-top: 5px;
+}
+
+.popuup_Danger_text_box p {
+  color: red;
+  font-size: 13px;
+}
+
+.infra_service_big_box {
+  width: 90%;
+  margin: auto;
+}
+
+.infra_service_big_box .infra_table {
+  width: 90%;
+  margin: auto;
+  height: 400px;
+}
+
+.infra_service_big_box .infra_table tr td:first-child {
+  background-color: #f0f0f0;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.question_uploade_nav_box .infra_contetns_box {
+  margin-top: 20px;
+  font-size: 16.5px;
+}
+
+#data_devel_uploade_box {
+  overflow-y: scroll;
+  height: 600px;
+}
+
+.user_approved_result_popup .text_result_compaion {
+  border: 1px solid #ccc;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  resize: none;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: left;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#qr_code_popup {
+  text-align: center;
+}
+
+/* -------------------------------------------------- */
+/* 댓글 삭제 팝업 추가 */
+.aa {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.aa .bb {
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1100;
+  background: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+
+.aa .cc {
+  display: table;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.aa .cc .dd {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.aa .cc .dd .ee {
+  display: inline-block;
+  position: relative;
+  z-index: 1200;
+  min-width: 280px;
+  padding: 24px 30px 20px;
+  background: rgb(255, 255, 255);
+}
+
+.ff img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.aa .cc .dd .ee .gg {
+  padding-bottom: 14px;
+  font-size: 16px;
+  font-family: "Nanum Square", 돋움, Dotum, Helvetica, "Apple SD Gothic Neo",
+    sans-serif;
+  line-height: 20px;
+}
+
+.ff {
+  text-align: center;
+}
+
+.aa .cc .dd .ff .btnCancel {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 0px;
+  border: 1px solid rgb(211, 211, 211);
+  background: rgb(255, 255, 255);
+  color: rgb(74, 74, 74);
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Nanum Square", 돋움, Dotum, Helvetica, "Apple SD Gothic Neo",
+    sans-serif;
+  height: 30px;
+  line-height: initial;
+  padding: 1px 0px 0px;
+  width: 65px;
+  margin-right: 5px;
+}
+
+.aa .cc .dd .ff .btnConfim {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 0px;
+  border: 1px solid rgb(28, 144, 251);
+  background: rgb(28, 144, 251);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Nanum Square", 돋움, Dotum, Helvetica, "Apple SD Gothic Neo",
+    sans-serif;
+  height: 30px;
+  line-height: initial;
+  padding: 1px 0px 0px;
+  width: 65px;
+  margin-right: 5px;
+}

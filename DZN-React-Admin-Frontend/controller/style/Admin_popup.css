@@ -1,0 +1,666 @@
+.admin_background_same_box {
+  display: table;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/*팝업 크기별 공통*/
+
+.admin_small_white_box {
+  background: white;
+  margin: auto;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.admin_little_white_box {
+  background: white;
+  margin: auto;
+  width: 320px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.admin_Data_Approved_req_small_white_box {
+  background: white;
+  width: 380px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.admin_service_center_middel_white_box {
+  background: white;
+  width: 530px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.admin_service_center_middel_white_box {
+  background: white;
+  width: 530px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#sp_admin_access_white_box {
+  width: 800px;
+}
+
+#sp_admin_preview_white_box {
+  width: 900px;
+}
+
+#sp_middle_box {
+  width: 640px;
+}
+
+/*팝업 크기별 공통*/
+
+/*popup_none 공통*/
+
+#Admin_user_info_popup_bgk,
+#Admin_user_datacenter_mang_popup_bgk_v1,
+#Admin_user_datacenter_mang_popup_bgk_v2,
+#Admin_user_datacenter_judge_popup_bgk,
+#Admin_user_datacenter_approved_popup_bgk,
+#Admin_user_datacenter_approved_result_popup_bgk,
+#Admin_user_api_approved_mangUse_popup_bgk,
+#Admin_user_api_approved_mangUse_popup_comapin_bgk,
+#Admin_user_calculate_term_popup_bgk,
+#Admin_user_calculate_history_popup_bgk,
+#Admin_user_noticeDelete_popup_bgk,
+#Admin_user_noticePost_fail_popup_bgk,
+#Notice_posts_update_popup_bgk,
+#Admin_user_post_uploade_popup_bgk,
+#Admin_user_faq_category_popup_bgk,
+#Admin_user_serice_center_delete_popup_bgk,
+#Admin_user_Data_center_delete_popup_bgk,
+#Admin_user_access_setting_popup_bgk,
+#Admin_user_access_sign_add_popup_bgk,
+#Admin_user_access_sign_modify_popup_bgk,
+#Admin_user_access_authority_modify_popup_bgk,
+#Admin_user_Service_mang_popup_bgk_v1,
+#Admin_user_Service_mang_popup_bgk_v2,
+#Admin_user_faq_delete_popup_bgk,
+#Admin_user_faq_add_popup_bgk,
+#Admin_user_Faq_post_fail_popup_bgk,
+#Admin_user_faq_post_popup_bgk,
+#Admin_user_update_delete_popup_bgk,
+#Admin_user_update_post_uplaode_popup_bgk,
+#Admin_user_update_post_fail_popup_bgk,
+#Admin_user_data_forum_delete_popup_bgk,
+#Admin_user_service_forum_delete_popup_bgk,
+#Admin_user_info_modify_popup_bgk,
+#Admin_user_Data_info_modify_popup_bgk,
+#Admin_user_Data_info_modify_popup_bgk_v2,
+#Admin_user_Use_contents_Delete_popup_bgk,
+#Admin_user_Usemodify_popup_bgk,
+#Admin_user_faq_detail_delete_popup_bgk,
+#Admin_user_update_detail_delete_popup_bgk,
+#Admin_user_Use_preview_delete_popup_bgk,
+#Admin_user_infra_approved_mangUse_popup_bgk,
+#Admin_user_info_modify_v2_popup_bgk,
+#Admin_user_faq_delete_category_bgk,
+#Admin_user_servicecenter_judge_popup_bgk {
+  display: none;
+  z-index: 999;
+}
+
+/*popup_none 공통*/
+
+.admin_pixed_popup_white_box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.admin_popup_head_line_box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.admin_popup_head_line_box .admin_popupClose_box {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.admin_popup_head_line_box #not_Buy_popupClose_box {
+  margin-right: 0px;
+}
+
+.admin_popup_head_line_box h1 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.admin_popupClose_box img {
+  cursor: pointer;
+}
+
+.admin_big_contents_box {
+  width: 100%;
+}
+
+.admin_popup_Contents_box {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.admin_popup_Contents_Preview_box {
+  max-height: 660px;
+  overflow-y: scroll;
+}
+
+.admin_popup_Contents_box .apprvoed_req_textarea {
+  width: 90%;
+  border: 1px solid #ccc;
+  padding: 6px 12px 50px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.admin_popup_Contents_box .user_individual_input {
+  width: 90%;
+  border: 1px solid #ccc;
+  padding: 6px 12px 50px;
+  border-radius: 5px;
+}
+
+.admin_popup_Contents_box p {
+  font-size: 16px;
+  color: #555555;
+}
+
+#admin_popup_sp_text_box span {
+  color: #00a7ff;
+}
+
+/*popup button 부분*/
+
+.admin_popup_button_box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.admin_popup_button_box button {
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.admin_popup_button_box .admin_popup_first_btn {
+  border: 1px solid #00a7ff;
+  color: #00a7ff;
+  background-color: #fff;
+}
+
+.admin_popup_button_box .admin_popup_second_btn {
+  border: none;
+  color: #ffffff;
+  background-color: #00a7ff;
+}
+
+/*popup button 부분 끝*/
+
+.admin_file_download_text_box {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.admin_file_download_text_box span {
+  color: #0278ff;
+  float: right;
+}
+
+.admin_Companion_box {
+  width: 90%;
+  margin: auto;
+  background-color: #0278ff;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.admin_new_req_box {
+  padding-bottom: 10px;
+}
+
+.approved_reason_box {
+  width: 90%;
+  text-align: left;
+  margin: auto;
+}
+
+.approved_reason_box p {
+  font-weight: 500;
+}
+
+.admin_Sale_member_text_box p {
+  font-size: 16.5px;
+}
+
+.admin_Companion_text_box {
+  width: 90%;
+  height: 130px;
+  margin: auto;
+  border: 1px solid #c8c8c8;
+  text-align: left;
+}
+
+.admin_Companion_text_box p {
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#admin_api_Use_sp_box {
+  overflow: auto;
+  height: 190px;
+}
+
+#admin_api_Use_sp_box .table {
+  width: 90%;
+  margin: auto;
+}
+
+#admin_api_Use_sp_box .table tr td {
+  text-align: left;
+}
+
+#admin_api_Use_sp_box .table caption {
+  caption-side: top;
+}
+
+/*공통*/
+
+/*radio style*/
+
+.admin_radio_inputButton_box input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.admin_radio_inputButton_box input[type="radio"] + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.admin_radio_inputButton_box input[type="radio"] + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 100%;
+}
+
+.admin_radio_inputButton_box input[type="radio"] + label:active:before,
+.admin_radio_inputButton_box input[type="radio"]:checked + label:active:before {
+  background-color: #fff;
+}
+
+.admin_radio_inputButton_box input[type="radio"]:checked + label:before {
+  background: #fff;
+  border-color: #d4d4d4;
+}
+
+.admin_radio_inputButton_box input[type="radio"]:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  width: 13px;
+  height: 13px;
+  background: #99a1a7;
+  border-radius: 100%;
+  background-color: #00a7ff;
+}
+
+.admin_approved_admin_result_popup_section_box {
+  margin-top: 20px;
+}
+
+#admin_radio_box {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+#admin_radio_box label:nth-child(4) {
+  margin-left: 10px;
+}
+
+.api_Use_approved_text_box {
+  width: 90%;
+  text-align: left;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.api_Use_approved_text_box .api_Use_approved_textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 6px 12px 50px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.admin_file_sp_wrap #file_check {
+  display: none;
+}
+
+.admin_file_sp_wrap label {
+  width: 80px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+  background: #555555;
+  text-align: center;
+  cursor: pointer;
+}
+
+.admin_file_name {
+  margin-left: 20px;
+}
+
+.admin_file_name img {
+  width: 15px;
+  margin-left: 10px;
+}
+
+.admin_file_sp_wrap .admin_answer_text {
+  margin-top: 5px;
+}
+
+.calculate_table_box .table {
+  width: 90%;
+  margin: auto;
+  height: 300px;
+}
+
+.calculate_table_box .table tr td:first-child {
+  background-color: #f0f0f0;
+  text-align: left;
+  padding-left: 30px;
+  border-right: 1px solid #ccc;
+}
+
+.cal_big_text_box {
+  margin-top: 10px;
+}
+
+.cal_big_text_box p {
+  font-size: 16.5px;
+  font-weight: 600;
+}
+
+.category_input_box {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.category_input_box input {
+  width: 70%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.category_button_box {
+  display: inline-flex;
+  float: right;
+}
+
+.category_input_box button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 60px;
+  background-color: #555555;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+#admin_access_big_box {
+  width: 90%;
+  margin: auto;
+}
+
+.access_settings_headLine_box {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.access_settings_headLine_box p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.admin_access_setting_contents_box {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.admin_access_setting_contents_box p {
+  text-align: left;
+  font-size: 16.5px;
+}
+
+.admin_sign_table_box .table tr > td:first-child {
+  background-color: #f0f0f0;
+  border-left: 1px solid #ccc;
+}
+
+.admin_sign_table_box .table tr > td:nth-child(2) {
+  text-align: left;
+}
+
+.admin_sign_table_box .table tr > td:nth-child(2) .checkbox_wrap {
+  margin: 0 0px;
+}
+
+.admin_sign_table_box .table tr > td:nth-child(2) .checkbox_wrap label {
+  margin-top: 10px;
+}
+
+.admin_sign_table_box .table tr > td > input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.admin_sign_table_box .table tr > td > textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 6px 12px 50px;
+  border-radius: 5px;
+  resize: none;
+  height: 100px;
+}
+
+.admin_authority_modify_bigBox {
+  margin-bottom: 40px;
+}
+
+.admin_authority_modify_bigBox p {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.admin_authority_modify_bigBox p > span {
+  margin-left: 10px;
+}
+
+.admin_authority_modify_bigBox .form-control {
+  width: 60%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.backoffice_table_wrap #Using_backoffice_guide_table tr > td:nth-child(3) {
+  width: 250px;
+}
+
+.backoffice_table_wrap #Using_backoffice_guide_table tr > td:nth-child(4) {
+  width: 250px;
+}
+
+.preview_big_text_box p {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.big_preview_box {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+.headLine_big_text_contents_text_box {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.headLine_big_text_contents_text_box p {
+  font-size: 16.5px;
+  font-weight: 500;
+}
+
+.contents_preview_big_box {
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contents_preview_big_box .contents_preview_text {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  padding: 10px 0 0 10px;
+  color: black;
+}
+
+.contents_preview_big_box ul {
+  text-align: left;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.contents_preview_big_box ul li {
+  margin: 10px 0;
+  line-height: 23px;
+  padding-left: 10px;
+}
+
+.contenst_preview_list_box ul li img {
+  padding-bottom: 5px;
+}
+
+.contents_preview_big_box ul li .sp_list_blue_text {
+  color: #2288fd;
+  font-size: 16.5px;
+  padding-left: 20px;
+}
+
+.douzone_wehaogo_sign_up_text_box {
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+
+.douzone_wehaogo_sign_up_text_box
+  .big_text_wehago_box_contents
+  p:first-child
+  > span {
+  color: blue;
+}
+
+/* .douzone_wehaogo_sign_up_text_box .big_text_wehago_box_contents p:nth-child(2) {
+  color: red;
+} */
+
+.douzone_wehaogo_sign_up_text_box p {
+  padding: 0 0 0 15px;
+}
+
+.douzone_wehaogo_sign_up_text_box .big_text_wehago_box_head h1 {
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 25px 15px 12px 0;
+}
+
+#admin_api_Use_sp_box .admin_infra_contents_table_box tr > td:first-child {
+  background-color: #f0f0f0;
+  width: 30%;
+}
+
+#admin_api_Use_sp_box .admin_infra_contents_table_box tr > td:nth-child(2) {
+  text-align: center;
+}
+
+.approved_result_popup textarea {
+  border: 1px solid #ccc;
+  width: 90%;
+  border-radius: 5px;
+  overflow-y: scroll;
+  resize: none;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+}

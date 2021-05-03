@@ -1,0 +1,926 @@
+
+/* 서비스별 공통 가이드 */
+.ua{overflow:auto;position:absolute;top:0;right:0;left:0;bottom:0}
+.ua .sp_ua{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/ua/sp_ua.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.ua .ua_container{padding:0 20px 90px}
+
+/* 버튼 */
+.ua .LUX_basic_btn.basic3{margin-top:18px;border:1px solid rgba(255,255,255,0.4);background:none;font-size:13px;color:#fff}
+.ua .btn_group{margin-top:40px;text-align:center}
+
+/* 테이블 */
+.ua .LUX_basic_tbl{margin-top:20px}
+.ua_container .LUX_basic_tbl .skill span{display:inline-block;margin:2px 5px;padding:4px 10px;background:#def;font-size:12px;line-height:14px;color:#4a4a4a}
+
+/* 폼 */
+.ua .LUX_basic_text .tool_tip{display:none;position:absolute;top:-55px;left:0;z-index:100;padding:15px 10px;background:rgba(0,0,0,0.8);font-family:'돋움',Dotum;font-size:12px;color:#fff;letter-spacing:0}
+.ua .LUX_basic_text .tool_tip:after{display:block;position:absolute;left:50%;bottom:-10px;margin-left:-5px;border:3px solid transparent;border-bottom:5px solid transparent;border-top:5px solid rgba(0,0,0,0.8);content:''}
+.ua .LUX_basic_text.tooltip .tool_tip{display:block}
+
+/* QR코드인증 사용 설정 */
+.ua .LUX_basic_tbl .LUX_basic_switch{margin:2px 5px 0 0}
+.ua .LUX_basic_tbl .mes_qr{margin:18px 0 0}
+.ua .LUX_basic_tbl .mes_qr strong .sp_lux{display:inline-block;width:14px;height:14px;margin:0 6px;background-position:-50px -250px;vertical-align:top}
+.ua .LUX_basic_tbl .qr{display:inline-block;float:left;width:159px;height:181px;background:#76b9ff;text-align:center}
+.ua .LUX_basic_tbl .qr img{display:inline-block;width:116px}
+.ua .LUX_basic_tbl .qr span:first-child{display:block;margin:3px;padding:15px 0;background-color:#fff}
+.ua .LUX_basic_tbl .qr span:first-child + span{display:inline-block;margin:7px 0 0;font-weight:400;color:#fff}
+.ua .LUX_basic_tbl .qr_info{display:inline-block;float:left;margin:20px 0 0 20px}
+.ua .LUX_basic_tbl .qr_info .info1 p{font-size:18px;font-weight:400;line-height:20px;color:#4a4a4a}
+.ua .LUX_basic_tbl .qr_info .info1 ul{margin:5px 0 30px}
+.ua .LUX_basic_tbl .qr_info .info2 p{margin:0 0 10px;font-size:14px;font-weight:400;line-height:16px;color:#4a4a4a}
+.ua .LUX_basic_tbl .qr_info .info2 .LUX_basic_btn{padding:7px;border:1px solid #d2d2d2;background-color:#fff}
+.ua .LUX_basic_tbl .qr_info .info2 .LUX_basic_btn .sp_ua{display:inline-block;overflow:hidden;width:133px;height:30px;margin-top:2px}
+.ua .LUX_basic_tbl .qr_info .info2 .btn_store1 .sp_ua{background-position:0 -180px}
+.ua .LUX_basic_tbl .qr_info .info2 .btn_store2 .sp_ua{background-position:-135px -180px}
+.ua .LUX_basic_tbl.tbl_ver2 .tblarea2 td{padding:18px 25px}
+.ua .LUX_basic_tbl.tbl_ver2 .tblarea2 td .inbx{padding:0}
+.ua .LUX_basic_tbl.tbl_ver2 .qr_info{margin:12px 0 0 38px;}
+.ua .LUX_basic_tbl.tbl_ver2 .qr_info .info1 ul{margin:20px 0 15px;}
+.ua .LUX_basic_tbl.tbl_ver2 .guide_lst li{line-height:20px}
+
+
+/* 접속허용위치 설정 */
+.ua .tbl_qr:after{display:block;clear:both;content:''}
+.ua .tbl_qr{margin:18px 0 0}
+.ua .tbl_qr .LUX_basic_tbl .LUX_basic_submit{margin:0}
+.ua .tbl_qr .LUX_basic_tbl .result_scrallin .result_lst li{font-weight:200;text-align:left}
+.ua .tbl_qr .fltlft{width:35%}
+.ua .tbl_qr .fltlft .LUX_basic_tbl .tblarea .inbx{padding:1px 12px}
+.ua .tbl_qr .fltlft .LUX_basic_tbl .tblarea .map{display:block;width:100%;height:328px;border:1px solid #ccc}
+.ua .tbl_qr .fltrgt{width:65%}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl{margin-left:10px}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .celcnt{padding:12px 0 11px;font-size:12px}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .tblarea td{padding:15px 0;border-left:0}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .tblarea .inbx{position:relative}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .pass{display:inline-block;width:15px;height:15px;margin:4px 0 0;border-radius:50%}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .yes{background:#8dc2ff}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .no{background:#ffb5a1}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .tableform{overflow:hidden;position:relative;padding:0 94px 0 10px}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .LUX_basic_text{float:left}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .tableform .LUX_basic_text{width:100%}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .tableform .LUX_basic_text + button{float:left;margin:0 4px}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .tableform .loca_result{display:inline-block;overflow:hidden;max-width:95%;font-size:12px;line-height:27px;text-overflow:ellipsis;white-space:nowrap;}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .tableform .btn_group{position:absolute;top:0;right:0;width:92px;margin:0;text-align:right}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .km{overflow:hidden}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .km .LUX_basic_text .inpbx{width:38px;margin-left:16px}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .km .LUX_basic_text + button{float:left;margin:0 4px}
+.ua .tbl_qr .fltrgt .LUX_basic_tbl .tbl_scrall .km .km_result{display:inline-block;width:51px;font-size:12px;line-height:27px;text-align:center}
+
+
+/* 현재접속정보,해외접속차단,접속IP차단목록 */
+.ua .type_access .tbl_scrall .tblarea tr{border-bottom:1px solid #f0f0f0}
+.ua .type_access .tbl_scrall .tblarea .celcnt{position:relative;border:none;font-size:12px;line-height:27px;color:#000}
+.ua .type_access .tbl_scrall .tblarea .celcnt .iplogout{height:23px;border:1px solid #d9d9d9;background:#e5f3ff}
+.ua .type_access .tbl_scrall .tblarea .celcnt .btn_iplogout{position:absolute;top:100%;right:0;left:0;margin:0 auto}
+.ua .type_access .tblarea2 .inbx .LUX_basic_switch{margin:-5px 0 -10px;vertical-align:top}
+.ua .type_access .tblarea2 .inbx .mes_ip{display:inline-block;padding:0 19px;font-size:12px;color:#5a5a5a;vertical-align:top}
+.ua .type_access .tblarea th{padding:14px 0 13px}
+.ua .type_access td .inbx{position:relative}
+.ua .type_access .inbx .hbtn .btn_iplogout{display:none}
+.ua .type_access td:hover .inbx .hbtn{text-decoration:underline}
+.ua .type_access td:hover .inbx .hbtn .btn_iplogout{display:block}
+
+/* 사용자로그 */
+.ua .tbl_tab{position:relative}
+.ua .tbl_tab ul{overflow:hidden;z-index:1;width:100%}
+.ua .tbl_tab li{display:block;float:left;position:relative;border:1px solid #e9e9e9;border-bottom:2px solid #000}
+.ua .tbl_tab li + li{margin-left:-1px}
+.ua .tbl_tab li a{display:block;padding:9px 25px;background:#fff;font-size:14px;color:#8d8d8d;text-decoration:none}
+.ua .tbl_tab li.on{z-index:10;border:1px solid #000;border-bottom:2px solid #f7f7f7}
+.ua .tbl_tab li.on a{display:block;padding:9px 25px;background:#f7f7f7;color:#8d8d8d}
+.ua .tbl_tab .LUX_basic_date_gap{position:absolute;top:0;right:0}
+.ua .tbl_tab .LUX_basic_date_gap .date_gap{margin:0}
+.ua .tbl_tab .LUX_basic_date_gap .date_gap + .date_gap{margin-left:-1px}
+.ua .tbl_tab .LUX_basic_date_gap .date_gap .clearbx{height:27px}
+.ua .tbl_tab .LUX_basic_date_gap .dash{width:10px}
+.ua .LUX_calendar{right:0}
+.ua .type_access.tbltab .tbl_tit{border-bottom:0}
+.ua .type_access.tbltab .tblarea{margin-top:-2px}
+.ua .LUX_basic_page{margin:22px 0}
+
+/* 탭 */
+.ua .bdline_full{border-top:0}
+
+/* 컨텐츠 */
+.ua .cont_service:first-child .cont_tit{margin-top:20px}
+.ua .cont_service .cont_tit{display:block;position:relative;margin-top:20px;padding:0 0 5px}
+.ua .cont_service .cont_tit h3{display:inline-block;padding:0 5px 0 0;font-weight:200;font-size:18px;color:#000}
+.ua .cont_service .cont_list ul{overflow:hidden;margin:0 -5px}
+.ua .cont_service .cont_list li{float:left;width:210px;height:224px;margin:0 5px 10px;color:#010101;text-align:center;text-decoration:none}
+.ua .cont_service .cont_list li .sp_ua{display:block;width:103px;height:103px;margin:27px auto 0}
+.ua .cont_service .cont_list .sp_icon_ua{background-position:0 -75px}
+.ua .cont_service .cont_list .sp_icon_st{background-position:-105px -75px}
+.ua .cont_service .cont_list .sp_icon_mm{background-position:-210px -75px}
+.ua .cont_service .cont_list .sp_icon_in{background-position:-315px -75px}
+.ua .cont_service .cont_list .sp_icon_ap{background-position:-420px -75px}
+.ua .cont_service .cont_list .sp_icon_vdi{background-position:-525px -75px}
+.ua .cont_service .cont_list .sp_icon_ap{background-position:-630px -75px}
+.ua .cont_service .cont_list .sp_icon_power{background-position:-735px -75px}
+.ua .cont_service .cont_list .sp_icon_excel{background-position:-840px -75px}
+.ua .cont_service .cont_list li strong{display:block;margin:15px 0 10px;font-size:20px}
+.ua .cont_service .cont_list li span{display:block;font-size:14px}
+.ua .cont_service .cont_list li{background:#e5ecf9}
+.ua .cont_service .cont_list li > strong + span:before{display:block;width:24px;height:1px;margin:0 auto 10px;background-color:#bbcff8;content:''}
+.ua .cont_service .cont_list .LUX_basic_btn{margin:3px 0 0;border:1px solid #e2e2e2;background:#fff;color:#4a4a4a}
+.ua .cont_service .cont_list .active{background:#779ef1;color:#fff}
+.ua .cont_service .cont_list .active .LUX_basic_btn{border-color:#4267b5;background:#4267b5;color:#fff}
+
+/* 00_개인설정(대시보드) */
+.ua .personal_setting{padding:25px 0 0}
+.ua .personal_setting:after{display:block;clear:both;content:''}
+.ua .personal_setting .profile_area{float:left;width:30%}
+.ua .personal_setting .profile_area .profile{height:291px;background:#12a4f7;text-align:center;vertical-align:middle;word-break:break-all}
+
+.ua .personal_setting .profile_area .profile:after{display:inline-block;height:100%;letter-spacing:-5px;vertical-align:middle;content:''}
+.ua .personal_setting .profile_area .profile .inbx{display:inline-block;width:98%;vertical-align:middle}
+.ua .personal_setting .profile_area .profile img{display:inline-block;width:87px;height:87px;border-radius:87px}
+.ua .personal_setting .profile_area .profile p{margin-top:15px;font-size:20px;color:#fff;letter-spacing:-1px}
+.ua .personal_setting .profile_area .profile span{display:block;margin:8px 25px 0;font-size:14px;color:#fff;letter-spacing:-1px}
+.ua .personal_setting .profile_area .profile button span{margin-top:0}
+.ua .personal_setting .profile_area .profile_info{height:250px;padding:0 25px;border:1px solid #e0e0e0;border-top:0}
+.ua .personal_setting .profile_area .profile_info li{display:inline-block;width:100%;height:36px;padding-top:25px;font-size:16px;line-height:18px;color:#000;letter-spacing:-1px;vertical-align:middle;word-break:break-all}
+.ua .personal_setting .profile_area .profile_info li:after{display:inline-block;height:100%;margin:0 -4px;letter-spacing:-5px;vertical-align:middle;content:''}
+.ua .personal_setting .profile_area .profile_info li:first-child{padding-top:45px}
+.ua .personal_setting .profile_area .profile_info li .sp_ua{position:absolute;top:50%;left:0;width:36px;height:36px;margin-top:-18px}
+.ua .personal_setting .profile_area .profile_info .inbx{display:inline-block;position:relative;padding-left:42px;vertical-align:middle}
+.ua .personal_setting .profile_area .profile_info .sp_id{background-position:0 -35px}
+.ua .personal_setting .profile_area .profile_info .sp_tell{background-position:-46px -35px}
+.ua .personal_setting .profile_area .profile_info .sp_mail{background-position:-92px -35px}
+
+.ua .personal_setting .dashboard_area{float:right;width:70%;padding-left:30px;box-sizing:border-box}
+.ua .personal_setting .dashboard_area .tbl_tit .sp_company{width:22px;height:22px;margin:-2px 8px 0 0;background-position:-250px -25px}
+.ua .personal_setting .dashboard_area .LUX_basic_tbl thead th{font-size:16px;color:#313131}
+.ua .personal_setting .dashboard_area .LUX_basic_tbl thead th span{margin-left:5px;font-size:17px;color:#0772e0}
+.ua .personal_setting .dashboard_area .LUX_basic_tbl td{border:0;font-size:13px;font-weight:400;color:#000}
+.ua .personal_setting .dashboard_area .LUX_basic_tbl td.celrgt{font-size:13px;font-weight:200;color:#4a4a4a}
+.ua .personal_setting .dashboard_area .LUX_basic_tbl td:first-child + td{border-right:1px solid #f5f5f5}
+.ua .personal_setting .dashboard_area .LUX_basic_tbl .tblarea .inbx{padding:0 15px}
+.ua .personal_setting .dashboard_area .LUX_basic_tbl .tblarea .LUX_basic_switch{width:auto;height:auto;margin:auto}
+.ua .personal_setting .dashboard_info{margin-bottom:33px}
+.ua .personal_setting .dashboard_info:after{display:block;clear:both;content:''}
+.ua .personal_setting .dashboard_info li{float:left;width:35%;font-size:18px;color:#3b3b3b;letter-spacing:-1px}
+.ua .personal_setting .dashboard_info li:first-child{width:30%}
+.ua .personal_setting .dashboard_info li:first-child .inbx{margin-left:0}
+.ua .personal_setting .dashboard_info .inbx{margin-left:8px;padding-top:63px;border-top:1px solid;text-align:center}
+.ua .personal_setting .dashboard_info .inbx p{position:relative;margin-top:14px;padding:14px 0 51px;font-size:20px;color:#4a4a4a;letter-spacing:-1px}
+.ua .personal_setting .dashboard_info .inbx p:after{display:block;position:absolute;top:0;left:50%;width:40px;height:1px;margin-left:-20px;content:''}
+.ua .personal_setting .dashboard_info .inbx p em{margin-right:5px;font-size:36px}
+.ua .personal_setting .dashboard_info .inbx .btn_con{padding:17px 0;background:#27c4ce;text-align:center}
+.ua .personal_setting .dashboard_info .inbx .btn_con button{margin:0}
+.ua .personal_setting .dashboard_info .inbx .sp_ua{width:25px;height:25px;margin:-2px 10px 0 0}
+.ua .personal_setting .dashboard_info .info_service .inbx{border-color:#27c4ce;background:#f4fafa}
+.ua .personal_setting .dashboard_info .info_service .inbx .sp_ua{background-position:0 0}
+.ua .personal_setting .dashboard_info .info_service .inbx p em{color:#27c4ce}
+.ua .personal_setting .dashboard_info .info_service .inbx p:after,.ua .dashboard_info .info_service .inbx .btn_con{background:#27c4ce}
+.ua .personal_setting .dashboard_info .info_point .inbx{border-color:#50abff;background:#f5fafe}
+.ua .personal_setting .dashboard_info .info_point .inbx .sp_ua{background-position:-36px 0}
+.ua .personal_setting .dashboard_info .info_point .inbx p em{color:#50abff}
+.ua .personal_setting .dashboard_info .info_point .inbx p:after,.ua .dashboard_info .info_point .inbx .btn_con{background:#50abff}
+.ua .personal_setting .dashboard_info .info_month .inbx{border-color:#7070e7;background:#f8f8ff}
+.ua .personal_setting .dashboard_info .info_month .inbx .sp_ua{background-position:-71px 0}
+.ua .personal_setting .dashboard_info .info_month .inbx p em{color:#7070e7}
+.ua .personal_setting .dashboard_info .info_month .inbx p:after,.ua .dashboard_info .info_month .inbx .btn_con{background:#7070e7}
+
+@media(min-width:320px) and (max-width:1150px){
+.ua .personal_setting .profile_area{width:100%;padding-right:0}
+.ua .personal_setting .profile_area .profile{float:left;width:40%;height:250px}
+.ua .personal_setting .profile_area .profile_info{overflow:hidden;height:248px;margin:0;padding:0 30px;border:1px solid #e0e0e0;border-left:0}
+.ua .personal_setting .profile_area .fltrgt{width:100%;margin-top:30px}
+.ua .personal_setting .dashboard_area{width:100%;padding-left:0}
+.ua .personal_setting .dashboard_info{margin:33px 0}
+.ua .personal_setting .dashboard_info .inbx{padding:20px 0 0}
+.ua .personal_setting .dashboard_info .inbx p{padding:0 0 20px}
+}
+
+/* 00_개인설정(대시보드)_2 */
+.ua .personal_setting2{padding:25px 0 0}
+.ua .personal_setting2:after{display:block;clear:both;content:''}
+
+.ua .personal_setting2 .profile_area{float:left;width:50%}
+.ua .personal_setting2 .profile_area .profile_area_left,
+.ua .personal_setting2 .profile_area .profile_area_right{float:left;width:50%;height:280px;border-top:2px solid #646464;border-bottom:1px solid #646464}
+.ua .personal_setting2 .profile_area .profile_area_left .profile{background:#f1f5f9;min-height:260px;padding:20px 20px 0 20px;border-right:1px solid #e9e9e9;text-align:left;vertical-align:top;word-break:break-all}
+
+.ua .personal_setting2 .profile_area .profile .inbx{display:inline-block;margin:0;width:98%;padding-bottom:20px;border-bottom:1px solid #e9e9e9;vertical-align:middle}
+.ua .personal_setting2 .profile_area .profile img{display:inline-block;width:65px;height:65px;border-radius:87px}
+.ua .personal_setting2 .profile_area .profile p{display:inline-block;margin:27px 0 0 10px;font-size:16px;letter-spacing:-1px}
+.ua .personal_setting2 .profile_area .profile button{width:79px;height:20px;margin:26px 0 0 4px;padding:0}
+.ua .personal_setting2 .profile_area .profile button span{margin-top:0;color:#4a4a4a;font-size:11px}
+.ua .personal_setting2 .profile_area .profile li{position:relative;padding:12px 5px 12px 30px;}
+.ua .personal_setting2 .profile_area .profile li:before{position:absolute;top:50%;left:0;margin-top:-13px;overflow:hidden;width:22px;height:22px;background:url(https://static.wehago.com/imgs/ua/sp_ua.png) 0 0 no-repeat;line-height:100em;vertical-align:middle;content:''}
+.ua .personal_setting2 .profile_area .profile li:nth-child(1):before{background-position:-78px -217px}
+.ua .personal_setting2 .profile_area .profile li:nth-child(2):before{background-position:-111px -217px}
+.ua .personal_setting2 .profile_area .profile li:nth-child(3):before{background-position:-142px -217px;margin-top:-12px}
+.ua .personal_setting2 .profile_area .profile li:nth-child(4):before{background-position:-174px -217px;margin-top:-10px}
+.ua .personal_setting2 .profile_area .profile li span{display:block;font-size:12px;font-weight:normal}
+.ua .personal_setting2 .profile_area .profile .LS_profile_image{width:65px;height:65px}
+
+.ua .personal_setting2 .profile_area .service{height:280px;border-right:1px solid #e9e9e9;text-align:center;vertical-align:middle;word-break:break-all}
+.ua .personal_setting2 .profile_area .service:before{display:inline-block;overflow:hidden;width:52px;height:36px;margin-top:54px;background:url(https://static.wehago.com/imgs/ua/sp_ua.png) 0 -217px no-repeat;line-height:100em;vertical-align:top;content:''}
+.ua .personal_setting2 .profile_area .service h2{margin-top:15px;font-size:20px}
+.ua .personal_setting2 .profile_area .service p{display:block;width:40px;margin:15px auto;padding-top:15px;color:#3ad2c9;border-top:1px solid #3ad2c9;font-size:36px;font-weight:bold;letter-spacing:-2px}
+.ua .personal_setting2 .profile_area .service button{color:#000}
+
+.ua .personal_setting2 .btn_area{float:left;width:50%;height:280px;border-top:2px solid #646464;border-bottom:1px solid #646464}
+.ua .personal_setting2 .btn_area .btn_area_left,
+.ua .personal_setting2 .btn_area .btn_area_right{float:left;width:50%;box-sizing:border-box}
+.ua .personal_setting2 .btn_area .btn_area_left{border-right:1px solid #e9e9e9}
+.ua .personal_setting2 .btn_area .btn_even,
+.ua .personal_setting2 .btn_area .btn_odd{display:block;position:relative;height:99px;margin:20px;text-decoration:none}
+.ua .personal_setting2 .btn_area .btn_even{height:120px;border-bottom:1px solid #e9e9e9}
+.ua .personal_setting2 .btn_area .btn_bg{position:absolute;bottom:0;right:0;height:35px;overflow:hidden;background:url(https://static.wehago.com/imgs/ua/sp_ua.png) 0 0 no-repeat}
+.ua .personal_setting2 .btn_area .btn_area_left .btn_even .btn_bg{bottom:20px;width:47px;background-position:0 -264px}
+.ua .personal_setting2 .btn_area .btn_area_left .btn_odd .btn_bg{width:46px;background-position:-114px -264px}
+.ua .personal_setting2 .btn_area .btn_area_right .btn_even .btn_bg{bottom:20px;width:47px;background-position:-56px -264px}
+.ua .personal_setting2 .btn_area .btn_area_right .btn_odd .btn_bg{width:48px;background-position:-170px -264px}
+.ua .personal_setting2 .btn_area span{position:relative;font-size:18px;font-weight:bold;letter-spacing:-1px}
+.ua .personal_setting2 .btn_area span .arrow{position:absolute;top:0;right:-13px;overflow:hidden;width:7px;height:17px;background:url(https://static.wehago.com/imgs/ua/sp_ua.png) -61px -217px no-repeat;font-size:18px;content:''}
+.ua .personal_setting2 .btn_area span .insmall{font-size:14px;font-weight:normal;letter-spacing:-1px}
+.ua .personal_setting2 .btn_area p{margin-top:13px;color:#4a4a4a;font-size:13px;font-weight:normal}
+
+.ua .personal_setting2 .dashboard_area{float:left;width:100%;margin-top:3px;padding-left:0;box-sizing:border-box;}
+.ua .personal_setting2 .dashboard_area .tbl_tit .sp_company{width:22px;height:22px;margin:-2px 8px 0 0;background-position:-250px -25px}
+.ua .personal_setting2 .dashboard_area .LUX_basic_tbl thead th{font-size:16px;color:#313131}
+.ua .personal_setting2 .dashboard_area .LUX_basic_tbl thead th span{margin-left:5px;font-size:17px;color:#0772e0}
+.ua .personal_setting2 .dashboard_area .LUX_basic_tbl td{border:0;font-size:13px;font-weight:400;color:#000}
+.ua .personal_setting2 .dashboard_area .LUX_basic_tbl td.celrgt{font-size:13px;font-weight:200;color:#4a4a4a}
+.ua .personal_setting2 .dashboard_area .LUX_basic_tbl td:first-child + td{border-right:1px solid #f5f5f5}
+.ua .personal_setting2 .dashboard_area .LUX_basic_tbl .tblarea .inbx{padding:0 15px}
+.ua .personal_setting2 .dashboard_area .LUX_basic_tbl .tblarea .LUX_basic_switch{width:auto;height:auto;margin:auto}
+.ua .personal_setting2 .dashboard_info{margin-bottom:33px}
+.ua .personal_setting2 .dashboard_info:after{display:block;clear:both;content:''}
+.ua .personal_setting2 .dashboard_info li{float:left;width:35%;font-size:18px;color:#3b3b3b;letter-spacing:-1px}
+.ua .personal_setting2 .dashboard_info li:first-child{width:30%}
+.ua .personal_setting2 .dashboard_info li:first-child .inbx{margin-left:0}
+.ua .personal_setting2 .dashboard_info .inbx{margin-left:8px;padding-top:63px;border-top:1px solid;text-align:center}
+.ua .personal_setting2 .dashboard_info .inbx p{position:relative;margin-top:14px;padding:14px 0 51px;font-size:20px;color:#4a4a4a;letter-spacing:-1px}
+.ua .personal_setting2 .dashboard_info .inbx p:after{display:block;position:absolute;top:0;left:50%;width:40px;height:1px;margin-left:-20px;content:''}
+.ua .personal_setting2 .dashboard_info .inbx p em{margin-right:5px;font-size:36px}
+.ua .personal_setting2 .dashboard_info .inbx .btn_con{padding:17px 0;background:#27c4ce;text-align:center}
+.ua .personal_setting2 .dashboard_info .inbx .btn_con button{margin:0}
+.ua .personal_setting2 .dashboard_info .inbx .sp_ua{width:25px;height:25px;margin:-2px 10px 0 0}
+.ua .personal_setting2 .dashboard_info .info_service .inbx{border-color:#27c4ce;background:#f4fafa}
+.ua .personal_setting2 .dashboard_info .info_service .inbx .sp_ua{background-position:0 0}
+.ua .personal_setting2 .dashboard_info .info_service .inbx p em{color:#27c4ce}
+.ua .personal_setting2 .dashboard_info .info_service .inbx p:after,.ua .dashboard_info .info_service .inbx .btn_con{background:#27c4ce}
+.ua .personal_setting2 .dashboard_info .info_point .inbx{border-color:#50abff;background:#f5fafe}
+.ua .personal_setting2 .dashboard_info .info_point .inbx .sp_ua{background-position:-36px 0}
+.ua .personal_setting2 .dashboard_info .info_point .inbx p em{color:#50abff}
+.ua .personal_setting2 .dashboard_info .info_point .inbx p:after,.ua .dashboard_info .info_point .inbx .btn_con{background:#50abff}
+.ua .personal_setting2 .dashboard_info .info_month .inbx{border-color:#7070e7;background:#f8f8ff}
+.ua .personal_setting2 .dashboard_info .info_month .inbx .sp_ua{background-position:-71px 0}
+.ua .personal_setting2 .dashboard_info .info_month .inbx p em{color:#7070e7}
+.ua .personal_setting2 .dashboard_info .info_month .inbx p:after,.ua .dashboard_info .info_month .inbx .btn_con{background:#7070e7}
+
+.ua .personal_setting2 .dashboard_area .LUX_basic_tbl .tbl_tit h2{font-size:18px}
+
+@media(min-width:320px) and (max-width:1100px){
+.ua .personal_setting2 .profile_area{width:100%}
+.ua .personal_setting2 .profile_area .profile_area_right .service{border-right:0}
+.ua .personal_setting2 .btn_area{width:100%;border-top:1px solid #646464}
+}
+
+/* 01_회원정보관리_1 */
+.ua .passwrodbx{text-align:center}
+.ua .passwrodbx .LUX_basic_btn{margin:40px auto;padding:0 60px;font-weight:400}
+.ua .passwrodbx .guide_lst{margin-top:25px}
+.ua .passwrodbx .guide_lst li{font-size:12px;line-height:18px}
+.ua .passwrodbx .guide_lst li:after{display:none}
+.ua .passwrodbx .guide_lst li:before{display:inline-block;width:2px;height:2px;margin:7px 5px 0 0;background:#8d8d8d;vertical-align:top;content:''}
+.ua .dl_style1{margin:53px 30px 0;border-top:2px solid #646464;border-bottom:1px solid #e1e1e1;text-align:center}
+.ua .dl_style1 dl{width:441px;margin:0 auto;padding:30px 0}
+.ua .dl_style1 dt,.ua .dl_style1 dd{display:inline-block;padding:8px 15px;font-size:15px;color:#000;letter-spacing:-1px;vertical-align:top;box-sizing:border-box}
+.ua .dl_style1 dt{width:39%;padding-top:14px;font-weight:400;text-align:right}
+.ua .dl_style1 dd{width:60%;line-height:27px;text-align:left}
+.ua .dl_style1 dd .info{line-height:1}
+
+
+/* 02_보안설정 */
+/* QR코드 인증설정 - 색상 리스트 */
+.circle_bg1{background:#7f94b4}
+.circle_bg2{background:#6fd8be}
+.circle_bg3{background:#a57b73}
+.circle_bg4{background:#ffae00}
+.circle_bg5{background:#f06a28}
+.circle_bg6{background:#8ede53}
+.circle_bg7{background:#a9a9a9}
+.circle_bg8{background:#e591b8}
+.circle_bg9{background:#9b62e8}
+.circle_bg10{background:#6dafed}
+
+
+/* 03_회원정보관리_2 */
+.ua .ua_container.ua_container_v2{position:absolute;top:48px;bottom:0;left:0;right:0;}
+.ua .ua_content{position:absolute;top:91px;left:20px;right:20px;bottom:102px;overflow:hidden;max-height:547px;border-bottom:1px solid #e1e1e1}
+
+.ua .ua_content .ua_alert_list{float:left;overflow-x:hidden;overflow-y:auto;width:320px;height:100%;border:1px solid #eaeaea}
+.ua .ua_content .ua_alert_list ul{float:left;overflow-y:auto}
+.ua .ua_content .ua_alert_list ul li{position:relative;height:62px;border-bottom:1px solid #e1e1e1}
+.ua .ua_content .ua_alert_list ul li.active{background-color:#e9f5ff}
+.ua .ua_content .ua_alert_list ul li span.alert_list_btn{position:absolute;top:20px;right:16px;z-index:10}
+.ua .ua_content .ua_alert_list ul li a.choice_alert_list{float:left;display:inline-block;width:288px;padding:14px 16px}
+.ua .ua_content .ua_alert_list ul li a.choice_alert_list .icon_box{float:left}
+.ua .ua_content .ua_alert_list ul li a.choice_alert_list .text_box{float:left;overflow:hidden;width:184px;margin:9px 0 0 8px;font-size:15px;font-weight:bold;white-space:nowrap;text-overflow:ellipsis}
+
+.ua .ua_content .ua_alert_detail{overflow-x:hidden;overflow-y:auto;height:100%;margin-left:322px;padding:0 25px 0 38px;border:1px solid #eaeaea;border-left:0}
+.ua .ua_content .ua_alert_detail .detail_title{padding-left:5px;border-bottom:1px solid #b1b1b1}
+.ua .ua_content .ua_alert_detail .detail_title h3{padding:24px 0 20px 0;font-size:16px;font-weight:bold}
+.ua .ua_content .ua_alert_detail .detail_title h3 .asterick{width:7px;height:7px;margin:5px 0;background-position:-25px -150px}
+.ua .ua_content .ua_alert_detail ul li{position:relative;padding:21px 90px 20px 5px;border-bottom:1px solid #e2e2e2}
+.ua .ua_content .ua_alert_detail ul li:last-child{margin-bottom:25px}
+.ua .ua_content .ua_alert_detail ul li h4,
+.ua .ua_content .ua_alert_detail ul li .smallfont{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.ua .ua_content .ua_alert_detail ul li h4{font-size:14px;font-weight:bold;line-height:20px}
+.ua .ua_content .ua_alert_detail ul li .smallfont{color:#888;font-size:12px;font-weight:normal}
+.ua .ua_content .ua_alert_detail ul li .alert_detail_btn{position:absolute;top:26px;right:16px;z-index:10}
+.ua .LUX_basic_tbl .LS_profile_image{float:left;width:65px;height:65px;margin:7px 20px 7px 0}
+
+.absol_btn{z-index:10;position:absolute;display:block;right:0;left:0;bottom:0;width:100%;padding:25px 0;text-align:center}
+
+
+/* 04_요금및결제관리 */
+.ua .top_con{margin-top:52px;padding:25px 0;background:#eaf4fe;font-size:14px;text-align:center}
+.ua .top_con .LUX_basic_date .datebx{width:170px;margin:0 auto 13px}
+.ua .top_con .LUX_basic_date .datebx .inpbx{padding-right:0;border:0;background:none;font-size:22px;color:#535353}
+.ua .top_con .LUX_basic_date .datebx .inpbx .sp_lux{vertical-align:middle}
+.ua .top_con .LUX_basic_date .LUX_calendar{top:30px;left:50%;width:233px;margin-left:-118px}
+.ua .top_con .LUX_basic_date .LUX_calendar .date_m{padding:17px 13px;border-top:1px solid #dcdcdc}
+.ua .top_con .LUX_basic_date .LUX_calendar .date_m button{width:31px;margin-bottom:4px;padding:5px 0;border:1px solid #dcdcdc;background:none;font-size:12px;text-align:center;cursor:pointer}
+
+.ua .payment_info .title_style{position:relative;padding-bottom:10px;border-bottom:2px solid #646464}
+.ua .payment_info .title_style h2,.ua .payment_info .tbl_tit h2{font-size:18px;letter-spacing:-1px}
+.ua .payment_info .title_style h2 span,.ua .payment_info .tbl_tit h2 span{margin-left:5px;font-size:13px;color:#8d8d8d;letter-spacing:-1px}
+.ua .payment_info .title_style .btnbx{position:absolute;top:-3px;right:0}
+.ua .payment_info_lst{float:left;width:49%;margin:45px 0 40px;border-bottom:1px solid #e1e1e1}
+.ua .payment_info_lst:first-child{margin-right:2%}
+.ua .payment_info_lst li{padding:20px 15px;border-top:1px solid #f0f0f0;font-size:15px;font-weight:400}
+.ua .payment_info_lst li:after{display:block;clear:both;content:''}
+.ua .payment_info_lst li:first-child{border-top:0}
+.ua .payment_info_lst li span{font-size:15px}
+.ua .payment_info_lst li em{float:right;font-size:15px;font-weight:200}
+.ua .payment_info_lst li ul{margin-top:20px}
+.ua .payment_info_lst li li{padding:10px 0;border:0}
+.ua .payment_info_lst li li span{padding:0 15px;font-family:'돋움',Dotum;font-size:12px;color:#000;letter-spacing:-.5px}
+.ua .payment_info_lst li li em{float:right;font-size:13px;font-weight:200}
+.ua .payment_info_lst .bankinfo{height:266px}
+.ua .payment_info_lst .result_con{border-top:1px solid #b4b4b4;background:#f9fafa}
+.ua .payment_info_lst .result_con em{position:relative;color:#1c90fb}
+.ua .payment_info_lst .result_con em button{margin:-5px 10px -3px 0}
+.ua .payment_info .payment_chart{clear:both}
+.ua .payment_info .payment_chart .chart_con{height:230px;margin-top:30px;background:#f0f0f0}
+.ua .payment_info .LUX_basic_tbl{margin-top:35px}
+.ua .payment_info .LUX_basic_tbl th,.ua .payment_info .LUX_basic_tbl td{line-height:27px}
+
+/* 다음지도 */
+.ua .map_wrap, .map_wrap * {margin:0;padding:0;font-family:'Malgun Gothic',dotum,'돋움',sans-serif;font-size:12px;}
+.ua .map_wrap a, .map_wrap a:hover, .map_wrap a:active{color:#000;text-decoration: none;}
+.ua .map_wrap {position:relative;width:100%;height:500px;}
+#menu_wrap {position:absolute;top:0;left:0;bottom:0;width:250px;margin:10px 0 30px 10px;padding:5px;overflow-y:auto;background:rgba(255, 255, 255, 0.7);z-index: 1;font-size:12px;border-radius: 10px;}
+.ua .bg_white {background:#fff;}
+#menu_wrap hr {display: block; height: 1px;border: 0; border-top: 2px solid #5F5F5F;margin:3px 0;}
+#menu_wrap .option{text-align: center;}
+#menu_wrap .option p {margin:10px 0;}
+#menu_wrap .option button {margin-left:5px;}
+#placesList li {list-style: none;}
+#placesList .item {position:relative;border-bottom:1px solid #888;overflow: hidden;cursor: pointer;min-height: 65px;}
+#placesList .item span {display: block;margin-top:4px;}
+#placesList .item h5, #placesList .item .info {text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+#placesList .item .info{padding:10px 0 10px 55px;}
+#placesList .info .gray {color:#8a8a8a;}
+#placesList .info .jibun {padding-left:26px;background:url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png) no-repeat;}
+#placesList .info .tel {color:#090;}
+#placesList .item .markerbg {float:left;position:absolute;width:36px; height:37px;margin:10px 0 0 10px;background:url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_number_blue.png) no-repeat;}
+#placesList .item .marker_1 {background-position: 0 -10px;}
+#placesList .item .marker_2 {background-position: 0 -56px;}
+#placesList .item .marker_3 {background-position: 0 -102px}
+#placesList .item .marker_4 {background-position: 0 -148px;}
+#placesList .item .marker_5 {background-position: 0 -194px;}
+#placesList .item .marker_6 {background-position: 0 -240px;}
+#placesList .item .marker_7 {background-position: 0 -286px;}
+#placesList .item .marker_8 {background-position: 0 -332px;}
+#placesList .item .marker_9 {background-position: 0 -378px;}
+#placesList .item .marker_10 {background-position: 0 -423px;}
+#placesList .item .marker_11 {background-position: 0 -470px;}
+#placesList .item .marker_12 {background-position: 0 -516px;}
+#placesList .item .marker_13 {background-position: 0 -562px;}
+#placesList .item .marker_14 {background-position: 0 -608px;}
+#placesList .item .marker_15 {background-position: 0 -654px;}
+#pagination {margin:10px auto;text-align: center;}
+#pagination a {display:inline-block;margin-right:10px;}
+#pagination .on {font-weight: bold; cursor: default;color:#777;}
+
+
+/* 로그 팝오버 */
+.ua .LUX_basic_popover_v2 .resultbx{top:-240px;left:50%;margin-left:-156px}
+.ua .LUX_basic_popover2.usage_popover{width:255px;padding:15px 15px 14px;border-color:#646464;text-align:left}
+.ua .LUX_basic_popover2.usage_popover .popover_title{font-size:12px;font-weight:bold;line-height: 15px;}
+.ua .LUX_basic_popover2.usage_popover .btn_close{top:12px}
+.ua .LUX_basic_popover2.usage_popover.usage_popover_v2{width:280px}
+.ua .info_usage ul{margin:0 -15px;padding:13px 15px 0;border-top:1px solid #eaeaea}
+.ua .info_usage li{font-size:12px}
+.ua .info_usage li:first-child{margin-top:0}
+.ua .info_usage li:after{display:block;clear:both;content:''}
+.ua .info_usage .title{float:left;font-weight:normal}
+.ua .info_usage .content{float:right}
+.ua .info_usage .long_keyword .content{overflow:hidden;max-width:70%;text-overflow:ellipsis;white-space:nowrap}
+
+/* 서비스 별 알림설정 */
+.ua .alarm_list{margin-top:20px}
+.ua .alarm_list:after{display:block;clear:both;content:''}
+.ua .alarm_list li{float:left;position:relative;width:50%;padding:10px 20px;border-width:0 1px 1px 1px;border-style:solid;border-color:#e1e1e1;box-sizing:border-box}
+.ua .alarm_list li:after{display:block;clear:both;content:''}
+.ua .alarm_list li:nth-child(2n){border-width:0 1px 1px 0}
+.ua .alarm_list li:nth-child(2n+1){clear:both}
+.ua .alarm_list li:first-child,
+.ua .alarm_list li:nth-child(2){border-top:1px solid #e1e1e1}
+.ua .alarm_list .LS_icons{position:absolute;top:50%;left:20px;width:40px;height:40px;margin-top:-20px;background-color:#ecf3ff}
+.ua .alarm_list .LS_icons svg{width:26px;height:26px;margin:-13px 0 0 -13px;fill:#5675ba}
+.ua .alarm_list .svc_name{overflow:hidden;display:block;max-width:100%;padding:0 60px 0 52px;font-size:15px;font-weight:bold;line-height:48px;text-overflow:ellipsis;white-space:nowrap;}
+.ua .alarm_list .LUX_basic_switch{position:absolute;top:50%;right:20px;margin-top:-11px}
+
+
+/* nodata set */
+.ua .nodata_area{text-align:center}
+.ua .nodata_area.qr_empty{padding:171px 0 120px}
+.ua .nodata_area.svc_empty{padding:100px 0 30px}
+
+/* EDGE 개인설정 대시보드 */
+.ua .personal_setting2 .btn_area.btn_area_v2 .btn_area_left .btn_odd .btn_bg {
+    width: 47px;
+    background-position: 0 -264px;
+}
+.ua .personal_setting2 .btn_area.btn_area_v2 .btn_area_right .btn_even .btn_bg {
+    /* width: 46px; 오타났던 부분으로 주석처리 */
+    background-position: -114px -264px;
+}
+.ua .personal_setting2 .btn_area.btn_area_v2 .btn_area_left .btn_even .btn_bg {
+    width: 48px;
+    background-position: -226px -264px;
+}
+
+/* 회원탈퇴 */
+.ua .withdrawal .title {
+    margin: 19px 0 5px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.ua .withdrawal .info_text {
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #535353;
+}
+.ua .withdrawal .info_text + .info_text { margin-top: -4px; }
+.ua .withdrawal .info_text.v2{ color: #ed1f25; }
+.ua .withdrawal .company_info {
+    border-top: 1px solid #646464;
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+    padding: 0 14px 14px;
+}
+.ua .withdrawal .company_info .title {
+    margin: 17px 0 6px;
+    font-size: 14px;
+}
+.ua .withdrawal .company_info_list > li {
+    position: relative;
+    padding: 10px 120px 9px 14px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.ua .withdrawal .company_info_list > li + li { margin-top: 4px; }
+.ua .withdrawal .company_info_list dl:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.ua .withdrawal .company_info_list dt {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 110px;
+    padding-left: 21px;
+    margin-right: 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.ua .withdrawal .company_info_list dt:before {
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: url(https://static.wehago.com/imgs/ua/sp_ua.png) -290px -216px no-repeat;
+    content: '';
+}
+.ua .withdrawal .company_info_list dd {
+    overflow: hidden;
+    font-size: 14px;
+}
+.ua .withdrawal .company_info_list .go_service {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -9px;
+    padding-right: 8px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.ua .withdrawal .company_info_list .go_service:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 4px;
+    height: 7px;
+    margin-top: -4px;
+    background: url(https://static.wehago.com/imgs/common/sp_lux.png) -432px -100px no-repeat;
+    content: '';
+}
+.ua .withdrawal .company_info_list .impossibility { border-color: #ff9ea1; }
+.ua .withdrawal .company_info_list .impossibility dt:before { background-position: -265px -216px; }
+.ua .withdrawal .company_info_list .impossibility dd { color: #ff4248 }
+.ua .withdrawal .company_info_list .group_list { margin: 3px 0 -5px; }
+.ua .withdrawal .company_info_list .group_list:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.ua .withdrawal .company_info_list .group_list li {
+    float: left;
+    margin: 0 5px 5px 0;
+    padding: 0 7px;
+    background-color: #efefef;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    font-family: '굴림',gulim,Helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+.ua .withdrawal .company_info .data_list {
+    padding: 10px 14px;
+    background-color: #fff;
+}
+.ua .withdrawal .company_info .data_list li {
+    font-size: 12px;
+    line-height: 15px;
+}
+.ua .withdrawal .company_info .data_list li+li { margin-top: 3px; }
+.ua .withdrawal .company_info .record_list_tbl {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d5d5d5;
+    border-collapse: separate;
+    table-layout: fixed;
+    border-spacing: 0;
+}
+.ua .withdrawal .company_info .record_list_tbl th,
+.ua .withdrawal .company_info .record_list_tbl td {
+    font-weight: normal;
+    padding: 8px 14px 9px 14px;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 13px;
+}
+.ua .withdrawal .company_info .record_list_tbl tr:last-child th,
+.ua .withdrawal .company_info .record_list_tbl tr:last-child td { border-bottom: 0; }
+.ua .withdrawal .company_info .record_list_tbl th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+.ua .withdrawal .company_info .record_list_tbl td { background-color: #fff; }
+.ua .withdrawal .company_info .reason_list { padding: 17px 0 6px; }
+.ua .withdrawal .company_info .reason_list li {
+    float: left;
+    margin-right: 40px;
+}
+.ua .withdrawal .company_info .reason_list .direct {
+    margin-top: 10px;
+    clear: both;
+}
+.ua .withdrawal .agree_box {
+    padding: 0 18px;
+}
+.ua .withdrawal .agree_box .text {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #ff4248;
+}
+.ua .withdrawal .agree_box .LUX_basic_switch .sp_lux {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: url(https://static.wehago.com/imgs/ua/sp_ua.png) -205px -216px no-repeat;
+}
+.ua .withdrawal .agree_box .LUX_basic_switch label {
+    padding-left: 25px;
+    font-size: 16px;
+    font-family: 'Nanum Square','돋움',Dotum,Helvetica,'Apple SD Gothic Neo',sans-serif !important;
+}
+.ua .withdrawal .agree_box .LUX_basic_switch input[type=checkbox]:checked+.sp_lux { background-position: -235px -216px; }
+.ua .withdrawal .agree_box .btn_area {
+    padding: 30px 0 40px;
+    text-align: center;
+}
+.ua .withdrawal .guide_box {
+    height: 118px;
+}
+.ua .withdrawal .guide_box .btn {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 22px 0 0 50px;
+    background-color: #edf3f9;
+    box-sizing: border-box;
+}
+.ua .withdrawal .guide_box .btn:before {
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    margin-right: 20px;
+    background: url(https://static.wehago.com/imgs/ua/sp_ua.png) -533px -216px no-repeat;
+    vertical-align: middle;
+    content: '';
+}
+.ua .withdrawal .guide_box .btn.btn_online:before { background-position: -617px -216px; }
+.ua .withdrawal .guide_box .btn.btn_online:after {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    width: 1px;
+    height: 64px;
+    background-color: #c5d1de;
+    content: '';
+}
+.ua .withdrawal .guide_box .btn strong {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 18px;
+    color: #4a70bc;
+}
+.ua .withdrawal .guide_box .btn p {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle;
+}
+.ua .more_info {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.ua .more_info a {
+    font-weight: bold;
+    text-decoration: none;
+}
+.ua .more_info a:hover { text-decoration: underline; }
+
+/* 회원탈퇴 비밀번호 확인 영역 추가 */
+.ua .withdrawal .pw_box { margin-top: -16px; }
+.ua .withdrawal .pw_box .pw_input_area {
+    padding: 20px 0 18px;
+    background-color: #f7f7f7;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+}
+.ua .withdrawal .pw_box .pw_input_area dl {
+    position: relative;
+    display: inline-block;
+    padding-left: 70px;
+    vertical-align: top;
+}
+.ua .withdrawal .pw_box .pw_input_area dl:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 53px;
+    height: 43px;
+    margin-top: -21px;
+    background: url(https://static.wehago.com/imgs/ua/sp_ua.png) -701px -216px no-repeat;
+    content: '';
+}
+.ua .withdrawal .pw_box .pw_input_area dt {
+    float: left;
+    margin-right: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+}
+.ua .withdrawal .pw_box .pw_input_area .info_text {
+    float: left;
+    margin-bottom: 3px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8d8d8d;
+}
+.ua .withdrawal .pw_box .pw_input_area .input {
+    clear: both;
+    width: 100%;
+}
+.ua .withdrawal .pw_box .text {
+    margin-top: 19px;
+    font-size: 14px;
+    color: #ff4248;
+    text-align: center;
+}
+.ua .withdrawal .pw_box .btn_area {
+    padding: 28px 0 40px;
+    text-align: center;
+}
+.ua .withdrawal .btn_refresh {
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+    vertical-align: middle;
+}
+.ua .withdrawal .btn_refresh .ico_refresh {
+    overflow: hidden;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(https://static.wehago.com/imgs/ua/sp_ua.png) -315px -216px no-repeat;
+    vertical-align: middle;
+    color: transparent;
+}
+
+/* 개인현황 */
+.ua .person_status { clear: both; }
+.ua .person_status .title_box {
+    padding: 29px 0 13px;
+    position: relative;
+}
+.ua .person_status .title_box .title {
+    font-size: 18px;
+    color: #3b3b3b;
+}
+.ua .person_status .title_box .btn {
+    position: absolute;
+    bottom: 9px;
+    right: 0;
+}
+.ua .person_status .content_box {
+    padding: 20px 27px;
+    background-color: #f5f8fb;
+}
+.ua .person_status .person_status_list { margin: 0 -5px; }
+.ua .person_status .person_status_list>li {
+    float: left;
+    width: 33.33333%;
+}
+.ua .person_status .person_status_list .tit {
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 12px;
+    font-size: 17px;
+    color: #313131;
+}
+.ua .person_status .person_status_list .grade .tit {
+    padding-left: 34px;
+}
+.ua .person_status .person_status_list .tit:before {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url(https://static.wehago.com/imgs/ua/sp_ua.png) -138px -35px no-repeat;
+    content: '';
+}
+.ua .person_status .person_status_list .welfare .tit:before { background-position: -168px -35px }
+.ua .person_status .person_status_list .grade .tit:before {
+    width: 28px;
+    background-position: -198px -35px;
+}
+.ua .person_status .person_status_list .in_box {
+    margin: 0 5px;
+    padding: 18px 14px 14px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+.ua .person_status .status_list {
+    height: 103px;
+    padding: 27px 26px 23px;
+    background-color: #eff7ff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.ua .person_status .welfare .status_list { background-color: #f8f6ff; }
+.ua .person_status .grade .status_list { background-color: #eefafb; }
+.ua .person_status .status_list:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.ua .person_status .status_list>li {
+    float: left;
+    position: relative;
+    width: 33.33333%;
+}
+.ua .person_status .status_list>li + li:before {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 1px;
+    height: 47px;
+    background-color: #d5dbe0;
+    content: '';
+}
+.ua .person_status .status_list strong {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+.ua .person_status .status_list .number {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+.ua .person_status .status_list .use { color: #1c90fb; }
+.ua .person_status .status_list .extra { color: #728aa0; }
+.ua .person_status .status_list .unit {
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: normal;
+}
+.ua .person_status .status_list.type2 { padding: 18px 26px 19px; }
+.ua .person_status .status_list.type2 li {
+    float: none;
+    width: auto;
+}
+.ua .person_status .status_list.type2 li + li { margin-top: 7px; }
+.ua .person_status .status_list.type2 li:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.ua .person_status .status_list.type2 li:before { display: none; }
+.ua .person_status .status_list.type2 li strong { float: left; }
+.ua .person_status .status_list.type2 .number {
+    float: right;
+    margin-top: 0;
+    font-size: 17px;
+}
+.ua .person_status .status_list.type2 .number .unit { font-size: 13px; }
+.ua .person_status .status_list.ea4 { padding: 27px 16px 23px; }
+.ua .person_status .status_list.ea4>li { width: 25%; }
+
+.ua_container {
+    width: 880px;
+    padding-left: 20px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.ua_container .sub_title {
+    height: auto;
+}
+
+.ua_container p {
+    margin-bottom: 0;
+}
+
+.ua_container .h1, .ua_container .h2, .ua_container .h3, .ua_container h1, .ua_container h2, .ua_container h3 {
+    margin-top: 0;
+}
+
+.Qr_code_wrap .LUX_basic_submit .searchbx .inpbx {
+    height: 28px;
+}
+
+.Qr_code_wrap .fltlft + .fltrgt .LUX_basic_tbl .tbl_tit {
+    text-align: right;
+}
+
+.Qr_code_wrap .LUX_basic_tbl .tbl_tit .btnbx {
+    display: inline-block;
+    position: static;
+}
+
+.Qr_code_wrap .ua, .Edit_personal_info_wrap .ua, .Personal_info_wrap .ua,  .Login_passwd_change_wrap .ua{
+    overflow: visible;
+    position: static;
+}
+
+.Login_passwd_change_wrap .ua .dl_style1 {
+    margin: 53px 10px 0;
+}
+
+.Qr_code_wrap .qr_title_info p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+}
+
+.Qr_code_wrap .LUX_basic_submit .searchbx .btn {
+    right: 7px;
+}
+
+.Qr_code_wrap .fltlft + .fltrgt .LUX_basic_tbl .tbl_tit {
+    padding: 4.5px 0;
+}

@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+/* sprite img */
+.sp_in{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/in/sp_in.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_ca{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/ca/sp_ca.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_cw{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/cw/sp_cw.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_ss{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/ss/sp_ss.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_cf{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/cf/sp_cf.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_cr{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/cr/sp_cr.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_sm{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/sm/sp_sm.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_he{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/he/sp_he.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_ua{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/ua/sp_ua.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_tr{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/tr/sp_tr.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_fx{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/fx/sp_fx.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_nt{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/nt/sp_nt.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_lt{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/lt/sp_lt.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_cl{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/cl/sp_cl.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_al{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/al/sp_al.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_td{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/td/sp_td.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_og{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/og/sp_og.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_main{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/main/sp_main.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_dialogimg{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/common/sp_dialog.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_sao{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/sao/sp_sao.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_ea{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/ea/sp_ea.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_am{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/am/sp_am.png) 0 0 no-repeat;line-height:100em;vertical-align:top;}
+.sp_crm{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/crm/sp_crm.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_pms {display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/pms/sp_pms.png) 0 0 no-repeat;line-height:100em;vertical-align:top}
+.sp_ip{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/ip/sp_ip.png) 0 0 no-repeat;line-height:100em;vertical-align:top;}
+.sp_wf{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/wf/sp_wf.png) 0 0 no-repeat;line-height:100em;vertical-align:top;}
+.sp_login{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/login/sp_login.png) 0 0 no-repeat;line-height:100em;vertical-align:top;}
+.sp_tp{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/tp/sp_tp.png) 0 0 no-repeat;line-height:100em;vertical-align:top;}
+.sp_yt{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/yt/sp_yt.png) 0 0 no-repeat;line-height:100em;vertical-align:top;}
+.sp_csm{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/common/csm/sp_csm.png) 0 0 no-repeat;line-height:100em;vertical-align:top;}
+.sp_gt{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/gt/sp_gt.png) 0 0 no-repeat;line-height:100em;vertical-align:top;}
+.sp_wk{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/wk/sp_wk.png) 0 0 no-repeat;line-height:100em;vertical-align:top;}
+
+/* dialog_content */
+.LUX_basic_dialog .xg,.dialog_content.xg{width:1105px}
+.LUX_basic_dialog .lg,.dialog_content.lg{width:938px} /* 1000 SAO */
+.LUX_basic_dialog .md,.dialog_content.md{width:738px} /* 800  */
+.LUX_basic_dialog .mmd,.dialog_content.mmd{width:678px} /* 740 SAO */
+.LUX_basic_dialog .sm,.dialog_content.sm{width:568px;min-width:auto;padding-bottom:0} /* 630 */
+.LUX_basic_dialog .ssm,.dialog_content.ssm{width:478px} /* 540 SAO */
+.LUX_basic_dialog .xs,.dialog_content.xs{width:398px} /* 460 */
+.LUX_basic_dialog .xss,.dialog_content.xss{width:298px} /* 360 SAO*/
+.sm .sm{min-width:auto} /* 마켓플레이스 코드명 겹침 때문에 min-width 초기화 */
+
+/* in 테이블 재설정 이슈 수정 */
+.in .dialog_content .LUX_basic_tbl table th{font-size:14px;font-weight:bold}
+.in .dialog_content .LUX_basic_tbl table td{padding:6px 0}
+.in .dialog_content .LUX_basic_tbl table th .inbx{line-height:17px}
+.in .dialog_content .LUX_basic_tbl table{border-top:1px solid #646464}
+.in .dialog_content .LUX_basic_tbl .tbl_scrall table{border-top:0}
+
+.dialog_wrap_tbl{display:table;width:100%;height:100%;vertical-align:middle}
+.dialog_wrap_tblcel{display:table-cell;text-align:center;vertical-align:middle}
+.dialog_btnbx{margin-top:20px;text-align:center}
+.dialog_btnbx:after{display:block;clear:both;content:''}
+.dialog_btnbx_sao{margin:20px -30px -20px;padding:14px 0;background:#f2f2f2;text-align:center}
+.dialog_btnbx_sao .LUX_basic_btn+.LUX_basic_btn{margin-left:4px}
+.dialog_btnbx_sao:after{display:block;clear:both;content:''}
+.dialog_btnbx button + button,
+.dialog_btnbx a + a {margin-left:4px}
+.dialog_bx{padding:10px;border:1px solid #ccc;font-size:14px;text-align:left}
+.dialog_alert{text-align:center;min-width:298px}
+.dialog_alert .sp_dialogimg, .dialog_alert .sp_lux{width:38px;height:38px;margin-bottom:18px}
+.sp_dialog{background-position:0 -175px}
+.sp_dialog2{background-position:-50px -175px}
+.sp_dialog3{background-position:-100px -175px}
+.sp_dialog4{background-position:-150px -175px}
+.sp_dialog5{background-position:0 0} /* sao check icon */
+.sp_dialog6{background-position:-58px 0} /* sao question icon */
+.sp_dialog7{background-position:-116px 0} /* sao warning icon */
+.sp_dialog8{background-position:-174px 0} /* sao error icon */
+.sp_dialog9{width:38px;height:38px;margin-bottom:12px;background-position:-232px 0}
+.sp_dialog10{width:38px;height:38px;margin-bottom:12px;background-position:0 0}
+
+.dialog_alert h1{padding:0 0 10px;font-size:22px;line-height:26px;font-weight:normal}
+.dialog_alert .dialog_dsc{padding:7px 10px 4px;font-size:16px;line-height:20px}
+.dialog_alert .dialog_dsc span {font-size:13px;display:block}
+.dialog_content .text_blue{color:#1c90fb !important}
+.dialog_content .text_red{color:#fc5356 !important}
+.dialog_content .text_green{color:#1fc47c !important}
+
+.dialog_content .data_info{margin-bottom:12px;font-size:12px;font-family:'돋움',Dotum}
+.dialog_content .data_info.type2 {font-size:14px;font-family:'Nanum Square','돋움',Dotum,Helvetica,sans-serif;}
+
+.dialog_data{text-align:left}
+.dialog_data .dialog_data_tit{position:relative}
+.dialog_data .dialog_data_tit h1{padding:0 0 8px;font-size:18px;line-height:22px;font-weight:bold}
+.dialog_data .dialog_data_tit h1 .sub_tit {letter-spacing:-0.05em;font-size:14px;font-weight:normal;color:#4a4a4a}
+.dialog_data .dialog_data_tit .LUX_basic_tabs{border-bottom:0;text-align:left}
+.dialog_data .dialog_data_tit .LUX_basic_tabs .tabs_lst a{font-size:18px}
+.dialog_data .dialog_data_tit .btn_clr{position:absolute;top:-20px;right:-30px;width:55px;height:55px}
+.dialog_data .dialog_data_area{padding:20px 0 10px;border-top:1px solid #000}
+
+.LUX_basic_dialog{overflow:auto;position:fixed;top:0;right:0;left:0;bottom:0;z-index:1000}
+.LUX_basic_dialog .dimmed{overflow:hidden;position:fixed;top:0;right:0;left:0;bottom:0;z-index:1100;background:#000;opacity:.3;filter:alpha(opacity=30)}
+.LUX_basic_dialog .btn_clr{position:absolute;top:0;right:0;width:50px;height:50px}
+.LUX_basic_dialog .btn_clr .sp_lux{width:25px;height:25px}
+.LUX_basic_dialog .dialog_wrap_tbl{display:table;width:100%;height:100%;vertical-align:middle}
+.LUX_basic_dialog .dialog_wrap_tblcel{display:table-cell;text-align:center;vertical-align:middle}
+.LUX_basic_dialog .dialog_wrap_v2{padding:30px 30px 20px}
+
+.dialog_content .dialog_bx{margin-top:16px;padding:10px;border:1px solid #ccc;font-size:14px;text-align:left}
+.dialog_content .dialog_alert{text-align:center}
+.dialog_content .dialog_data_icon .dialog_data_tit .sp_lux,.dialog_content .dialog_alert > .sp_lux{width:38px;height:40px;margin-bottom:14px}
+
+.dialog_content .dialog_data{text-align:left}
+.dialog_content .dialog_data .dialog_data_tit{position:relative}
+.dialog_content .dialog_data .dialog_data_tit .btn_clr{position:absolute;top:-7px;right:-8px;width:30px;height:30px}
+.dialog_content .dialog_data .dialog_data_tit .btn_clr .sp_lux{width:13px;height:13px;background-position:-140px -275px;margin-bottom:0}
+.dialog_content .dialog_data .dialog_data_tit .btn_bx{position:absolute;top:-4px;right:0}
+.dialog_content .dialog_data .dialog_data_area{padding:20px 0 0;border-top:1px solid #000}
+.dialog_content .dialog_data .dialog_data_area.padding0{padding-top:0}
+.dialog_content .dialog_data .dialog_data_area.padding0 .LUX_basic_tbl.card_info_tbl table{border-top:0}
+.dialog_content .dialog_data .dialog_data_area.noborder{border-top:0}
+.dialog_content .dialog_data .dialog_data_area.padding_thin{padding-top:10px}
+.dialog_content .svgbx{display:block;padding:0 0 10px}
+
+.dialog_content .mt8{margin-top:8px}
+.dialog_content .mt6{margin-top:16px}
+.dialog_content .textcenter{text-align:center}
+.dialog_content .dialog_data_icon .dialog_data_tit{text-align:center}
+.dialog_content .dialog_data_icon .dialog_data_tit h1{padding-bottom:0;margin-bottom:15px}
+.dialog_content .dialog_data_area{font-size:13px;border-color:#e7e7e7}
+.dialog_content .dialog_data_area.mb0{margin-bottom:0}
+.dialog_content .dialog_data_area.noline{padding-top:0;border:0}
+.dialog_content .dialog_data_area h2{position:relative;font-size:14px;padding-left:7px;margin-bottom:6px}
+.dialog_content .dialog_data_area h2:before{content:'';position:absolute;top:50%;left:0;width:3px;height:3px;background:#4a4a4a;margin-top:-2px}
+.dialog_content .dialog_data_area h2>em{margin-left:8px;font-weight:normal;font-size:12px;color:#8d8d8d}
+.dialog_content .dialog_data_area h2.small{font-size:12px;padding-left:0}
+.dialog_content .dialog_data_area h2.small:before{display:none}
+.dialog_content .dialog_data_area h2>span{color:#1c90fb;margin-left:8px}
+.dialog_content .dialog_data_area h2>span.nomg{margin-left:0}
+.dialog_content .dialog_data_area .title_desc{font-size:14px;margin-bottom:6px;line-height:20px;word-break:break-all}
+.dialog_content .dialog_data_area .title_desc.type2 {margin:-10px 0 15px;font-size:12px;font-family:"돋움", Dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;color:#000}
+.dialog_content .dialog_data_area .title_desc.margin_bottom19{margin-bottom:19px}
+.dialog_content .dialog_data_area .title_desc+.table_section{margin-top:20px}
+.dialog_content .dialog_data_area strong.title_desc{display:block;text-align:center;font-size:15px;font-weight:normal;line-height:20px}
+.dialog_content .dialog_data_area .desc{font-size:12px;color:#5c5c5c;text-align:center;line-height:18px}
+.dialog_content .table_section{position:relative;margin-bottom:10px}
+.dialog_content .table_section>p{padding-left:7px;margin-bottom:8px;font-size:12px;color:#000;line-height:18px}
+.dialog_content .table_section+.table_section{margin-top:28px}
+/*.dialog_content .LUX_basic_tbl .tblarea{padding-left:15px;padding-right:15px}*/
+.dialog_content .LUX_basic_tbl .tblarea th:first-of-type,
+.dialog_content .LUX_basic_tbl .tblarea td:first-of-type{padding-left:15px}
+.dialog_content .LUX_basic_tbl .tblarea th:last-of-type,
+.dialog_content .LUX_basic_tbl .tblarea td:last-of-type{padding-right:15px}
+.dialog_content .LUX_basic_tbl.noborder .tblarea td{border-top:0}
+.dialog_content .LUX_basic_tbl.noborder .tblarea tfoot td{border-top:1px solid #e0e0e0}
+.dialog_content .LUX_basic_tbl table.size_md td, .dialog_content .LUX_basic_tbl table.size_md th{padding:14px 0}
+.dialog_content .LUX_basic_tbl .tblarea2 th{font-weight:bold}
+.dialog_content .LUX_basic_tbl .tblarea2 th.noborder_rt{border-right:0 none}
+.dialog_content .LUX_basic_tbl thead .second th{border-top:1px solid #e0e0e0;background:#fff;font-weight:normal}
+.dialog_content .LUX_basic_tbl thead th{padding-top:8px;padding-bottom:8px}
+.dialog_content .LUX_basic_tbl .tblarea tfoot td{border-top:1px solid #e0e0e0;padding-top:8px;padding-bottom:8px;color:#1c90fb;font-weight:bold}
+.dialog_content .LUX_basic_tbl tr.divi_line th,
+.dialog_content .LUX_basic_tbl tr.divi_line td {border-top:1px solid #646464}
+.dialog_content h3{font-size:12px;/*font-family:"돋움", Dotum, Helvetica, "Apple SD Gothic Neo", sans-serif*/}
+.dialog_content .dialog_btnbx .SAOverConfirm{font-size:14px}
+.dialog_content .exam_box{position:relative;padding:15px;background:#fcfcfc;border:1px solid #e7e7e7;margin:15px 0;font-size:12px;font-family:'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',sans-serif}
+.dialog_content .exam_box>strong{display:inline-block;line-height:27px;vertical-align:top}
+.dialog_content .exam_box.noborder{border:0;background:#f7f7f7;padding:10px 15px}
+.dialog_content .exam_box .exam_tit{text-align:center;color:#1457b3;background:#fcfcfc}
+.dialog_content .exam_box .exam_tit>em{font-weight:bold}
+.dialog_content .exam_box .float_list{clear:both;overflow:hidden}
+.dialog_content .exam_box .float_list dt{clear:both;overflow:hidden;float:left;font-size:12px;font-weight:bold;line-height:18px;margin-top:4px}
+.dialog_content .exam_box .float_list dd{float:right;font-size:12px;font-weight:normal;line-height:18px;margin-top:4px}
+.dialog_content .exam_box .float_list dt:first-of-type,
+.dialog_content .exam_box .float_list dd:first-of-type{margin-top:0}
+.dialog_content .exam_box .float_list2{overflow:hidden;clear:both}
+.dialog_content .exam_box .float_list2 li{float:left;margin-top:0}
+.dialog_content .exam_box .float_list2 li strong{display:inline-block;margin-right:15px}
+.dialog_content .exam_box .float_list2 li span{font-weight:normal}
+.dialog_content .exam_box .float_list2 li:nth-child(2n){float:right}
+.dialog_content .exam_box .float_list3 dt{display:inline-block;vertical-align:top;font-size:12px;font-weight:bold;line-height:18px;margin-top:4px;margin-right:4px}
+.dialog_content .exam_box .float_list3 dt:after{content:':';margin-left:4px}
+.dialog_content .exam_box .float_list3 dd{display:inline-block;vertical-align:top;font-size:12px;font-weight:normal;line-height:18px;margin-top:4px}
+.dialog_content .exam_box .float_list3 dd + dt{margin-left:15px}
+.dialog_content .exam_box.split{background:#fff;padding:0}
+.dialog_content .exam_box.split .exam_tit{padding:15px}
+.dialog_content .exam_box.split .exam_desc{padding:15px;line-height:18px}
+.dialog_content .exam_box .exam_desc dd+dt{margin-top:5px}
+.dialog_content .exam_box li label{font-weight:bold}
+.dialog_content .exam_box li>p{font-size:12px;padding-left:20px;line-height:18px}
+.dialog_content .exam_box li>p.nopadding{padding-left:0}
+.dialog_content .exam_box li>p.sub_text{font-size:11px;color:#5c5c5c}
+.dialog_content .exam_box li+li{margin-top:8px}
+.dialog_content .exam_box>strong+.LUX_basic_date{margin-left:4px}
+.dialog_content .exam_box .exam_tit{font-size:14px;color:#1c90fb}
+.dialog_content .exam_box .exam_desc{font-size:12px;text-align:center;color:#000}
+.dialog_content .exam_box.tbl_middle_content dl {position:static;text-align:center}
+.dialog_content .exam_box.tbl_middle_content dl dt,
+.dialog_content .exam_box.tbl_middle_content dl dd {float:none;display:inline-block}
+.dialog_content .exam_box.tbl_middle_content dl dd + dt:before {padding-left:25px;padding-right:25px;color:#e3e3e3}
+.dialog_content .foot_desc{font-size:12px;color:#5c5c5c;line-height:18px;font-family:'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',sans-serif}
+.dialog_content .foot_desc h3{margin-bottom:5px}
+.dialog_content .foot_desc.li_small li{font-size:12px;font-family:'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',sans-serif}
+.dialog_content .foot_desc.li_small>ul>li + li{margin-top:10px}
+.dialog_content .foot_desc>li{font-size:12px;font-family:'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',sans-serif}
+.dialog_content .foot_desc>li+li{margin-top:8px}
+.dialog_content .foot_desc+.table_section{margin-top:20px}
+.dialog_content .table_section table .tax_date .inpbx{border-color:#dbdbdb;border-width:1px}
+.dialog_content .table_section .bar_list{font-size:12px;margin-bottom:6px}
+.dialog_content .table_section .bar_list li+li{position:relative;padding-left:25px}
+.dialog_content .table_section .bar_list li+li:before{content:'';position:absolute;top:0;left:12px;width:2px;height:100%;background:#000}
+.dialog_content .table_section .bar_list li:last-of-type:before{display:none}
+.dialog_content .table_section .bar_list2{font-size:12px;margin-bottom:6px;font-weight:bold}
+.dialog_content .table_section .bar_list2 li>p em{color:#1c90fb}
+.dialog_content .table_section .bar_list2 li+li{position:relative;padding-left:17px}
+.dialog_content .table_section .bar_list2 li+li:before{content:'';position:absolute;top:0;left:8px;width:1px;height:100%;background:#c2c2c2}
+.dialog_content .section_content{position:relative;margin-bottom:10px}
+.dialog_content .section_content:after{display:block;clear:both;content:''}
+.dialog_content .section_content:last-child{margin-bottom:0}
+.dialog_content .LUX_basic_date.free_relative{position:static}
+.dialog_content .LUX_basic_tbl .free_relative th:first-of-type, .dialog_content .LUX_basic_tbl .free_relative td:first-of-type{padding-left:0}
+.dialog_content .LUX_basic_tbl .free_relative th:last-of-type, .dialog_content .LUX_basic_tbl .free_relative td:last-of-type{padding-right:0}
+
+/* 개인설정 - 모바일 앱 내 폰에 설치 */
+.dialog_content .apps_list{overflow:hidden}
+.dialog_content .apps_list:after{display:block;clear:both;content:''}
+.dialog_content .apps_list li{position:relative;float:left;width:56%;height:200px;padding:30px 20px;border:1px solid #e7e7e7;box-sizing:border-box}
+.dialog_content .apps_list li:first-child{width:44%;border-right:0;padding-left:10px;padding-right:10px}
+.dialog_content .apps_list li .list_title{margin-bottom:25px;font-size:15px;font-weight:bold;text-align:center}
+
+.dialog_content .apps_list li .app_links{margin-top:-3px;text-align:center}
+.dialog_content .apps_list li .app_links a{display:inline-block;font-size:12px;font-weight:bold;text-align:center;text-decoration:none}
+.dialog_content .apps_list li .app_links a:before{display:block;overflow:hidden;width:96px;height:86px;background:url(https://static.wehago.com/imgs/ua/sp_ua.png) 0 0 no-repeat;content:''}
+.dialog_content .apps_list li .app_links a.app_google:before{margin-left:6px;background-position:-332px -213px}
+.dialog_content .apps_list li .app_links a.app_apple:before{margin-left:16px;background-position:-432px -213px}
+
+.dialog_content .apps_list li .input_bx{position:relative;padding-right:50px}
+.dialog_content .apps_list li .input_bx button{position:absolute;top:0;right:0;width:46px}
+
+.dialog_content .apps_list li .sms_info{position:relative;padding-left:13px;color:#8d8d8d;font-size:11px;font-family:"돋움", Dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;line-height:14px;letter-spacing:-.5px}
+.dialog_content .apps_list li .sms_info:nth-of-type(1){margin-top:10px}
+.dialog_content .apps_list li .sms_info:before{position:absolute;top:0;left:4px;-webkit-margin-before:-1px;content:'-'}
+
+
+/* WE드라이브 - 파일업로드 */
+.dialog_content.wd_upload{width:560px;height:360px}
+.dialog_content.wd_upload img{margin:95px 0 0}
+.dialog_content.wd_upload .sub_text{margin:12px 0 26px;font-size:16px;color:#191919;line-height:21px}
+.dialog_content.wd_upload .dialog_data .dialog_data_tit .btn_clr{top:8px;right:8px}
+
+/* 프린트모드 대응 */
+.dialog_content.dialog_printmod {padding:40px 25px 30px}
+
+.LUX_basic_dialog .Buy_make_popup_white_box .service_center_delete_middel_white_box {
+    width: 620px;
+}
+
+.LUX_basic_dialog .sm, .dialog_content.sm {
+    margin: 0 auto;
+}
+
+.LUX_basic_text .inpbx {
+    height: 27px;
+}

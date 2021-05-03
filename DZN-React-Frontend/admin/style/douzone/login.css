@@ -1,0 +1,509 @@
+@charset "utf-8";
+/* skip navigation */#u_skip{position:relative;z-index:2147483647}
+#u_skip a{position:absolute;top:-30px;left:0;width:128px;border:1px solid #4ec53d;background-color:#eee;text-align:center;outline:none}
+#u_skip a:active,#u_skip a:focus{top:0;text-decoration:none;cursor:pointer;zoom:1}
+
+/* sprite */
+.sp_login{display:inline-block;overflow:hidden;background:url(https://static.wehago.com/imgs/login/sp_login.png) no-repeat;font-size:0;line-height:0;color:transparent;vertical-align:middle}
+
+/* layout */
+.login_wrap .respond_container{margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}
+.login_wrap .respond_container>.nav_header,.login_wrap .nav{margin-left:-15px;margin-right:-15px}
+.login_wrap .respond_container:after,.login_wrap .nav_header:after{display:table;clear:both;content:''}
+
+/* header */
+.login_wrap .nav_bar{position:relative;width:100%;min-height:60px;background-color:#333948}
+.login_wrap .btn_toggle{float:left;margin:14px 0 9px 5px;padding:9px 10px;border:0;background-color:transparent;cursor:pointer}
+.login_wrap .btn_toggle .icon_bar{display:block;width:22px;height:2px;border-radius:1px;background-color:#fff}
+.login_wrap .btn_toggle .icon_bar+.icon_bar{margin-top:4px}
+.login_wrap .logo{text-align:center}
+.login_wrap .logo>a{display:inline-block;margin-left:-42px;line-height:60px}
+.login_wrap .logo>a:hover{text-decoration:none}
+.login_wrap .logo .sp_login{width:113px;height:23px;background-position:0 -57px}
+
+.login_wrap .logo_v2 a{display:inline}
+.login_wrap .logo_v2 a img{vertical-align:middle}
+
+.login_wrap .nav{display:none}
+.login_wrap .nav.open{display:block}
+.login_wrap .nav{border-bottom:1px solid #d1d1d1;background-color:#fff}
+.login_wrap .nav>li>a{display:block;padding:20px 15px;color:#333948;text-decoration:none}
+.login_wrap .nav>li.on{background-color:#f9f9f9}
+.login_wrap .nav>li>a{font-size:15px}
+.login_wrap .nav .LUX_basic_btn{height:auto;border:none;background-color:transparent;font-family:'Nanum Square',sans-serif;letter-spacing:0;text-align:left}
+
+/* footer */
+.login_wrap #footer{padding:16px 0;border-top:1px solid #d9d9d9}
+.login_wrap #footer>p{padding:0 15px;font-size:11px;color:#000;text-align:center}
+.login_wrap #footer>p>a{color:#000;text-decoration:none}
+.login_wrap #footer>p>a:hover{text-decoration:underline}
+.login_wrap #footer.type2 {position:relative;}
+.login_wrap #footer.type2>p{width:670px;margin:0 auto;padding:0;text-align:left}
+.login_wrap .select_language {position:absolute;top:0;left:50%;margin:9px 0 0 216px;}
+
+.login_wrap .title{padding:37px 0;text-align:center}
+.login_wrap .title .sp_login{width:232px;height:47px;background-position:0 0;-ms-transform:scale(0.7,0.7);transform:scale(0.7,0.7)}
+.login_wrap .content_box{background-color:#fff}
+
+.login_wrap .select_language {width:120px;margin-top:9px;}
+.login_wrap .select_language.LUX_basic_select .placeholder {padding-left:30px;}
+.login_wrap .select_language.LUX_basic_select .placeholder img {position:absolute;top:50%;left:6px;margin-top:-5px;border:1px solid #ddd;}
+.login_wrap .select_language .result_lst a.icona{padding-left:30px}
+.login_wrap .select_language .result_lst a.icona img{position:absolute;top:50%;left:6px;margin-top:-6px;border:1px solid #ddd;}
+
+/* tab-menu */
+.login_wrap fieldset{position:relative;border:0}
+.login_wrap .login_form h2{padding:30px 0 5px;font-size:23px;text-align:center}
+.login_wrap .login_form h2 + p{width:100%;margin:0 auto}
+.login_wrap .login_form .login_error{position:relative;padding:90px 0 20px;font-size:20px}
+.login_wrap .login_form .login_error:before{position:absolute;top:0;left:50%;width:72px;height:72px;margin-left:-36px;background:url(https://static.wehago.com/imgs/ll/sp_login.png) 0 -90px no-repeat;-ms-transform:scale(0.7,0.7);transform:scale(0.7,0.7);content:''}
+.login_wrap .login_form .ico:before{display:inline-block;overflow:hidden;width:25px;height:33px;margin-right:3px;background:url(https://static.wehago.com/imgs/ll/sp_login.png) no-repeat;vertical-align:middle;-ms-transform:scale(0.7,0.7);transform:scale(0.7,0.7);content:''}
+.login_wrap .login_form .ico.ico_qr:before{background-position:-91px -90px}
+.login_wrap .login_form .ico.ico_find_id:before{height:29px;background-position:-126px -90px}
+.login_wrap .login_form .ico.ico_find_passwd:before{width:24px;height:30px;background-position:-91px -132px}
+.login_wrap .login_form .ico.ico_confirm_id:before{width:30px;height:31px;margin-right:3px;background-position:-161px -90px}
+.login_wrap .login_form .ico.ico_reset_passwd:before{width:30px;height:31px;margin-right:3px;background-position:-204px -90px}
+.login_wrap .login_form .info_text{padding-bottom:20px;font-size:15px;line-height:22px;letter-spacing:-1px;text-align:center;word-break:keep-all}
+.login_wrap .login_form .time_counter{position:absolute;top:15px;right:0;width:61px;color:#424242;text-align:center}
+
+.login_wrap .LUX_basic_btn.login_basic_btn{width:100%;height:50px;margin-top:25px;padding:0 20px;font-size:16px}
+.login_wrap .login_form .checkbx_area{margin-top:5px;text-align:left}
+
+
+.login_wrap .login_info{padding-top:6px;border-top:1px solid #d9d9d9;text-align:center}
+.login_wrap .login_info:after{display:table;clear:both;content:''}
+.login_wrap .login_info ul{display:inline-block}
+.login_wrap .login_info li{float:left;position:relative;margin-left:9px;padding-left:9px}
+.login_wrap .login_info li:first-child{margin-left:0;padding-left:0}
+.login_wrap .login_info li:after{position:absolute;top:50%;left:0;width:1px;height:12px;margin-top:-6px;background-color:#8d8d8d;content:''}
+.login_wrap .login_info li:first-child:after{display:none}
+.login_wrap .login_info li>a{font-size:12px;color:#8d8d8d;text-decoration:none}
+
+.login_wrap .error_info>ul{margin-top:7px}
+.login_wrap .error_info li{position:relative;margin:0 0 6px;padding-left:10px;font-size:12px;color:#8d8d8d}
+.login_wrap .error_info li:before{position:absolute;top:2px;left:0;content:'*'}
+
+.login_wrap .capcha_area{position:relative;margin-top:20px}
+.login_wrap .capcha_area .capcha_img{width:auto;height:78px;margin-right:113px;border:1px solid #dbdbdb;text-align:center}
+
+.login_wrap .capcha_area .LUX_basic_btn.btn_refresh,.capcha_area .LUX_basic_btn.btn_sound{position:absolute;top:0;right:0;min-width:106px;height:36px;padding-top:0;border-color:#dbdbdb;line-height:36px;font-size:14px}
+.login_wrap .capcha_area .LUX_basic_btn.btn_sound{top:auto;bottom:0}
+
+.login_wrap .qr_area{width:146px;margin:0 auto}
+.login_wrap .qr_area>a{text-decoration:none}
+.login_wrap .qr_area .qr_img>img{padding:23px 23px 18px;border:4px solid #1c90fb;border-bottom:0}
+.login_wrap .qr_area .qr_time{height:30px;background-color:#1c90fb;line-height:30px;font-size:13px;color:#fff;text-align:center}
+.login_wrap .qr_area .qr_time>em{padding-left:3px}
+.login_wrap .cancle_qr{margin-top:7px;font-size:14px;text-align:center;color:#4a4a4a}
+.login_wrap .cancle_qr>a{font-size:14px;color:#4a4a4a;letter-spacing:-1px}
+.login_wrap .app_download{margin-top:20px}
+.login_wrap .app_download h3{font-size:16px;color:#4a4a4a;text-align:center}
+.login_wrap .app_download>ul{margin-top:9px}
+.login_wrap .app_download>ul:after{display:table;clear:both;content:''}
+.login_wrap .app_download li{float:left;width:50%;text-align:center}
+.login_wrap .app_download li:first-child>a{margin-right:2px}
+.login_wrap .app_download li:last-child>a{margin-left:2px}
+
+.login_wrap .app_download li>a,.app_download li>a.LUX_basic_btn.Default{display:block;height:50px;padding:0;border:1px solid #dbdbdb;font-size:16px;line-height:50px;letter-spacing:-1px;white-space:nowrap}
+.login_wrap .app_download .sp_login{width:114px;height:25px}
+.login_wrap .app_download .btn_google .sp_login{background-position:0 -172px}
+.login_wrap .app_download .btn_apple .sp_login{background-position:0 -207px}
+.login_wrap .change_device{margin-top:25px;padding-top:18px;border-top:1px solid #d9d9d9}
+.login_wrap .change_device h3{font-size:16px;color:#4a4a4a;text-align:center}
+.login_wrap .change_device .LUX_basic_btn.Default{width:100%;height:50px;margin-top:15px;font-size:18px;line-height:50px}
+.login_wrap .change_device .info{margin-top:5px;font-size:13px;color:#8d8d8d}
+
+.login_wrap .how_to_find>p{margin-top:7px;font-size:13px;color:#8d8d8d}
+.login_wrap .how_to_find>p>a{color:#1c90fb}
+.login_wrap .how_to_find li>a.LUX_basic_btn.Default{height:52px;line-height:52px}
+
+.login_wrap .phone_area .LUX_basic_btn.Default{width:100%;height:48px;margin-top:10px;font-size:14px;line-height:48px}
+.login_wrap .confirm_area{margin-top:25px}
+.login_wrap .confirm_area>ul:after{display:table;clear:both;content:''}
+.login_wrap .confirm_area li{float:left;width:50%;text-align:center}
+.login_wrap .confirm_area li:first-child>a{margin-right:2px}
+.login_wrap .confirm_area li:last-child>a{margin-left:2px}
+.login_wrap .confirm_area li > a.LUX_basic_btn{display:block;height:50px;font-size:16px;line-height:50px;white-space:nowrap}
+.login_wrap .confirm_id{padding-top:25px;border-top:1px solid #d9d9d9}
+.login_wrap .confirm_id .confirm_title{font-size:18px;color:#4a4a4a;text-align:center}
+.login_wrap .confirm_id .confirm_title>em{color:#1c90fb}
+.login_wrap .confirm_id .confirm_notice{margin-top:20px;font-size:14px;line-height:20px;color:#8d8d8d;text-align:center}
+.login_wrap .reset_passwd{margin-bottom:10px}
+
+
+/* 회원가입 프로세스 */
+.login_wrap .join_process{padding:0 15px;border:1px solid #9297a4;border-width:1px 0}
+.login_wrap .landing_bx{max-width:100%;margin:0 auto 10px;text-align:center}
+.login_wrap .landing_bx .title_bx{margin-bottom:20px;padding-top:30px;padding-bottom:14px;border-bottom:1px solid #d9d9d9;text-align:center}
+.login_wrap .landing_bx h2{font-weight:normal;color:#000}
+.login_wrap .landing_bx .title_bx p{line-height:22px;color:#4a4a4a;text-align:center}
+.login_wrap .landing_bx h2+p{padding-top:5px}
+.login_wrap .landing_bx p>em{color:#1c90fb}
+.login_wrap .landing_bx .id_check{position:relative;padding-top:62px}
+.login_wrap .landing_bx .id_check:before{position:absolute;top:0;left:50%;width:117px;height:93px;background:url(https://static.wehago.com/imgs/ll/id_check.png) 0 0 no-repeat;background-size:117px 93px;content:''}
+.login_wrap .landing_content{position:relative}
+.login_wrap .landing_content .error_msg{line-height:22px;text-align:center}
+.login_wrap .agree_dl li:first-child{padding-bottom:15px;border-bottom:1px solid #ccc}
+.login_wrap .agree_dl li:first-child label{font-size:15px;font-weight:bold}
+.login_wrap .landing_bx.join_expire .title_bx,.landing_bx.join_complete .title_bx{max-width:482px;margin:0 auto 16px}
+.login_wrap .landing_bx.join_agree .title_bx{padding-bottom:0;border-bottom:0}
+.login_wrap .landing_bx.join_agree p>em{color:#3d94ee}
+.login_wrap .landing_bx.join_agree .landing_content{padding:0 15px 17px;border:1px solid #dadada;border-width:1px 0 0;text-align:left}
+.login_wrap .landing_bx.join_agree .agree_dl{border-bottom:1px solid #dadada}
+.login_wrap .landing_bx.join_agree .agree_dl li{margin-top:24px}
+.login_wrap .landing_bx.join_agree .agree_dl li>p{overflow-y:auto;max-height:155px;margin-top:7px;padding:10px;border:1px solid #f0f0f0;background:#f7f7f7;font-size:12px;line-height:20px;text-align:left}
+.login_wrap .landing_bx.join_agree .landing_content.auth{padding:54px 40px 28px}
+.login_wrap .landing_bx.join_agree .landing_content.auth_v2{padding:30px 30px 28px}
+.login_wrap .landing_content.auth .auth_title{position:relative;padding-top:76px;font-size:14px}
+.login_wrap .landing_content.auth .auth_title:before{position:absolute;top:0;left:50%;width:80px;height:60px;margin-left:-40px;background:url(https://static.wehago.com/imgs/ll/sp_join.png) 0 -34px no-repeat;content:''}
+.login_wrap .landing_content.auth .auth_guide{margin-top:11px;padding-top:16px;font-size:13px;color:#4a4a4a;text-align:center;line-height:18px}
+.login_wrap .landing_content.auth ul{margin-top:27px}
+.login_wrap .landing_content.auth ul li+li{margin-top:10px}
+.login_wrap .landing_bx.join_agree .landing_content.input_form{padding:0;border-left:0;border-right:0;border-bottom:1px solid #dadada}
+.login_wrap .landing_content.input_form fieldset{border:0}
+.login_wrap .landing_content.input_form+.LUX_basic_btn{margin-top:25px}
+.login_wrap .join_row{display:table;width:100%;table-layout:fixed;border-top:2px solid #a5a5a5}
+.login_wrap .join_row+.join_row{border-top:1px solid #e5e5e5}
+.login_wrap .join_row label{display:table-cell;width:105px;height:55px;padding-right:10px;background:#f8f8f8;font-size:15px;vertical-align:middle}
+.login_wrap .join_row label .sp_lux{width:7px;height:7px;margin:3px 5px 0 0;background-position:-25px -150px}
+.login_wrap .join_row .input_area{display:table-cell;padding:10px 15px;vertical-align:middle}
+.login_wrap .join_row .input_area:after{display:block;clear:both;content:''}
+.login_wrap .join_row .input_area label{width:auto;height:auto;padding:0 0 0 20px;background:none;font-size:12px;line-height:27px;vertical-align:middle}
+.login_wrap .join_row .input_area .LUX_basic_text{margin-top:0}
+.login_wrap .join_row .input_area .LUX_basic_date,
+.login_wrap .join_row .input_area .radio_bx{display:inline-block}
+.login_wrap .join_row .input_area .radio_bx{height:27px;margin-left:10px;line-height:27px;vertical-align:top}
+.login_wrap .join_row .input_area .radio_bx:after{display:block;clear:both;content:''}
+.login_wrap .join_row .input_area .LUX_basic_switch{float:left;margin-right:10px}
+.login_wrap .join_row .input_area .LUX_basic_switch .LUXrabx .sp_lux{margin-top:-11px}
+
+.login_wrap .landing_content.input_form dl{font-size:15px;color:#4a4a4a}
+.login_wrap .landing_content.input_form dt,.landing_content.input_form dd{height:70px}
+.login_wrap .landing_content.input_form dt{overflow:hidden;float:left;width:150px;padding-left:22px;background:#f8f8f8}
+.login_wrap .landing_content.input_form dd{overflow:hidden}
+
+
+/* 회사가입 - 회원유형 선택 */
+.login_wrap .member_select_box {max-width:100%;margin:0 auto 10px;padding:35px;text-align:center}
+.login_wrap .member_select_box .title_bx{margin-bottom:20px;padding-top:30px;padding-bottom:14px;text-align:center}
+.login_wrap .member_select_box h2{font-size:28px;font-weight:bold;color:#000}
+.login_wrap .member_select_box .title_bx p{font-size:16px;line-height:22px;color:#4a4a4a;text-align:center}
+.login_wrap .member_select_box h2+p{padding-top:10px}
+.login_wrap .member_select_box p>em{color:#1c90fb}
+.login_wrap .member_select_box .btn_list li{position:relative;float:left;width:50%;padding:30px;border:1px solid #d3d3d3;box-sizing:border-box;font-size:14px;text-align:center}
+.login_wrap .member_select_box .btn_list li:first-child{border-right:0}
+.login_wrap .member_select_box .btn_list li:before{display:inline-block;background:url(https://static.wehago.com/imgs/ll/sp_login.png) no-repeat;content:''}
+.login_wrap .member_select_box .btn_list li:first-child:before{width:89px;height:66px;margin-left:7px;background-position: -124px -172px}
+.login_wrap .member_select_box .btn_list li:last-child:before{width:79px;height:66px;margin-left:14px;background-position: 0 -242px}
+.login_wrap .member_select_box .btn_list li h3{margin-top:16px;font-size:18px;}
+.login_wrap .member_select_box .btn_list li p{height:35px;margin-top:13px;font-size:14px;}
+.login_wrap .member_select_box .btn_list li button{width:96px;height:30px;margin-top:27px;border:0;font-size:16px;font-weight:normal;color:#fff}
+.login_wrap .member_select_box .btn_list li:first-child button{background-color:#439bff}
+.login_wrap .member_select_box .btn_list li:last-child button{background-color:#36bccc}
+.login_wrap .member_select_box .btn_list li:last-child button:hover{background-color:#088aa6}
+
+/* 회사가입 - 회사가입 동의 */
+.ll_dialog{padding:38px 4px 5px}
+.ll_dialog .dialog_data .dialog_data_tit h1{padding:0 0 30px;font-size:26px;line-height:26px;text-align:center}
+.ll_dialog .dialog_data .dialog_data_tit h3{font-size:18px;font-weight:normal;color:#4a4a4a;text-align:center}
+.ll_dialog .dialog_data .dialog_data_tit .btn_clr{top:-41px;right:-15px;width:24px;height:24px}
+.ll_dialog .dialog_data .dialog_data_tit .btn_clr .sp_lux{width:24px;height:24px;background:url(https://static.wehago.com/imgs/ll/sp_login.png) -89px -242px no-repeat}
+.ll_dialog .dialog_data .dialog_data_area{padding-top:48px;border-top:0}
+.ll_dialog .dialog_data .dialog_data_area h2{padding-left:0;font-size:18px}
+.ll_dialog .dialog_data .dialog_data_area h2:before{display:none}
+.ll_dialog .dialog_data .dialog_data_area .qs{margin-top:35px;text-align:center}
+.ll_dialog .dialog_data .LUX_basic_tbl:first-child{margin-bottom:28px}
+.ll_dialog .dialog_data .LUX_basic_tbl .tbl_tit{padding-bottom:0}
+.ll_dialog .dialog_data .LUX_basic_tbl .tblarea2 th .inbx,
+.ll_dialog .dialog_data .LUX_basic_tbl .tblarea2 td .inbx{padding:8px 16px;color:#000;font-size:15px;font-weight:bold;word-break:break-all;text-align:left}
+.ll_dialog_btn{padding:24px 0;background-color:#fff;border-top:1px solid #d9d9d9}
+.ll_dialog_btn a.LUX_basic_btn.SAOverConfirm{width:246px;height:50px;padding:15px 0;font-size:18px;line-height:18px;font-weight:bold}
+.ll_dialog_btn a.LUX_basic_btn.SAOverConfirm.btn_no{color:#4a4a4a;background-color:#fff}
+.ll_dialog_btn a.LUX_basic_btn.SAOverConfirm.btn_yes{color:#fff;background-color:#1c90fb}
+
+/* btn */
+.login_wrap .LUX_basic_btn.Landing{width:138px;height:40px;margin:40px 0 0;padding:1px 20px 0}
+.login_wrap .LUX_basic_btn.Landing2{width:100%;height:52px;padding:1px 20px 0}
+.login_wrap .landing_bx.join_complete .LUX_basic_btn.Landing{margin-top:20px}
+
+/* checkbox */
+.login_wrap .LUX_basic_switch.Joincheck{width:100%;line-height:26px}
+.login_wrap .LUX_basic_switch.Joincheck .sp_lux{right:0;left:inherit;width:26px;height:26px;margin-top:-13px;background:url(https://static.wehago.com/imgs/ll/sp_join.png) 0 0 no-repeat}
+.login_wrap .LUX_basic_switch.Joincheck input[type=checkbox] + .sp_lux{background-position:-30px 0}
+.login_wrap .LUX_basic_switch.Joincheck input[type=checkbox]:checked + .sp_lux{background-position:0 0}
+.login_wrap .LUX_basic_switch.Joincheck label{width:100%;padding-left:0;font-size:14px;font-weight:normal;color:#4a4a4a}
+.login_wrap .LUX_basic_switch.Joincheck label>span{display:block;padding-right:50px}
+.login_wrap .LUX_basic_switch.Joincheck label>em{color:#00a2ff}
+
+/* tab */
+.login_wrap .LUX_basic_tabs{border-bottom:0;border-top:1px solid #9e9e9e}
+.login_wrap .LUX_basic_tabs .tabs_lst li{width:33.3%}
+.login_wrap .LUX_basic_tabs .tabs_lst li:last-of-type{width:33.4%}
+.login_wrap .LUX_basic_tabs .tabs_lst a{top:-1px;bottom:0;border-bottom:0;border-top:2px solid transparent;font-size:15px;line-height:50px}
+.login_wrap .LUX_basic_tabs.bdline_full .tabs_lst a:after{top:15px;bottom:15px}
+.login_wrap .LUX_basic_tabs .tabs_lst li.active a{border-color:#00a2ff;color:#00a2ff}
+
+/* tab2 */
+.login_wrap .sign_up_bx ul{overflow:hidden;border:1px solid #e1e1e1}
+.login_wrap .sign_up_bx ul:after{display:block;clear:both;content:''}
+.login_wrap .sign_up_bx li{position:relative;float:left;width:33.333333%;padding:10px 15px;background:#f6f6f6;color:#595959;box-sizing:border-box}
+.login_wrap .sign_up_bx li:first-child:before,
+.login_wrap .sign_up_bx li:last-child:after{display:none}
+.login_wrap .sign_up_bx li .step_num{margin-bottom:3px;font-size:12px;}
+.login_wrap .sign_up_bx li .step_txt{font-size:15px;}
+.login_wrap .sign_up_bx li:after{position:absolute;top:50%;right:-2px;width:21px;height:62px;margin-top:-31px;background:url(https://static.wehago.com/imgs/ll/sp_login.png) -151px -242px no-repeat;content:''}
+.login_wrap .sign_up_bx li.active{background:#1c90fb;color:#fff;}
+.login_wrap .sign_up_bx li.active:before{position:absolute;top:50%;left:-19px;width:19px;height:62px;margin-top:-31px;background:url(https://static.wehago.com/imgs/ll/sp_login.png) -179px -242px no-repeat;content:''}
+.login_wrap .sign_up_bx li.active:after{background-position:-123px -242px}
+.login_wrap .sign_up_bx li.active:nth-child(1){border-left:1px solid #1c90fb;}
+.login_wrap .sign_up_bx li.active:nth-child(3){border-right:1px solid #1c90fb;}
+
+/* font-size */
+.login_wrap .landing_bx h2{font-size:18px}
+.login_wrap .landing_bx h2 em{color:#1c90fb}
+.login_wrap .landing_bx p{font-size:14px}
+.login_wrap .LUX_basic_btn.Landing{font-size:15px}
+.login_wrap .LUX_basic_btn.Landing2{font-size:14px}
+.login_wrap .landing_bx .id_check{font-size:14px}
+
+.login_wrap .join_process{border-width:0}
+.login_wrap .landing_bx{margin-bottom:70px}
+.login_wrap .landing_bx .title_bx{margin-bottom:38px;padding-top:69px;padding-bottom:19px}
+
+.login_wrap .landing_bx.join_complete .title_bx,.landing_bx.join_expire .title_bx{margin-bottom:20px}
+.login_wrap .landing_bx.join_complete .LUX_basic_btn.Landing{margin-top:30px}
+.login_wrap .landing_bx .id_check{padding-top:130px;text-align:center}
+.login_wrap .landing_bx .id_check:before{width:234px;height:186px;background-size:100% 100%;transform:scale(.75);margin-left:-67px}
+.login_wrap .landing_bx.join_agree .landing_content.auth{border-width:1px}
+.login_wrap .landing_bx.join_agree .agree_dl{border:1px solid #dadada}
+.login_wrap .join_row label .sp_lux{margin:-2px 0 0 5px;vertical-align:middle}
+.login_wrap .join_row label{width:128px;height:80px;padding-left:20px}
+.login_wrap .input_area .LUX_basic_select{width:90px}
+
+.login_wrap .login_form .login_error:before{top:0;-ms-transform:scale(1,1);transform:scale(1,1)}
+.login_wrap .login_form .info_text{font-size:17px;line-height:23px}
+.login_wrap .login_form .info_text.info_text_v2{font-size:16px}
+.login_wrap .login_form .checkbx_area{text-align:right}
+.login_wrap .LUX_basic_btn.login_basic_btn{height:66px;margin-top:33px;font-size:22px}
+
+.login_wrap .login_info{margin-top:42px;padding-top:12px}
+.login_wrap .login_info ul{float:right}
+.login_wrap .login_info ul:after{display:table;clear:both;content:''}
+.login_wrap .login_info li:after{height:15px;margin-top:-7px}
+.login_wrap .login_info li>a{font-size:14px}
+.login_wrap .login_info .member_join{font-size:14px;color:#8d8d8d;text-decoration:none}
+.login_wrap .login_info_v2 ul{float:left}
+
+.login_wrap .error_info>ul{margin-top:9px}
+.login_wrap .error_info li{margin:0 0 10px 6px;padding-left:10px;font-size:14px}
+.login_wrap .capcha_area{margin-top:28px}
+.login_wrap .app_download{margin-top:30px}
+.login_wrap .app_download h3{font-size:18px}
+.login_wrap .change_device{margin-top:36px;padding-top:22px}
+.login_wrap .how_to_find{margin-top:25px}
+.login_wrap .how_to_find h3{font-size:18px}
+.login_wrap .how_to_find>p{margin-top:9px;font-size:14px}
+.login_wrap .phone_area{position:relative;padding-right:68px}
+.login_wrap .phone_area .LUX_basic_btn.Default{position:absolute;top:0;right:0;width:64px;height:48px;margin-top:0;font-size:16px;line-height:48px}
+.login_wrap .confirm_area{margin-top:36px}
+.login_wrap .confirm_area li>a.LUX_basic_btn{height:65px;font-size:20px;line-height:65px}
+
+.login_wrap .confirm_id{margin:22px 0;padding-top:34px}
+.login_wrap .confirm_id .confirm_title{font-size:20px}
+.login_wrap .confirm_id .confirm_notice{font-size:16px;line-height:22px}
+
+.login_wrap .notice_box{margin:14px 0 20px;padding:22px 24px 20px;border:1px solid #f6e4e4;background-color:#fff5f5;line-height:20px;text-align:center}
+.login_wrap .notice_box strong{font-size:17px;color:#ff4349}
+.login_wrap .notice_box .icon{display:inline-block;margin-right:2px;fill:rgb(255, 90, 95);height:18px;width:18px;vertical-align:top}
+.login_wrap .notice_box p{margin-top:15px;font-size:14px}
+.login_wrap .notice_box em{font-weight:bold}
+
+.login_wrap p.phone_info{margin-top:6px;color:#8d8d8d;font-size:14px;font-family:"돋움",Dotum,Helvetica,"Apple SD Gothic Neo",sans-serif!important;letter-spacing:-.5px;text-align:left}
+
+
+/* LUX 콤포넌트 */
+.login_wrap .LUX_basic_text{margin-top:10px}
+.login_wrap .LUX_basic_text .inpbx{height:50px;padding:11px 0 11px 16px}
+.login_wrap .LUX_basic_text .inpbx input{font-size:18px;line-height:24px}
+.login_wrap .LUX_basic_text .inpbx .placeholder{padding:11px 0 11px 16px;font-size:18px;line-height:28px}
+.login_wrap .LUX_basic_text .inpbx .sp_lux{top:50%;margin-top:-7px}
+.login_wrap .LUX_basic_text .info{margin-top:6px;font-size:14px}
+.login_wrap .LUX_basic_switch{line-height:24px}
+.login_wrap .LUX_basic_switch label{font-size:14px; font-weight: normal;}
+.login_wrap .LUX_basic_tabs.login_tabs .tabs_lst li:first-child a{border-left:1px solid #d1d1d1}
+.login_wrap .LUX_basic_tabs.login_tabs .tabs_lst li:last-child a{border-right:1px solid #d1d1d1}
+.login_wrap .LUX_basic_tabs.login_tabs .tabs_lst li.active:first-child a{border-left-color:#9297a4}
+.login_wrap .LUX_basic_tabs.login_tabs .tabs_lst li.active:last-child a{border-right-color:#9297a4}
+.login_wrap .LUX_basic_tabs.login_tabs .tabs_lst a{font-size:20px;line-height:60px}
+
+
+
+/* 회사초기설정 */
+.login_wrap .LUX_basic_tbl th,.login_wrap .LUX_basic_tbl td{font-size:16px}
+.login_wrap .LUX_basic_tbl td{text-align:left}
+
+/* 본인인증 */
+.login_wrap .landing_content.auth .ipin_list{overflow:hidden;margin:0 -5px}
+.login_wrap .landing_content.auth .ipin_list li{float:left;position:relative;width:50%;padding:0 5px;box-sizing:border-box}
+.login_wrap .landing_content.auth .ipin_list li + li{margin-top:0}
+.login_wrap .landing_content.auth .ipin_list a{display:block;width:100%;height:200px;padding-top:40px;border:1px solid #e7e7e7;box-sizing:border-box;text-align:center;text-decoration:none}
+.login_wrap .landing_content.auth .ipin_list a:hover,
+.login_wrap .landing_content.auth .ipin_list a:focus{border-color:#16aaff}
+.login_wrap .landing_content.auth .ipin_list .text{display:block;margin-top:27px;font-size:13px;font-weight:700}
+.login_wrap .landing_content.auth .ipin_list .btn_ipin{position:absolute;bottom:32px;left:0;width:100%;height:auto;border:0;padding-top:0;font-size:13px;color:#4a4a4a;text-align:center;text-decoration:underline}
+.login_wrap .landing_content.auth .ipin_noti{margin:18px 0 10px;font-size:12px;text-align:center;}
+.login_wrap .landing_content.auth .ipin_noti .i_msg{color:#6d6d6d;line-height:20px;}
+.login_wrap .landing_content.auth .ipin_noti .i_link{display:inline-block;margin-top:3px;color:#1c90fb;vertical-align:top;}
+.login_wrap .landing_content.auth .ipin_noti .i_link:hover{color:#128bc5;}
+
+/* QR코드 모바일 대응 */
+.login_wrap .m_view {display:none}
+.login_wrap .mobile_qr .m_view{display:block}
+.login_wrap .mobile_qr .qr_img{position:relative}
+.login_wrap .mobile_qr .qr_img:after{position:absolute;top:0}
+.login_wrap .mobile_qr .qr_img .m_view{position:absolute;top:50%;left:50%;margin-top:-26px;margin-left:-29px}
+.login_wrap .mobile_qr .qr_img .m_view img{width:58px;height:58px;border-radius:12px} 
+.login_wrap .mobile_qr .info_text.m_view{padding-bottom:5px}
+
+/* 로그인 2차 인증(모바일) */
+.login_wrap .login_authentication .qr_area{display:inline-block;margin:0}
+.login_wrap .auth_list{width:340px;margin:0 auto}
+.login_wrap .auth_list li{float:left;width:50%;text-align:center}
+.login_wrap .auth_list li>a{display:inline-block;vertical-align:top}
+
+/* 다국어(일본어) */
+body.ja, body.ja h1, body.ja h2, body.ja h3, body.ja h4, body.ja h5, body.ja h6,
+ body.ja ul, body.ja ol, body.ja li, body.ja dl, body.ja button,  body.ja div {font-family:Meiryo,Osaka,'MS PGothic',Hiragino Kaku Gothic ProN,Dotum,Arial,Helvetica,'Apple SD Gothic Neo',sans-serif !important;}
+
+
+/* 모바일 앱 설치 */
+.login_wrap .install_app{display:none}
+.login_wrap .m_install_app{display:block;height:48px;margin:0 -15px;padding:0 15px;background-color:#f0f5fc}
+.login_wrap .m_install_app .text_box .info_text{margin-top:2px;font-size:12px;color:#354153}
+.login_wrap .m_install_app .text_box .main_text{margin-top:9px;font-size:14px}
+.login_wrap .m_install_app .text_box .main_text em{color:#1c75fb}
+.login_wrap .m_install_app .btn_box{margin-top:13px}
+.login_wrap .m_install_app .btn_box .LUX_basic_btn{height:22px;padding:2px 5px 0;background-color:transparent;border:1px solid #87a4cc;color:#2d4970}
+.login_wrap .m_install_app .btn_box .LUX_basic_btn .text{text-align:center}
+.login_wrap .m_install_app .btn_box .LUX_basic_btn .icon{overflow:hidden;display:inline-block;width:9px;height:11px;margin-left:4px;background:url(https://static.wehago.com//imgs/common/ico_download.png) no-repeat;vertical-align:middle}
+
+
+/* 더존솔루션을 통한 WEHAGO 회원가입 - WEHAGO 가입하기 */
+.login_wrap .beginning_bx{text-align:center}
+.login_wrap .beginning_bx:before{overflow:hidden;display:inline-block;width:295px;height:130px;margin-top:123px;background:url(https://static.wehago.com/imgs/login/sp_login.png) 0 -318px no-repeat;vertical-align:middle;content:''}
+.login_wrap .beginning_bx>h4{margin-top:55px;font-size:26px;}
+.login_wrap .beginning_bx>strong{display:block;margin-top:14px;color:#000;font-size:17px;font-weight:bold;line-height:24px;}
+.login_wrap .beginning_bx>strong em{color:#1c90fb;}
+.login_wrap .beginning_bx .btn_start{width:192px;height:42px;margin-top:45px;font-size:14px;font-weight:bold}
+.login_wrap .beginning_bx .alert_bx{width:516px;margin:0 auto;padding:18px 20px 16px 24px;margin-top:22px;background:#f2f5fa;text-align:left;}
+.login_wrap .beginning_bx .alert_bx p{position:relative;padding-left:10px;color:#a9a9a9;font-size:11px;line-height:16px;}
+.login_wrap .beginning_bx .alert_bx p:before{position:absolute;top:50%;left:0;margin-top:-6px;color:#a9a9a9;font-size:11px;content:'*';}
+.login_wrap .beginning_bx .alert_bx p em{color:#1c90fb;font-weight:bold;}
+
+
+/* PC */
+@media (min-width: 768px){
+    .login_wrap .respond_container>.nav_header,.login_wrap .nav{display:block;margin-left:0;margin-right:0;border-bottom:0}
+    .login_wrap .nav_bar{min-height:80px;border-color:#eee;border:0}
+    .login_wrap .nav_header{float:left}
+    .login_wrap .logo>a{margin-left:20px;line-height:80px}
+    .login_wrap .btn_toggle{display:none}
+    .login_wrap .nav{float:right;background-color:transparent}
+    .login_wrap .nav>li{float:left;position:relative;z-index:10}
+    .login_wrap .nav>li>a{display:block;position:relative;padding-top:0;padding-bottom:0;font-size:16px;line-height:80px;color:#dbdbdb}
+    .login_wrap .nav>li.on{background-color:transparent}
+    .login_wrap .content_box{width:600px;margin:50px auto 0;padding:0 35px;border:1px solid #9297a4}
+    .login_wrap .content_box_v2{width:644px;}
+    .login_wrap #footer{margin-top:90px;padding:18px 0}
+    .login_wrap .title{padding:128px 0 75px}
+    .login_wrap .title .sp_login{-ms-transform:scale(1,1);transform:scale(1,1)}
+    .login_wrap .login_form .ico:before{margin-right:7px;-ms-transform:scale(1,1);transform:scale(1,1)}
+    .login_wrap .login_form{padding:60px 20px 80px}
+    .login_wrap .login_form h2{padding:20px 0 15px;font-size:30px; margin: 0; font-weight: 800;}
+    .login_wrap .sign_up_bx li:nth-child(1){width:216px;}
+    .login_wrap .sign_up_bx li:nth-child(2){width:200px;}
+    .login_wrap .sign_up_bx li:nth-child(3){width:182px;}
+    .login_wrap .qr_area{margin-top:8px}
+    .login_wrap .cancle_qr{font-size:16px;margin-top:14px}
+    .login_wrap .cancle_qr>a{font-size:16px}
+    .login_wrap .auth_list{width:380px}
+    .login_wrap .landing_bx h2{font-size:24px}
+    .login_wrap .landing_bx .title_bx p{font-size:16px}
+    .login_wrap .landing_bx h2+p{padding-top:10px}
+    .login_wrap .LUX_basic_btn.Landing{width:482px;height:64px;font-size:20px}
+    .login_wrap .landing_bx .id_check:before{transform:scale(1)}
+    .login_wrap .install_app{display:block;position:relative;margin:0 -35px;padding:30px 20px 0 138px;background-color:#f0f5fc}
+    .login_wrap .install_app:before{overflow:hidden;position:absolute;top:15px;left:24px;width:100px;height:66px;background:url(https://static.wehago.com/imgs/common/ico_install_app.png) no-repeat;content:''}
+    .login_wrap .install_app .text_box .info_text{font-size:13px;color:#354153}
+    .login_wrap .install_app .text_box .main_text{margin-top:3px;font-size:18px}
+    .login_wrap .install_app .text_box .main_text em{color:#1c75fb}
+    .login_wrap .install_app .btn_box{margin-bottom:30px}
+    .login_wrap .install_app .btn_box a{float:left;border:1px solid #c4cdd9}
+    .login_wrap .install_app .btn_box a:last-child{margin-left:4px}
+    .login_wrap .m_install_app{display:none}
+}
+
+@media(min-width:0) and (max-width:768px){
+    .login_wrap .login_form, .login_wrap .member_select_box{padding:20px 15px 30px}
+    .login_wrap .member_select_box .member_select_content .btn_list li{width:100%;height:auto;clear:both}
+    
+    .login_wrap .member_select_box .member_select_content .btn_list li:first-child{margin-bottom:15px;border-right:1px solid #d3d3d3}
+    .login_wrap .member_select_box .member_select_content .btn_list li p br{display:none}
+    .ll_dialog{margin:0 -15px}
+    .ll_dialog .dialog_data .dialog_data_tit .btn_clr{top:-43px;right:0px}
+    .ll_dialog_btn a.LUX_basic_btn.SAOverConfirm.btn_no{margin-bottom:10px}
+
+    .login_wrap #footer.type2 {position:relative;}
+	.login_wrap #footer.type2>p{width:auto;margin:0 auto;padding:0;text-align:center;}
+	.login_wrap .select_language {position:relative;left:auto;margin:0 auto;}
+	.login_wrap .select_language {width:120px;margin-top:9px;}
+	.login_wrap .select_language.LUX_basic_select .placeholder {padding-left:30px;}
+	.login_wrap .select_language.LUX_basic_select .placeholder img {position:absolute;top:50%;left:6px;margin-top:-5px;border:1px solid #ddd;}
+	.login_wrap .select_language .result_lst a.icona{padding-left:30px}
+	.login_wrap .select_language .result_lst a.icona img{position:absolute;top:50%;left:6px;margin-top:-6px;border:1px solid #ddd;}
+}
+@media(max-width:550px){
+    .landing_content *{font-size:.8rem !important}
+    .login_wrap .join_row label{width:68px;height:auto;padding:0 10px}
+}
+
+@media(max-width:500px){
+    .login_wrap .member_select_box h2{font-size:24px}
+    .login_wrap .landing_content.auth .ipin_list li{width:100%;padding:0}
+    .login_wrap .landing_content.auth .ipin_list li:first-child{margin-bottom:10px}
+}
+@media(max-width:400px){
+    .login_wrap .join_row .input_area .radio_bx{display:block;margin:5px 0 0}
+    .login_wrap .join_row .input_area .LUX_basic_switch{line-height:7px}
+    .login_wrap .join_row .input_area .LUX_basic_switch .LUXrabx .sp_lux{margin-top:-7px}
+    .login_wrap .sign_up_bx li .step_num{font-size:.6em;letter-spacing:-.5px}
+    .login_wrap .sign_up_bx li .step_txt{font-size:.8em;letter-spacing:-.5px}
+    .login_wrap .m_install_app .text_box .main_text{margin-top:10px;font-size:13px}
+    .login_wrap .m_install_app .text_box .info_text{font-size:11px}
+}
+@media(max-width:350px){
+    .login_wrap .sign_up_bx li .step_txt{font-size:.7em}
+}
+@media(max-width:330px){
+    .login_wrap .auth_list{width:290px}
+    .login_wrap .login_authentication .qr_area .qr_img>img{padding:20px 20px 15px}
+    .login_wrap .login_authentication .qr_area{width:140px}
+}
+
+.Login_passwd_change_wrap .ua {
+    overflow: initial;
+    position: initial;
+}
+
+.Login_passwd_change_wrap .LUX_basic_text .inpbx {
+    height: 27px;
+    line-height: 10px;
+}
+
+.login_wrap #container #contnt .login_process.login_error_wrap {
+    margin-bottom: 50px;
+}
+
+.login_qr_code .login_wrap .qr_area .qr_img>img {
+    padding: 12px 12px 12px;
+}

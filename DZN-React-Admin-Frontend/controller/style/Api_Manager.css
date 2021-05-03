@@ -1,0 +1,166 @@
+.api_manager_contents {
+  width: 100%;
+  max-width: 1500px;
+  min-width: 1035px;
+  min-height: 800px;
+}
+
+.api_manager_contents #sidebar {
+  min-height: 1000px;
+}
+
+.api_manager_contents .api_manager_wrap {
+  width: 100%;
+  min-width: 1035px;
+  height: 100%;
+}
+
+.api_manager_contents .api_manager_title_wrap {
+  width: 100%;
+  min-width: 1035px;
+  height: 60px;
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+}
+
+.api_manager_contents .api_manager_title {
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+  padding-left: 20px;
+}
+
+.api_manager_contents .api_manager_content_wrap {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* API 공통 테이블 */
+
+.api_manager_contents .align-middle {
+  text-align: center;
+}
+
+.api_manager_contents .tb_caption {
+  caption-side: top;
+}
+
+.api_manager_contents .caption_title {
+  width: max-content;
+  float: left;
+  font-size: 18px;
+  padding-left: 5px;
+  margin: 0;
+  color: #6c6c6c;
+  font-weight: bold;
+  height: 56px;
+  line-height: 76px;
+}
+
+.api_manager_contents .caption_title .number_data {
+  display: inline-block;
+  color: #00a7ff;
+}
+
+.api_manager_contents .tb_select_wrap {
+  width: max-content;
+  float: right;
+  height: 56px;
+  line-height: 83px;
+}
+
+.api_manager_contents .table tr {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+
+.api_manager_contents .tb_select_wrap > button {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  line-height: 25px;
+  color: #fff;
+  background: #555555;
+  margin: 10px 5px 0 0;
+  font-weight: bold;
+}
+
+.api_manager_contents .table-responsive .table th {
+  height: 50px;
+  vertical-align: middle;
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  font-size: 16.5px;
+}
+
+/* API 모니터링 시작 */
+
+/* API 상태 */
+/* 로그 */
+/* 통계 */
+
+/* API 모니터링 끝 */
+
+/* API 라이브러리 시작 */
+
+/* API 관리 */
+
+.api_management_content_wrap .search_table_wrap {
+  width: 80%;
+}
+
+.api_management_content_wrap .api_search_wrap {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.api_management_content_wrap .api_search_wrap .api_search_form {
+  width: 90%;
+  min-width: 680px;
+  height: 35px;
+  margin: 7px 0;
+  border: none;
+  float: left;
+  font-size: 16px;
+}
+
+.api_management_content_wrap .api_search_wrap .api_search_btn {
+  width: 90px;
+  height: 35px;
+  background-color: #0278ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  margin: 7px 8px 7px 0;
+}
+
+/* API 등록 */
+/* API 정책관리 */
+
+/* API 라이브러리 끝 */
+
+/* API 카테고리 시작 */
+
+/* 카테고리 관리 */
+
+/* API 카테고리 끝 */
+
+/* 서비스그룹 관리 시작 */
+
+/* 서비스 APP 관리 */
+/* 서비스 관리 등록 */
+/* 이용 API 및 사용량 */
+
+/* 서비스그룹 관리 끝 */

@@ -1,0 +1,40 @@
+const mysql = require("mysql");
+const dotenv = require("dotenv");
+dotenv.config();
+const { logger, error_logger } = require("../loger");
+
+const db_info = {
+  host: "127.0.0.1",
+  port: "3306",
+  user: "root",
+  password: "apmsetup",
+  database: process.env.DB_NAME,
+  multipleStatements: true,
+};
+
+// const db_info = {
+//   host: "10.70.170.135",
+//   port: "3306",
+//   user: "dinnoplus",
+//   password: "dinno123!@#",
+//   database: process.env.DB_NAME,
+//   multipleStatements: true,
+//   dateStrings: "date",
+// };
+
+module.exports = {
+  init: () => {
+    return mysql.createConnection(db_info);
+  },
+  connect: (conn) => {
+    conn.connect((err) => {
+      if (err) {
+        error_logger.error("db connection error:err", err);
+        console.error("mysql connection error:", err);
+      } else {
+        logger.info("mysql is connected successfully");
+        console.log("mysql is connected successfully");
+      }
+    });
+  },
+};

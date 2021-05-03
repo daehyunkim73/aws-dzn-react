@@ -1,0 +1,46 @@
+import React, { useCallback } from 'react';
+
+// 이미지 import
+import close_btn from '../../../../image/Center/Close_btn/close_btn.png';
+
+/* 승인심사 요청 팝업  */
+
+const Service_Title_popup = () => {
+    const Image_close_popup = useCallback(() => {
+        const ServiceCenter_title_popup_bgk = document.getElementById("ServiceCenter_title_popup_bgk");
+        ServiceCenter_title_popup_bgk.style.display = "none";
+    }, []);
+
+    return (
+        <React.Fragment>
+            <div className="smae_popup_bgk_big_box" id="ServiceCenter_title_popup_bgk">
+                <div className="Buy_make_popup_white_box">
+                    <div className="popup_small_white_box">
+                        <div className="Small_popup_box">
+                            <div className="Buy_popup_head_line_box">
+                                <h1>서비스 제목</h1>
+                                <div className="Buy_popupClose_box" >
+                                    <img onClick={Image_close_popup}
+                                        src={close_btn} alt="" />
+                                </div>
+                            </div>
+
+                            <div className="small_Popup_text" id="Buy_popupClose_nav_box">
+                                <div className="popup_Contents_box">
+                                    <p>증복되는 제목입니다.
+                                <br />다시 한번 입력해주 세요.</p>
+                                </div>
+
+                                <div className="one_ok_button_box">
+                                    <button onClick={Image_close_popup} className="ok_popup_btn">확인</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </React.Fragment>
+    )
+}
+
+export default Service_Title_popup;
